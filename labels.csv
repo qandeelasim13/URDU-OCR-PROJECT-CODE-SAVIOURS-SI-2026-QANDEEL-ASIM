@@ -1,0 +1,247 @@
+image,text,source,split
+data/raw/other/utrset_013.jpg,برنارڈشا نے دو باتیں لکھی ہین جن سے اس خیال کو تقویت پہنچتی ہے کہ,utrset_real,train
+data/raw/augmented/urdu_043_aug2_rotation.png,قرآن مجید مسلمانوں کی مقدس کتاب ہے,augmented_rotation,train
+data/raw/augmented/urdu_008_aug2_blur.png,ہمت مرداں مدد خدا,augmented_blur,train
+data/raw/augmented/urdu_020_aug1_rotation.png,کمپیوٹر نے انسانی زندگی آسان کر دی ہے,augmented_rotation,train
+data/raw/augmented/urdu_039_aug1_rotation.png,سولر انرجی ماحول دوست توانائی ہے,augmented_rotation,train
+data/raw/augmented/urdu_015_aug1_blur.png,کے ٹو دنیا کی دوسری بلند ترین چوٹی ہے,augmented_blur,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 151408.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/augmented/urdu_049_aug1_blur.png,یہاں پارکنگ منع ہے,augmented_blur,train
+data/raw/augmented/urdu_010_aug1_brightness.png,سچائی بہترین پالیسی ہے,augmented_brightness,train
+data/raw/other/utrset_010.jpg,احساس کا نتیجہ ہے کہ شیکسپیر کے ابتدائی ڈراموں کے متعلق مبصروں نے,utrset_real,train
+data/raw/augmented/urdu_032_aug2_rotation.png,پھل اور سبزیاں صحت کے لیے ضروری ہیں,augmented_rotation,train
+data/raw/other/utrset_009.jpg,کے حسن کو بھی ڈرامائی فن کے لازمی عناصر میں سے ایک جانا اور اسی ادبی,utrset_real,train
+data/raw/augmented/urdu_008_aug1_brightness.png,ہمت مرداں مدد خدا,augmented_brightness,train
+data/raw/synthetic/urdu_017.png,سائنس نے دنیا کو بدل دیا ہے,synthetic,train
+data/raw/other/utrset_052.jpg,اس لئے ان کے ڈراموں نے ڈرامے کی قدرون کو زندہ رکھا ہے۔,utrset_real,train
+data/raw/synthetic/urdu_034.png,ورزش کو روزانہ کا معمول بنائیں,synthetic,train
+data/raw/augmented/urdu_027_aug2_blur.png,اردو ادب کی تاریخ بہت پرانی ہے,augmented_blur,train
+data/raw/synthetic/urdu_039.png,سولر انرجی ماحول دوست توانائی ہے,synthetic,train
+data/raw/other/utrset_056.jpg,روزمرہ کے لغوی مفہوم مین گہرے اور لطیف معانی اور,utrset_real,train
+data/raw/other/utrset_029.jpg,حیثیت اس کی طرف سے آنکھیں بند کرلی ہیں۔,utrset_real,train
+data/raw/other/utrset_021.jpg,دوسری بات یہ کہ شیکسپیر کے ڈراموں کے مطالعے کے بعد سوائے,utrset_real,train
+data/raw/augmented/urdu_014_aug1_rotation.png,دریائے سندھ پاکستان کا سب سے بڑا دریا ہے,augmented_rotation,train
+data/raw/augmented/urdu_012_aug1_brightness.png,لاہور پاکستان کا دل ہے,augmented_brightness,train
+data/raw/synthetic/urdu_040.png,ڈیجیٹل ادائیگی تیزی سے مقبول ہو رہی ہے,synthetic,train
+data/raw/augmented/urdu_026_aug1_brightness.png,شعر و ادب کا سفر جاری ہے,augmented_brightness,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 181531.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/augmented/urdu_046_aug1_brightness.png,داخلہ ممنوع,augmented_brightness,train
+data/raw/other/utrset_060.jpg,عام ڈراما نگاروں نے کردار، اور عمل ، کو مقصود بالذات بناکر,utrset_real,train
+data/raw/other/utrset_036.jpg,ہم بحیثیت مجموعی ادبی تخلیق کے عمل کا تجزیہ کریں تو اس نتیجے پر پہنچتے ہیں,utrset_real,train
+data/raw/synthetic/urdu_046.png,داخلہ ممنوع,synthetic,train
+data/raw/synthetic/urdu_029.png,اقبال کا کلام آج بھی متعلق ہے,synthetic,train
+data/raw/augmented/urdu_005_aug2_rotation.png,صحت سب سے بڑی نعمت ہے,augmented_rotation,train
+data/raw/augmented/urdu_026_aug2_brightness.png,شعر و ادب کا سفر جاری ہے,augmented_brightness,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 182048.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/other/utrset_045.jpg,یہ چیزیں تو اس کے تجربے کے اظہار کا ایک وسیلہ اور علامت بنتی ہیں۔,utrset_real,train
+data/raw/synthetic/urdu_032.png,پھل اور سبزیاں صحت کے لیے ضروری ہیں,synthetic,train
+data/raw/augmented/urdu_037_aug2_blur.png,انٹرنیٹ نے معلومات تک رسائی آسان کی,augmented_blur,train
+data/raw/synthetic/urdu_043.png,قرآن مجید مسلمانوں کی مقدس کتاب ہے,synthetic,train
+data/raw/augmented/urdu_002_aug2_blur.png,محنت کامیابی کی کنجی ہے,augmented_blur,train
+data/raw/augmented/urdu_023_aug1_rotation.png,ملک میں بارشوں کا نیا سلسلہ شروع ہو گیا,augmented_rotation,train
+data/raw/synthetic/urdu_035.png,متوازن غذا لمبی عمر کی ضمانت ہے,synthetic,train
+data/raw/other/utrset_004.jpg,کو ادبی عظمت بھی دی اور اس کی ادبی حیثیت میں وہ شاہانہ شکوہ,utrset_real,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 181452.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/augmented/urdu_048_aug1_blur.png,آگے سڑک بند ہے,augmented_blur,train
+data/raw/augmented/urdu_011_aug2_brightness.png,کراچی پاکستان کا سب سے بڑا شہر ہے,augmented_brightness,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 152146.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/augmented/urdu_019_aug2_brightness.png,آرٹیفیشل انٹیلیجنس مستقبل کی ٹیکنالوجی ہے,augmented_brightness,train
+data/raw/augmented/urdu_051_aug1_brightness.png,شکریہ,augmented_brightness,train
+data/raw/augmented/urdu_045_aug1_rotation.png,بسم اللہ الرحمٰن الرحیم,augmented_rotation,train
+data/raw/augmented/urdu_035_aug1_brightness.png,متوازن غذا لمبی عمر کی ضمانت ہے,augmented_brightness,train
+data/raw/other/utrset_030.jpg,ڈرامے کی فنی قدروں کے مقابلے میں اس کی ادبی قدروں کا,utrset_real,train
+data/raw/augmented/urdu_030_aug2_brightness.png,فیض احمد فیض نے انقلابی شاعری کی,augmented_brightness,train
+data/raw/augmented/urdu_025_aug2_rotation.png,نئے منصوبے کی بنیاد رکھ دی گئی,augmented_rotation,train
+data/raw/augmented/urdu_038_aug2_rotation.png,الیکٹرک گاڑیاں مستقبل کی سواری ہیں,augmented_rotation,train
+data/raw/other/utrset_001.jpg,مل سکتا ہے،’’,utrset_real,train
+data/raw/augmented/urdu_013_aug2_rotation.png,اسلام آباد پاکستان کا دارالحکومت ہے,augmented_rotation,train
+data/raw/synthetic/urdu_018.png,ریاضی ایک مشکل لیکن دلچسپ مضمون ہے,synthetic,train
+data/raw/other/utrset_033.jpg,کتنی اہمیت دی ہے اور دوسری طرف یہ دیکھ کر کہ ان مختلف,utrset_real,train
+data/raw/augmented/urdu_043_aug1_blur.png,قرآن مجید مسلمانوں کی مقدس کتاب ہے,augmented_blur,train
+data/raw/augmented/urdu_039_aug2_blur.png,سولر انرجی ماحول دوست توانائی ہے,augmented_blur,train
+data/raw/augmented/urdu_023_aug2_brightness.png,ملک میں بارشوں کا نیا سلسلہ شروع ہو گیا,augmented_brightness,train
+data/raw/augmented/urdu_021_aug1_blur.png,حکومت نے نئی تعلیمی پالیسی کا اعلان کیا,augmented_blur,train
+data/raw/augmented/urdu_024_aug2_rotation.png,اسٹاک مارکیٹ میں آج تیزی کا رجحان رہا,augmented_rotation,train
+data/raw/synthetic/urdu_049.png,یہاں پارکنگ منع ہے,synthetic,train
+data/raw/synthetic/urdu_002.png,محنت کامیابی کی کنجی ہے,synthetic,train
+data/raw/augmented/urdu_019_aug1_rotation.png,آرٹیفیشل انٹیلیجنس مستقبل کی ٹیکنالوجی ہے,augmented_rotation,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 181623.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/synthetic/urdu_021.png,حکومت نے نئی تعلیمی پالیسی کا اعلان کیا,synthetic,train
+data/raw/synthetic/urdu_036.png,موبائل فون نے دنیا کو ایک گاؤں بنا دیا,synthetic,train
+data/raw/other/utrset_059.jpg,نزاکت اور لطافت کے اظہار کے لئے آسانی پیدا کرلی_,utrset_real,train
+data/raw/augmented/urdu_041_aug2_blur.png,رمضان مسلمانوں کا مقدس مہینہ ہے,augmented_blur,train
+data/raw/other/utrset_053.jpg,ڈرامے کی ان ادبی قدروں سے اپنی حیات کو مستحکم بنانے,utrset_real,train
+data/raw/other/utrset_028.jpg,پابند اور حلقہ بگوش بتایا ہے۔ یعنی ڈرامے میں لفظون کی جو بنیادی,utrset_real,train
+data/raw/synthetic/urdu_038.png,الیکٹرک گاڑیاں مستقبل کی سواری ہیں,synthetic,train
+data/raw/augmented/urdu_002_aug1_blur.png,محنت کامیابی کی کنجی ہے,augmented_blur,train
+data/raw/augmented/urdu_048_aug2_blur.png,آگے سڑک بند ہے,augmented_blur,train
+data/raw/other/utrset_014.jpg,فنی اقدار سے زیادہ اپنی ادبی اقدار کی وجہ سے زندہ اور قائم ہے۔,utrset_real,train
+data/raw/augmented/urdu_015_aug2_brightness.png,کے ٹو دنیا کی دوسری بلند ترین چوٹی ہے,augmented_brightness,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 181632.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/other/utrset_038.jpg,دلچسپی کہانی سے، کہانی کے کردار سے یا کردار کے عمل سے نہیں ہوتی۔,utrset_real,train
+data/raw/synthetic/urdu_007.png,محنت کبھی رائیگاں نہیں جاتی,synthetic,train
+data/raw/augmented/urdu_031_aug2_blur.png,آج کا موسم خوشگوار ہے,augmented_blur,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 181314.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/other/utrset_027.jpg,ڈرامے کی ادبی قدروں کو نظر انداز کرکے اپنے آپ کو فنی قدروں کا,utrset_real,train
+data/raw/other/utrset_023.jpg,سب حصے آسانی سے سمجھ لیتا ہے اور اس کے مقابلے میں عہدجدید,utrset_real,train
+data/raw/synthetic/urdu_022.png,پاکستان اور چین کے درمیان تجارت بڑھ رہی ہے,synthetic,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 182149.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/augmented/urdu_022_aug2_blur.png,پاکستان اور چین کے درمیان تجارت بڑھ رہی ہے,augmented_blur,train
+data/raw/other/utrset_020.jpg,یا جسے ڈرمائی نف کے علمی تقاضوں کا بہترین مظہر سمجھا جا سکے۔,utrset_real,train
+data/raw/augmented/urdu_006_aug1_brightness.png,دوستی ایک قیمتی رشتہ ہے,augmented_brightness,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 151453.png,یہاں اصل متن لکھیں,manual_screenshot,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 151535.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/synthetic/urdu_013.png,اسلام آباد پاکستان کا دارالحکومت ہے,synthetic,train
+data/raw/other/utrset_002.jpg,لفظوں کی یہی عظمت اور ان کی بہی شاہانہ مقام ہے جسے,utrset_real,train
+data/raw/synthetic/urdu_004.png,وقت کی قدر کرنی چاہیے,synthetic,train
+data/raw/synthetic/urdu_011.png,کراچی پاکستان کا سب سے بڑا شہر ہے,synthetic,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 182111.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/synthetic/urdu_019.png,آرٹیفیشل انٹیلیجنس مستقبل کی ٹیکنالوجی ہے,synthetic,train
+data/raw/other/utrset_019.jpg,ڈرامے کے فن کے لحاظ سے ایک مربوط اور مرتب وحدت کہا جا سکے,utrset_real,train
+data/raw/augmented/urdu_042_aug2_rotation.png,عید الفطر خوشیوں کا تہوار ہے,augmented_rotation,train
+data/raw/synthetic/urdu_023.png,ملک میں بارشوں کا نیا سلسلہ شروع ہو گیا,synthetic,train
+data/raw/augmented/urdu_005_aug1_rotation.png,صحت سب سے بڑی نعمت ہے,augmented_rotation,train
+data/raw/augmented/urdu_044_aug1_rotation.png,پاکستان کا قیام چودہ اگست انیس سو سینتالیس کو ہوا,augmented_rotation,train
+data/raw/other/utrset_041.jpg,دل میں زندگی کے مشاہدے سے کسی خاص تاثر کے ماتحت ایک,utrset_real,train
+data/raw/augmented/urdu_044_aug2_brightness.png,پاکستان کا قیام چودہ اگست انیس سو سینتالیس کو ہوا,augmented_brightness,train
+data/raw/augmented/urdu_036_aug2_brightness.png,موبائل فون نے دنیا کو ایک گاؤں بنا دیا,augmented_brightness,train
+data/raw/augmented/urdu_032_aug1_blur.png,پھل اور سبزیاں صحت کے لیے ضروری ہیں,augmented_blur,train
+data/raw/other/utrset_044.jpg,وہ کہانی سے، کہ دار سے، اس کے عمل سے کام لیتا ہے اور یوں گویا,utrset_real,train
+data/raw/other/utrset_040.jpg,اپنے احساس اور جذبے کے اظہار کا وسیلہ بنایاہے۔ ڈراما نگار کے,utrset_real,train
+data/raw/synthetic/urdu_033.png,صاف پانی پینا صحت کے لیے اہم ہے,synthetic,train
+data/raw/synthetic/urdu_005.png,صحت سب سے بڑی نعمت ہے,synthetic,train
+data/raw/other/utrset_026.jpg,سب کچھ شاکر نزدیک اس لئے ہے کہ ان ڈرامانگاروںنے,utrset_real,train
+data/raw/augmented/urdu_028_aug1_blur.png,غالب اردو شاعری کے عظیم شاعر تھے,augmented_blur,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 181421.png,یہاں اصل متن لکھیں,manual_screenshot,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 152119.png,یہاں اصل متن لکھیں,manual_screenshot,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 181727.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/synthetic/urdu_010.png,سچائی بہترین پالیسی ہے,synthetic,train
+data/raw/augmented/urdu_009_aug2_brightness.png,اتحاد میں برکت ہے,augmented_brightness,train
+data/raw/synthetic/urdu_028.png,غالب اردو شاعری کے عظیم شاعر تھے,synthetic,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 182139.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/other/utrset_039.jpg,بلکہ حقیقت میں وہ ان چیزوں کو مختلف وقتوں میں یا کبھی کبھی بہ یک وقت,utrset_real,train
+data/raw/synthetic/urdu_025.png,نئے منصوبے کی بنیاد رکھ دی گئی,synthetic,train
+data/raw/augmented/urdu_011_aug1_rotation.png,کراچی پاکستان کا سب سے بڑا شہر ہے,augmented_rotation,train
+data/raw/augmented/urdu_027_aug1_brightness.png,اردو ادب کی تاریخ بہت پرانی ہے,augmented_brightness,train
+data/raw/synthetic/urdu_009.png,اتحاد میں برکت ہے,synthetic,train
+data/raw/synthetic/urdu_027.png,اردو ادب کی تاریخ بہت پرانی ہے,synthetic,train
+data/raw/synthetic/urdu_042.png,عید الفطر خوشیوں کا تہوار ہے,synthetic,train
+data/raw/augmented/urdu_004_aug2_rotation.png,وقت کی قدر کرنی چاہیے,augmented_rotation,train
+data/raw/augmented/urdu_031_aug1_rotation.png,آج کا موسم خوشگوار ہے,augmented_rotation,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 182040.png,یہاں اصل متن لکھیں,manual_screenshot,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 181718.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/augmented/urdu_006_aug2_rotation.png,دوستی ایک قیمتی رشتہ ہے,augmented_rotation,train
+data/raw/other/utrset_051.jpg,فن کاروں نے ہمیشہ حقیقت اور علامت کا یہ امتیاز قائم رکھا ہے,utrset_real,train
+data/raw/other/utrset_034.jpg,چیزوں کے متعلق ان کانقطۂ نظر اور انداز فکر کیاہے جنہیں ڈرامے,utrset_real,train
+data/raw/augmented/urdu_036_aug1_blur.png,موبائل فون نے دنیا کو ایک گاؤں بنا دیا,augmented_blur,train
+data/raw/augmented/urdu_028_aug2_blur.png,غالب اردو شاعری کے عظیم شاعر تھے,augmented_blur,train
+data/raw/other/utrset_057.jpg,مفاہیم کے حامل نہیں ہو سکتے انہیں علامتی سطح پر استعمال,utrset_real,train
+data/raw/augmented/urdu_051_aug2_blur.png,شکریہ,augmented_blur,train
+data/raw/other/utrset_006.jpg,نے واضح لفظوںمیں شادہ کیا ہے۔ عہد الزنتھ کے,utrset_real,train
+data/raw/synthetic/urdu_037.png,انٹرنیٹ نے معلومات تک رسائی آسان کی,synthetic,train
+data/raw/augmented/urdu_012_aug2_rotation.png,لاہور پاکستان کا دل ہے,augmented_rotation,train
+data/raw/augmented/urdu_018_aug2_rotation.png,ریاضی ایک مشکل لیکن دلچسپ مضمون ہے,augmented_rotation,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 181711.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/augmented/urdu_042_aug1_brightness.png,عید الفطر خوشیوں کا تہوار ہے,augmented_brightness,train
+data/raw/augmented/urdu_033_aug1_rotation.png,صاف پانی پینا صحت کے لیے اہم ہے,augmented_rotation,train
+data/raw/other/utrset_015.jpg,پہلی بات تویہ ہے کہ شیکسپیر بحیثیت ایک خوش فکر اور لغزگوشاعر ایک دلولہ انگیز,utrset_real,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 151343.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/augmented/urdu_046_aug2_rotation.png,داخلہ ممنوع,augmented_rotation,train
+data/raw/augmented/urdu_007_aug2_blur.png,محنت کبھی رائیگاں نہیں جاتی,augmented_blur,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 152101.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/other/utrset_005.jpg,بھی  پیدا کیا جس کی طرف ایس اور برنارڈشا نے اشارتاً اور یٹس,utrset_real,train
+data/raw/other/utrset_012.jpg,ملی ہے ۔ شیکسپیر کے ڈراموں کی انہوں خصوصیات کراذکر کرتے ہوئے,utrset_real,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 182103.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/other/utrset_054.jpg,کے لئے ڈرامائی فن کے ہر شعبے میں علاقوں سے مددلی ہے اور امبس,utrset_real,train
+data/raw/augmented/urdu_029_aug2_brightness.png,اقبال کا کلام آج بھی متعلق ہے,augmented_brightness,train
+data/raw/augmented/urdu_016_aug1_rotation.png,تعلیم ہر انسان کا حق ہے,augmented_rotation,train
+data/raw/augmented/urdu_038_aug1_blur.png,الیکٹرک گاڑیاں مستقبل کی سواری ہیں,augmented_blur,train
+data/raw/augmented/urdu_024_aug1_brightness.png,اسٹاک مارکیٹ میں آج تیزی کا رجحان رہا,augmented_brightness,train
+data/raw/synthetic/urdu_026.png,شعر و ادب کا سفر جاری ہے,synthetic,train
+data/raw/other/utrset_047.jpg,کو انسانی شعور کی علامتی تخلیقات یا مخلوق کہا ہے ان کی حیثیت محض,utrset_real,train
+data/raw/augmented/urdu_021_aug2_blur.png,حکومت نے نئی تعلیمی پالیسی کا اعلان کیا,augmented_blur,train
+data/raw/synthetic/urdu_014.png,دریائے سندھ پاکستان کا سب سے بڑا دریا ہے,synthetic,train
+data/raw/other/utrset_055.jpg,اور چیخوف جیسے ڈراما نگارون نے اس احساس کے تحت کہ لفظ اپنے,utrset_real,train
+data/raw/synthetic/urdu_008.png,ہمت مرداں مدد خدا,synthetic,train
+data/raw/augmented/urdu_033_aug2_brightness.png,صاف پانی پینا صحت کے لیے اہم ہے,augmented_brightness,train
+data/raw/augmented/urdu_050_aug1_rotation.png,براہ کرم خاموش رہیں,augmented_rotation,train
+data/raw/augmented/urdu_040_aug1_brightness.png,ڈیجیٹل ادائیگی تیزی سے مقبول ہو رہی ہے,augmented_brightness,train
+data/raw/augmented/urdu_030_aug1_brightness.png,فیض احمد فیض نے انقلابی شاعری کی,augmented_brightness,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 181504.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/synthetic/urdu_048.png,آگے سڑک بند ہے,synthetic,train
+data/raw/augmented/urdu_018_aug1_rotation.png,ریاضی ایک مشکل لیکن دلچسپ مضمون ہے,augmented_rotation,train
+data/raw/augmented/urdu_009_aug1_brightness.png,اتحاد میں برکت ہے,augmented_brightness,train
+data/raw/augmented/urdu_047_aug1_brightness.png,خطرہ ہائی وولٹیج,augmented_brightness,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 182033.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/other/utrset_022.jpg,چند سطروں کے (جو یقیناً ادبی لحاظ سے بھی زیادہ اہم نہیں ہیں) باقی,utrset_real,train
+data/raw/synthetic/urdu_045.png,بسم اللہ الرحمٰن الرحیم,synthetic,train
+data/raw/synthetic/urdu_015.png,کے ٹو دنیا کی دوسری بلند ترین چوٹی ہے,synthetic,train
+data/raw/augmented/urdu_014_aug2_brightness.png,دریائے سندھ پاکستان کا سب سے بڑا دریا ہے,augmented_brightness,train
+data/raw/other/utrset_032.jpg,عظیم ڈراما نگارون نے ڈرمائی فن میں لفظوں کو یا بیان کے حسن کو,utrset_real,train
+data/raw/augmented/urdu_004_aug1_blur.png,وقت کی قدر کرنی چاہیے,augmented_blur,train
+data/raw/other/utrset_049.jpg,علامتوں کو علامت کے بجائے حقیقت سمجھا انہوں نے ڈرامے کی,utrset_real,train
+data/raw/augmented/urdu_003_aug2_brightness.png,علم انسان کو روشنی دیتا ہے,augmented_brightness,train
+data/raw/augmented/urdu_010_aug2_blur.png,سچائی بہترین پالیسی ہے,augmented_blur,train
+data/raw/augmented/urdu_013_aug1_brightness.png,اسلام آباد پاکستان کا دارالحکومت ہے,augmented_brightness,train
+data/raw/other/utrset_016.jpg,خطیب، ایک سحراط از فسانہ گو اور دل نواز مطرب کے بے مثل اور,utrset_real,train
+data/raw/synthetic/urdu_031.png,آج کا موسم خوشگوار ہے,synthetic,train
+data/raw/synthetic/urdu_044.png,پاکستان کا قیام چودہ اگست انیس سو سینتالیس کو ہوا,synthetic,train
+data/raw/augmented/urdu_037_aug1_rotation.png,انٹرنیٹ نے معلومات تک رسائی آسان کی,augmented_rotation,train
+data/raw/synthetic/urdu_051.png,شکریہ,synthetic,train
+data/raw/augmented/urdu_035_aug2_blur.png,متوازن غذا لمبی عمر کی ضمانت ہے,augmented_blur,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 181430.png,یہاں اصل متن لکھیں,manual_screenshot,train
+data/raw/synthetic/urdu_041.png,رمضان مسلمانوں کا مقدس مہینہ ہے,synthetic,train
+data/raw/augmented/urdu_003_aug1_rotation.png,علم انسان کو روشنی دیتا ہے,augmented_rotation,train
+data/raw/synthetic/urdu_020.png,کمپیوٹر نے انسانی زندگی آسان کر دی ہے,synthetic,train
+data/raw/augmented/urdu_016_aug2_blur.png,تعلیم ہر انسان کا حق ہے,augmented_blur,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 181521.png,یہاں اصل متن لکھیں,manual_screenshot,train
+/content/data/raw/newspaper/Screenshot 2026-07-01 182025.png,یہاں اصل متن لکھیں,manual_screenshot,test
+data/raw/synthetic/urdu_047.png,خطرہ ہائی وولٹیج,synthetic,test
+data/raw/other/utrset_008.jpg,ہوئے بھی ا س کی ادبی اہمیت کو اس پر قربان نہیں کیا اور زبان و بیان,utrset_real,test
+/content/data/raw/newspaper/Screenshot 2026-07-01 181513.png,یہاں اصل متن لکھیں,manual_screenshot,test
+data/raw/synthetic/urdu_001.png,پاکستان زندہ باد,synthetic,test
+data/raw/other/utrset_007.jpg,ڈراما نگاروں نے ڈرامے کی فنی اہمیت کو پوری طرح محسوس کرتے,utrset_real,test
+data/raw/synthetic/urdu_006.png,دوستی ایک قیمتی رشتہ ہے,synthetic,test
+/content/data/raw/newspaper/Screenshot 2026-07-01 181614.png,یہاں اصل متن لکھیں,manual_screenshot,test
+data/raw/synthetic/urdu_012.png,لاہور پاکستان کا دل ہے,synthetic,test
+data/raw/augmented/urdu_007_aug1_blur.png,محنت کبھی رائیگاں نہیں جاتی,augmented_blur,test
+data/raw/other/utrset_058.jpg,کرنا شروع کیا اور لفظ کو تصویر کی جگہ دے کر ہر طرح کی,utrset_real,test
+data/raw/other/utrset_024.jpg,کے زیادہ ڈرامے جنہیں اسٹیج پر انتہائی کامیابی حاصل ہوئی۔,utrset_real,test
+data/raw/other/utrset_031.jpg,جومقام ہے اس کا اندازہ ایک طرف یہ دیکھ کر ہوتا ہے کہ دنیا کے,utrset_real,test
+data/raw/synthetic/urdu_003.png,علم انسان کو روشنی دیتا ہے,synthetic,test
+data/raw/augmented/urdu_049_aug2_blur.png,یہاں پارکنگ منع ہے,augmented_blur,test
+data/raw/other/utrset_018.jpg,کی کیفیت پیدا کرتا ہے کسی ایسے ڈرامے کا خالق نہیں بن سکا جسے,utrset_real,test
+data/raw/other/utrset_035.jpg,کے فن کی آساس یا اس کی فنی قدروں کا بڑا اہمجزو سمجھا جاتا ہے۔,utrset_real,test
+data/raw/other/utrset_017.jpg,لاثانی ہے اور اپنے ڈراموں میں اپنے ان سب اوصاف سے سحرو طلسم,utrset_real,test
+data/raw/synthetic/urdu_024.png,اسٹاک مارکیٹ میں آج تیزی کا رجحان رہا,synthetic,test
+/content/data/raw/newspaper/Screenshot 2026-07-01 181650.png,یہاں اصل متن لکھیں,manual_screenshot,test
+data/raw/augmented/urdu_020_aug2_blur.png,کمپیوٹر نے انسانی زندگی آسان کر دی ہے,augmented_blur,test
+data/raw/other/utrset_025.jpg,ایسے ہیں کہ انہیں اسٹیج کے باہر لاکر سمجھنا بھی مشکل ہے _ اور یہ,utrset_real,test
+data/raw/augmented/urdu_045_aug2_rotation.png,بسم اللہ الرحمٰن الرحیم,augmented_rotation,test
+data/raw/synthetic/urdu_050.png,براہ کرم خاموش رہیں,synthetic,test
+data/raw/augmented/urdu_029_aug1_blur.png,اقبال کا کلام آج بھی متعلق ہے,augmented_blur,test
+/content/data/raw/newspaper/Screenshot 2026-07-01 182129.png,یہاں اصل متن لکھیں,manual_screenshot,test
+data/raw/synthetic/urdu_016.png,تعلیم ہر انسان کا حق ہے,synthetic,test
+data/raw/augmented/urdu_047_aug2_brightness.png,خطرہ ہائی وولٹیج,augmented_brightness,test
+data/raw/augmented/urdu_025_aug1_brightness.png,نئے منصوبے کی بنیاد رکھ دی گئی,augmented_brightness,test
+data/raw/augmented/urdu_001_aug1_rotation.png,پاکستان زندہ باد,augmented_rotation,test
+data/raw/other/utrset_037.jpg,کہ ادب کی سطح خواہ کچھ بھی ہو ادیب ، افسانہ نگاردیا ڈراما نگار کی بنیادی,utrset_real,test
+data/raw/other/utrset_048.jpg,شاعرانہ تخیل یا تصور کی علامقوں کیہے جن ڈراما نگاروں نے ان,utrset_real,test
+data/raw/other/utrset_043.jpg,کی ہے۔ اسی جذبے، خیال یا فلسفے کو دوسروں تک پہچانے کے لئے,utrset_real,test
+data/raw/augmented/urdu_001_aug2_rotation.png,پاکستان زندہ باد,augmented_rotation,test
+data/raw/other/utrset_050.jpg,ادبی حیثیت کو اس کی فنی حیثیت پر قربان کیا۔ لیکن چونکہ بڑے,utrset_real,test
+data/raw/augmented/urdu_017_aug2_rotation.png,سائنس نے دنیا کو بدل دیا ہے,augmented_rotation,test
+data/raw/other/utrset_042.jpg,جذبہ پیدا ہوا ہے اور اس نے ایک خیال یا فلسفے کی صورت اختیار,utrset_real,test
+/content/data/raw/newspaper/Screenshot 2026-07-01 181605.png,یہاں اصل متن لکھیں,manual_screenshot,test
+/content/data/raw/newspaper/Screenshot 2026-07-01 182120.png,یہاں اصل متن لکھیں,manual_screenshot,test
+data/raw/augmented/urdu_034_aug2_rotation.png,ورزش کو روزانہ کا معمول بنائیں,augmented_rotation,test
+data/raw/other/utrset_003.jpg,پہچان کر عہد الزبتھ کے ڈراما نگاروں اور خصوساً شیکسپیر نے ڈرامے,utrset_real,test
+data/raw/augmented/urdu_017_aug1_blur.png,سائنس نے دنیا کو بدل دیا ہے,augmented_blur,test
+data/raw/augmented/urdu_041_aug1_blur.png,رمضان مسلمانوں کا مقدس مہینہ ہے,augmented_blur,test
+data/raw/augmented/urdu_022_aug1_brightness.png,پاکستان اور چین کے درمیان تجارت بڑھ رہی ہے,augmented_brightness,test
+data/raw/other/utrset_011.jpg,یہ حکم لگایا ہے کہ انہیں محض ان کے حسن بیان کی وجہ سے حیات جاوداں,utrset_real,test
+data/raw/augmented/urdu_034_aug1_brightness.png,ورزش کو روزانہ کا معمول بنائیں,augmented_brightness,test
+data/raw/augmented/urdu_050_aug2_blur.png,براہ کرم خاموش رہیں,augmented_blur,test
+data/raw/other/utrset_046.jpg,ان کی حیثیت اس سے زیادہ کچھ نہیں۔ ڈی ۔ایچ لارنس نے ان فنی مظاہر,utrset_real,test
+data/raw/synthetic/urdu_030.png,فیض احمد فیض نے انقلابی شاعری کی,synthetic,test
+data/raw/augmented/urdu_040_aug2_brightness.png,ڈیجیٹل ادائیگی تیزی سے مقبول ہو رہی ہے,augmented_brightness,test

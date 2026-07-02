@@ -1,0 +1,51 @@
+image,text,source,split
+/content/data/raw/newspaper/Screenshot 2026-07-01 182025.png,یہاں اصل متن لکھیں,manual_screenshot,test
+data/raw/synthetic/urdu_047.png,خطرہ ہائی وولٹیج,synthetic,test
+data/raw/other/utrset_008.jpg,ہوئے بھی ا س کی ادبی اہمیت کو اس پر قربان نہیں کیا اور زبان و بیان,utrset_real,test
+/content/data/raw/newspaper/Screenshot 2026-07-01 181513.png,یہاں اصل متن لکھیں,manual_screenshot,test
+data/raw/synthetic/urdu_001.png,پاکستان زندہ باد,synthetic,test
+data/raw/other/utrset_007.jpg,ڈراما نگاروں نے ڈرامے کی فنی اہمیت کو پوری طرح محسوس کرتے,utrset_real,test
+data/raw/synthetic/urdu_006.png,دوستی ایک قیمتی رشتہ ہے,synthetic,test
+/content/data/raw/newspaper/Screenshot 2026-07-01 181614.png,یہاں اصل متن لکھیں,manual_screenshot,test
+data/raw/synthetic/urdu_012.png,لاہور پاکستان کا دل ہے,synthetic,test
+data/raw/augmented/urdu_007_aug1_blur.png,محنت کبھی رائیگاں نہیں جاتی,augmented_blur,test
+data/raw/other/utrset_058.jpg,کرنا شروع کیا اور لفظ کو تصویر کی جگہ دے کر ہر طرح کی,utrset_real,test
+data/raw/other/utrset_024.jpg,کے زیادہ ڈرامے جنہیں اسٹیج پر انتہائی کامیابی حاصل ہوئی۔,utrset_real,test
+data/raw/other/utrset_031.jpg,جومقام ہے اس کا اندازہ ایک طرف یہ دیکھ کر ہوتا ہے کہ دنیا کے,utrset_real,test
+data/raw/synthetic/urdu_003.png,علم انسان کو روشنی دیتا ہے,synthetic,test
+data/raw/augmented/urdu_049_aug2_blur.png,یہاں پارکنگ منع ہے,augmented_blur,test
+data/raw/other/utrset_018.jpg,کی کیفیت پیدا کرتا ہے کسی ایسے ڈرامے کا خالق نہیں بن سکا جسے,utrset_real,test
+data/raw/other/utrset_035.jpg,کے فن کی آساس یا اس کی فنی قدروں کا بڑا اہمجزو سمجھا جاتا ہے۔,utrset_real,test
+data/raw/other/utrset_017.jpg,لاثانی ہے اور اپنے ڈراموں میں اپنے ان سب اوصاف سے سحرو طلسم,utrset_real,test
+data/raw/synthetic/urdu_024.png,اسٹاک مارکیٹ میں آج تیزی کا رجحان رہا,synthetic,test
+/content/data/raw/newspaper/Screenshot 2026-07-01 181650.png,یہاں اصل متن لکھیں,manual_screenshot,test
+data/raw/augmented/urdu_020_aug2_blur.png,کمپیوٹر نے انسانی زندگی آسان کر دی ہے,augmented_blur,test
+data/raw/other/utrset_025.jpg,ایسے ہیں کہ انہیں اسٹیج کے باہر لاکر سمجھنا بھی مشکل ہے _ اور یہ,utrset_real,test
+data/raw/augmented/urdu_045_aug2_rotation.png,بسم اللہ الرحمٰن الرحیم,augmented_rotation,test
+data/raw/synthetic/urdu_050.png,براہ کرم خاموش رہیں,synthetic,test
+data/raw/augmented/urdu_029_aug1_blur.png,اقبال کا کلام آج بھی متعلق ہے,augmented_blur,test
+/content/data/raw/newspaper/Screenshot 2026-07-01 182129.png,یہاں اصل متن لکھیں,manual_screenshot,test
+data/raw/synthetic/urdu_016.png,تعلیم ہر انسان کا حق ہے,synthetic,test
+data/raw/augmented/urdu_047_aug2_brightness.png,خطرہ ہائی وولٹیج,augmented_brightness,test
+data/raw/augmented/urdu_025_aug1_brightness.png,نئے منصوبے کی بنیاد رکھ دی گئی,augmented_brightness,test
+data/raw/augmented/urdu_001_aug1_rotation.png,پاکستان زندہ باد,augmented_rotation,test
+data/raw/other/utrset_037.jpg,کہ ادب کی سطح خواہ کچھ بھی ہو ادیب ، افسانہ نگاردیا ڈراما نگار کی بنیادی,utrset_real,test
+data/raw/other/utrset_048.jpg,شاعرانہ تخیل یا تصور کی علامقوں کیہے جن ڈراما نگاروں نے ان,utrset_real,test
+data/raw/other/utrset_043.jpg,کی ہے۔ اسی جذبے، خیال یا فلسفے کو دوسروں تک پہچانے کے لئے,utrset_real,test
+data/raw/augmented/urdu_001_aug2_rotation.png,پاکستان زندہ باد,augmented_rotation,test
+data/raw/other/utrset_050.jpg,ادبی حیثیت کو اس کی فنی حیثیت پر قربان کیا۔ لیکن چونکہ بڑے,utrset_real,test
+data/raw/augmented/urdu_017_aug2_rotation.png,سائنس نے دنیا کو بدل دیا ہے,augmented_rotation,test
+data/raw/other/utrset_042.jpg,جذبہ پیدا ہوا ہے اور اس نے ایک خیال یا فلسفے کی صورت اختیار,utrset_real,test
+/content/data/raw/newspaper/Screenshot 2026-07-01 181605.png,یہاں اصل متن لکھیں,manual_screenshot,test
+/content/data/raw/newspaper/Screenshot 2026-07-01 182120.png,یہاں اصل متن لکھیں,manual_screenshot,test
+data/raw/augmented/urdu_034_aug2_rotation.png,ورزش کو روزانہ کا معمول بنائیں,augmented_rotation,test
+data/raw/other/utrset_003.jpg,پہچان کر عہد الزبتھ کے ڈراما نگاروں اور خصوساً شیکسپیر نے ڈرامے,utrset_real,test
+data/raw/augmented/urdu_017_aug1_blur.png,سائنس نے دنیا کو بدل دیا ہے,augmented_blur,test
+data/raw/augmented/urdu_041_aug1_blur.png,رمضان مسلمانوں کا مقدس مہینہ ہے,augmented_blur,test
+data/raw/augmented/urdu_022_aug1_brightness.png,پاکستان اور چین کے درمیان تجارت بڑھ رہی ہے,augmented_brightness,test
+data/raw/other/utrset_011.jpg,یہ حکم لگایا ہے کہ انہیں محض ان کے حسن بیان کی وجہ سے حیات جاوداں,utrset_real,test
+data/raw/augmented/urdu_034_aug1_brightness.png,ورزش کو روزانہ کا معمول بنائیں,augmented_brightness,test
+data/raw/augmented/urdu_050_aug2_blur.png,براہ کرم خاموش رہیں,augmented_blur,test
+data/raw/other/utrset_046.jpg,ان کی حیثیت اس سے زیادہ کچھ نہیں۔ ڈی ۔ایچ لارنس نے ان فنی مظاہر,utrset_real,test
+data/raw/synthetic/urdu_030.png,فیض احمد فیض نے انقلابی شاعری کی,synthetic,test
+data/raw/augmented/urdu_040_aug2_brightness.png,ڈیجیٹل ادائیگی تیزی سے مقبول ہو رہی ہے,augmented_brightness,test
