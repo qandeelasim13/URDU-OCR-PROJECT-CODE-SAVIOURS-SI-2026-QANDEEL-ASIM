@@ -1,0 +1,266 @@
+image,text,source,split
+data/raw/augmented/urdu_001_aug2_brightness.png,پاکستان زندہ باد,augmented_brightness,train
+data/raw/newspaper/Screenshot 2026-07-01 182040.png,ان ك مطابق اس موقع يرزورديا كيا كه ايران كا دفاع ميزائل اور _ ذرون طاقت قومر سلامتى ك سرخ لكيرل اوريه معامل كىس صورت مذاكرات ك لي بيش نهيل كيا جا سكتا,manual_screenshot,train
+data/raw/synthetic/urdu_044.png,پاکستان کا قیام چودہ اگست انیس سو سینتالیس کو ہوا,synthetic,train
+data/raw/augmented/urdu_033_aug2_blur.png,صاف پانی پینا صحت کے لیے اہم ہے,augmented_blur,train
+data/raw/other/utrset_006.jpg,مقدمات سے نجات مل سکتی ہے، نکاح کے ثبوت اورک دین مہر کے تعین میں سہولت ہوتی,utrset_real,train
+data/raw/newspaper/Screenshot 2026-07-01 151453.png,امريكى ريورث ن بهارت كخلاف جن مي باكستان كى جيت يرمهر لكادىء وزيراعظم فيلد مارشل كى قيادت مي بلاخوف مشاورت س بهربور فيصل كيه افواج باكستان كى دليرى اور فتوحات ك باعث باكستان كا دنيا مير وقار بلند سواء شهباز شريف كا تقريب  _ خطاب,manual_screenshot,train
+data/raw/newspaper/Screenshot 2026-07-01 181521.png,لياقت على كا كهر بادشاب مسجد س قريب بادامى باغ ك علاق مير تهاء سووه به 9بار جا بهنج - تب وه اين ايف ايس س امتحان ك نتائج ك منتظرته -,manual_screenshot,train
+data/raw/augmented/urdu_043_aug2_brightness.png,قرآن مجید مسلمانوں کی مقدس کتاب ہے,augmented_brightness,train
+data/raw/other/utrset_010.jpg,کے لیے غیر ضروری تسلیم کرتے ہوئے اس حیثیت سے یہ مسئلہ زیر بحث آسکتاہے،,utrset_real,train
+data/raw/augmented/urdu_007_aug2_rotation.png,محنت کبھی رائیگاں نہیں جاتی,augmented_rotation,train
+data/raw/augmented/urdu_049_aug2_rotation.png,یہاں پارکنگ منع ہے,augmented_rotation,train
+data/raw/other/utrset_052.jpg,منظور کرنا تقریباً ناممکن ہے، اس بناء پر اگر کوئی صورت ممکن ہے تووہ یہ ہے کہ مسلمان,utrset_real,train
+data/raw/newspaper/Screenshot 2026-07-01 182139.png,ياد رهء كه 21 مئر 2008 ك معابد ك تحت دونو ممالك بر سال يكم جنورى اور يكم جولائر كو ايس فهرستين ايك دوسر كو _فرا٢م كرن ك يابند لي -,manual_screenshot,train
+data/raw/books/book_007.png,صبر اور استقامت سے بڑے سے بڑے مسئلے کا حل نکل آتا ہے۔ ہمت نہیں ہارنی چاہیے۔,books_synthetic,train
+data/raw/augmented/urdu_036_aug1_rotation.png,موبائل فون نے دنیا کو ایک گاؤں بنا دیا,augmented_rotation,train
+data/raw/signboards/sign_003.png,براہ کرم قطار میں کھڑے ہوں,signboards_synthetic,train
+data/raw/synthetic/urdu_026.png,شعر و ادب کا سفر جاری ہے,synthetic,train
+data/raw/augmented/urdu_006_aug2_brightness.png,دوستی ایک قیمتی رشتہ ہے,augmented_brightness,train
+data/raw/augmented/urdu_044_aug1_brightness.png,پاکستان کا قیام چودہ اگست انیس سو سینتالیس کو ہوا,augmented_brightness,train
+data/raw/newspaper/Screenshot 2026-07-01 181605.png,كراص  لل كوئنه ك سيرك لي  نكلن وال_ على مرتضن جميل ن شايد كبه تصور به نهير كيا بوكا كه اليد اوردو بينيو ك ساته خوشيو س بهربوريه سفران ك زند2 ك اختتام رر ختم بو2ا .,manual_screenshot,train
+data/raw/augmented/urdu_045_aug1_brightness.png,بسم اللہ الرحمٰن الرحیم,augmented_brightness,train
+data/raw/augmented/urdu_047_aug2_blur.png,خطرہ ہائی وولٹیج,augmented_blur,train
+data/raw/newspaper/Screenshot 2026-07-01 152146.png,ب ب س 2 كهنت قبل مطالع كا وقت : 8 منث ممبئى بوليس ن 26 جون كو عاشوره ك جلوس ك دوران ايك ايس شخص كوكرفتاركيا تها جو مبيند طوربر جلوس مي شامل عزادارو مير جور مار زبر س بهر كيبسول تقسيم كر ربا تها - يه معامل سن2ين رخ اختياركر سكتا تها مهر جلوس مي شامل دو خواتين رخسار سيد اور ابلام حميدىء ك بروقت بوشيارى اور عقلمندى ن_ شهركو بر نقصان س بجا ليا - كرفتار بون وال_ شخص ك شناخت ' فياض بريم ج ' ك  طورير _ بوئر ل_ اوربوليس ك مطابق ملذم ك قبض س 14 بزار 900 كيبسول برآمد كيكئ ليل - ابتدائى تفتيش ميريه سامن آيا ل_كه كيبسول مير ' زنك فاسفائيد' نام زبريلا كيميكل موجود تهاء اور اس موادك مزيد جانج ك لي اس٤  ليبارثرى بهيج ديا كيا ل جبك - ملذم لل تفتيش كا عمل جارى ل- جلوس مير رضاكارك طوربر فرائض سرانجام دين والى الام حميدى اور رخسار سيد كو فياض رريم ج ير اس وقت شك بوا جب وه جلوس ك شركا ميريه كيبسول بانث رب ته -,manual_screenshot,train
+data/raw/synthetic/urdu_013.png,اسلام آباد پاکستان کا دارالحکومت ہے,synthetic,train
+data/raw/synthetic/urdu_007.png,محنت کبھی رائیگاں نہیں جاتی,synthetic,train
+data/raw/other/utrset_030.jpg,انھوں نے قرآن مجید، حدیث اور فقہ کے اپنے گہرے مطالعہ سے ان کو حل کرنے,utrset_real,train
+data/raw/augmented/urdu_006_aug1_blur.png,دوستی ایک قیمتی رشتہ ہے,augmented_blur,train
+data/raw/synthetic/urdu_006.png,دوستی ایک قیمتی رشتہ ہے,synthetic,train
+data/raw/augmented/urdu_021_aug2_rotation.png,حکومت نے نئی تعلیمی پالیسی کا اعلان کیا,augmented_rotation,train
+data/raw/synthetic/urdu_019.png,آرٹیفیشل انٹیلیجنس مستقبل کی ٹیکنالوجی ہے,synthetic,train
+data/raw/newspaper/Screenshot 2026-07-01 181623.png,ليكن ايسا نهين ٢و سكا .,manual_screenshot,train
+data/raw/other/utrset_004.jpg,جہاں تک پہلی صورت کاتعلق ہے، شریعت اسلامیہ کی رو سے اس پر اعتراض جائز نہیں،,utrset_real,train
+data/raw/augmented/urdu_031_aug2_rotation.png,آج کا موسم خوشگوار ہے,augmented_rotation,train
+data/raw/augmented/urdu_048_aug1_rotation.png,آگے سڑک بند ہے,augmented_rotation,train
+data/raw/augmented/urdu_019_aug2_blur.png,آرٹیفیشل انٹیلیجنس مستقبل کی ٹیکنالوجی ہے,augmented_blur,train
+data/raw/augmented/urdu_014_aug2_blur.png,دریائے سندھ پاکستان کا سب سے بڑا دریا ہے,augmented_blur,train
+data/raw/augmented/urdu_017_aug2_brightness.png,سائنس نے دنیا کو بدل دیا ہے,augmented_brightness,train
+data/raw/synthetic/urdu_047.png,خطرہ ہائی وولٹیج,synthetic,train
+data/raw/augmented/urdu_005_aug1_brightness.png,صحت سب سے بڑی نعمت ہے,augmented_brightness,train
+data/raw/augmented/urdu_036_aug2_blur.png,موبائل فون نے دنیا کو ایک گاؤں بنا دیا,augmented_blur,train
+data/raw/other/utrset_005.jpg,ہے، اس لیے اس کولازمی طورپر جاری کردیاجائے، اس کانام جبر ی اندراج ہے،,utrset_real,train
+data/raw/synthetic/urdu_030.png,فیض احمد فیض نے انقلابی شاعری کی,synthetic,train
+data/raw/other/utrset_016.jpg,زبانی الفاظ طلاق (بشرائط مقررہ ومعتبرہ) و قوع طلاق کے لیے کافی ہیں، کوئی,utrset_real,train
+data/raw/synthetic/urdu_014.png,دریائے سندھ پاکستان کا سب سے بڑا دریا ہے,synthetic,train
+data/raw/synthetic/urdu_002.png,محنت کامیابی کی کنجی ہے,synthetic,train
+data/raw/synthetic/urdu_025.png,نئے منصوبے کی بنیاد رکھ دی گئی,synthetic,train
+data/raw/augmented/urdu_011_aug2_blur.png,کراچی پاکستان کا سب سے بڑا شہر ہے,augmented_blur,train
+data/raw/augmented/urdu_012_aug2_brightness.png,لاہور پاکستان کا دل ہے,augmented_brightness,train
+data/raw/augmented/urdu_038_aug1_rotation.png,الیکٹرک گاڑیاں مستقبل کی سواری ہیں,augmented_rotation,train
+data/raw/other/utrset_043.jpg,وجہ سے مقدمے دائر ہوجاتے ہیں، ایسی صورت میں یہ مقدمات، خاندانوں اور عدالتوں,utrset_real,train
+data/raw/books/book_005.png,اچھے اخلاق انسان کی سب سے بڑی پہچان ہوتے ہیں۔ یہ زندگی بھر کام آتے ہیں۔,books_synthetic,train
+data/raw/augmented/urdu_003_aug1_brightness.png,علم انسان کو روشنی دیتا ہے,augmented_brightness,train
+data/raw/other/utrset_046.jpg,اس لحاظ سے بے انصافی ہوتی ہے کہ ایسے لوگ بھی ان کا نکاح پڑھا دیتے ہیں جو ممکن,utrset_real,train
+data/raw/augmented/urdu_012_aug1_blur.png,لاہور پاکستان کا دل ہے,augmented_blur,train
+data/raw/newspaper/Screenshot 2026-07-01 182033.png,ب ب س فارس ك خبرك مطابق سماج رابطك ويب سائث ايكس يرجارى بيان ميل ماجل ابن الرضا ن كها كه بارليمنث ك اقتصادى كميئن ك اركان ك ساته حاليه اجلاس مير امريكه اور اسرائيل ك ساته حاليد جنf ك مختلف بهلوؤ اور نتائج كا جائزه ليا كيا,manual_screenshot,train
+data/raw/books/book_006.png,قوموں کی تعمیر میں تعلیم کا کردار سب سے اہم ہے۔ تعلیم یافتہ قومیں ہی ترقی کرتی ہیں۔,books_synthetic,train
+data/raw/augmented/urdu_013_aug1_blur.png,اسلام آباد پاکستان کا دارالحکومت ہے,augmented_blur,train
+data/raw/augmented/urdu_001_aug1_brightness.png,پاکستان زندہ باد,augmented_brightness,train
+data/raw/newspaper/Screenshot 2026-07-01 181513.png,'مر اس روزعيد نهي ته- ان بزارو لوؤو ك مسجد جان_ك وجه ايك ايس خاتون ك وبار آن ك خبرته جن كا دعوى تهاك وه ايك ايس معجزات بجك مال بنن والل ٢ي جو ان ك رحم مي اذان ديتا ل_ اور قرآن ك تلاوت كرتا ل_,manual_screenshot,train
+data/raw/other/utrset_028.jpg,میں یوپی کی مجلس قانون ساز میں ڈاکٹرشفاعت احمدخاں (پروفیسر تاریخ,utrset_real,train
+data/raw/synthetic/urdu_041.png,رمضان مسلمانوں کا مقدس مہینہ ہے,synthetic,train
+data/raw/synthetic/urdu_046.png,داخلہ ممنوع,synthetic,train
+data/raw/books/book_003.png,محنت اور لگن سے انسان ہر مشکل کو آسان بنا سکتا ہے۔ یہی کامیابی کی اصل کنجی ہے۔,books_synthetic,train
+data/raw/synthetic/urdu_040.png,ڈیجیٹل ادائیگی تیزی سے مقبول ہو رہی ہے,synthetic,train
+data/raw/other/utrset_022.jpg,فرنگی محلی وغیرہ تھے، اس کمیٹی نے جو رپورٹ تیار کی وہ یوپی کی مجلس قانون ساز,utrset_real,train
+data/raw/synthetic/urdu_001.png,پاکستان زندہ باد,synthetic,train
+data/raw/newspaper/Screenshot 2026-07-01 181504.png,لياقت على ن_ب ب س اردوكو بتايا ك~ تب لابورك لوك  جو زياده تر اندرون شهر ك باس ته اس طرح بادشا مسجدك جانب روال ته جيس برعيد بر نمازك ادائي2 كلي جايا كرت ته,manual_screenshot,train
+data/raw/augmented/urdu_009_aug2_blur.png,اتحاد میں برکت ہے,augmented_blur,train
+data/raw/augmented/urdu_047_aug1_blur.png,خطرہ ہائی وولٹیج,augmented_blur,train
+data/raw/synthetic/urdu_020.png,کمپیوٹر نے انسانی زندگی آسان کر دی ہے,synthetic,train
+data/raw/augmented/urdu_039_aug2_rotation.png,سولر انرجی ماحول دوست توانائی ہے,augmented_rotation,train
+data/raw/other/utrset_011.jpg,اسلامی حکم کے خلاف ہوگا، ہاں نکاح وطلاق کے اندراج کوصحت نکاح وطلاق,utrset_real,train
+data/raw/augmented/urdu_042_aug1_blur.png,عید الفطر خوشیوں کا تہوار ہے,augmented_blur,train
+data/raw/newspaper/Screenshot 2026-07-01 181718.png,جوان بيئك بلاكت ك بعد شديد صدم ك حالت مي على ك والد جميل نب ب ل ارد9 س بات كرت بوئ كها كه ' اكروبال ) بلوجستان ( جان والور ك جان محفوظ نهير تولوؤو كو وال جان_ س روك ديا جائ2- ميرى سب س درخواست ركه آج ك بعدكوئى بهن  اس جكه نه جائ2 جب تك وبال لوؤور ك جان و مال ك حفاظت ك ضمانت ند دى جائ2,manual_screenshot,train
+data/raw/other/utrset_031.jpg,اور وراثت کے مسائل میں بہت سے سوالات پیداہوتے رہے اس سلسلہ میں,utrset_real,train
+data/raw/augmented/urdu_011_aug1_brightness.png,کراچی پاکستان کا سب سے بڑا شہر ہے,augmented_brightness,train
+data/raw/other/utrset_047.jpg,اور تحصیلوں میں قاضیوں اور نائب قاضیوں کاتقرر کرے تو تمام مشکلات کا حل ہوجاتا,utrset_real,train
+data/raw/newspaper/Screenshot 2026-07-01 181421.png,26 جون ك شام انجيرواءى س نكلن والا جلوس رحمت باغ قبرستان ك جانب روار تها اور اس مي تقريباً 30 بزار افراد شريك تهء -,manual_screenshot,train
+data/raw/other/utrset_003.jpg,بلکہ اس کے نزدیک وہ پسندیدہ اور مستحسن بھی ہے، عملی پہلوکے لحاظ سے اسلامی سلطنتوں,utrset_real,train
+data/raw/augmented/urdu_044_aug2_blur.png,پاکستان کا قیام چودہ اگست انیس سو سینتالیس کو ہوا,augmented_blur,train
+data/raw/augmented/urdu_030_aug2_blur.png,فیض احمد فیض نے انقلابی شاعری کی,augmented_blur,train
+data/raw/newspaper/Screenshot 2026-07-01 182111.png,باكستان ك دفتر _ خارجه س جارى بيان مي كها كيا لكه قيديور ك فهرستو كا تبادلد سفارتى ذرائع ك ذريع يكم جولائ كوكيا كيا -,manual_screenshot,train
+data/raw/newspaper/Screenshot 2026-07-01 182120.png,بيان ك مطابق ' اكستان ن اسلام آباد مي انديا ك بائر كميشن كو 250 اندين قيديو ك فهرست فرابم ك جن مي 52 عام شهرى اور 198 مال كير شامل لي - ',manual_screenshot,train
+data/raw/augmented/urdu_007_aug1_rotation.png,محنت کبھی رائیگاں نہیں جاتی,augmented_rotation,train
+data/raw/augmented/urdu_029_aug1_rotation.png,اقبال کا کلام آج بھی متعلق ہے,augmented_rotation,train
+data/raw/synthetic/urdu_045.png,بسم اللہ الرحمٰن الرحیم,synthetic,train
+data/raw/other/utrset_048.jpg,اور یہ قاضی القضاۃ مسلمانوں کی رضامندی اور گورنمنٹ یک منظوری سے اضلاع,utrset_real,train
+data/raw/other/utrset_020.jpg,اس لیے اس سے ان کے خیالات کااندازہ کیاجاسکتاہے۔,utrset_real,train
+data/raw/augmented/urdu_040_aug2_blur.png,ڈیجیٹل ادائیگی تیزی سے مقبول ہو رہی ہے,augmented_blur,train
+data/raw/synthetic/urdu_018.png,ریاضی ایک مشکل لیکن دلچسپ مضمون ہے,synthetic,train
+data/raw/synthetic/urdu_036.png,موبائل فون نے دنیا کو ایک گاؤں بنا دیا,synthetic,train
+data/raw/synthetic/urdu_022.png,پاکستان اور چین کے درمیان تجارت بڑھ رہی ہے,synthetic,train
+data/raw/other/utrset_039.jpg,قائم کردیاجائے جس کوان معاملات میں فیصلہ کرنے کاپورااختیار ہو، اس طرح تو,utrset_real,train
+data/raw/augmented/urdu_022_aug1_blur.png,پاکستان اور چین کے درمیان تجارت بڑھ رہی ہے,augmented_blur,train
+data/raw/other/utrset_014.jpg,اورکوئی طلاق صرف اس وجہ سے کہ وہ لکھی نہیں گئی یا سرکاری رجسٹر میں درج,utrset_real,train
+data/raw/augmented/urdu_005_aug2_brightness.png,صحت سب سے بڑی نعمت ہے,augmented_brightness,train
+data/raw/other/utrset_023.jpg,کے ساتھ مولاناکفایت اللہ دہلوی،مولوی نعیم الدین مرادآبادی اور مولانا قطب الدین,utrset_real,train
+data/raw/augmented/urdu_029_aug2_blur.png,اقبال کا کلام آج بھی متعلق ہے,augmented_blur,train
+data/raw/synthetic/urdu_005.png,صحت سب سے بڑی نعمت ہے,synthetic,train
+data/raw/other/utrset_034.jpg,اس مشکل اس لیے حل نہیں کرسکتی ہیں کہ ان مسائل میں شرع اسلامی کے رو سے,utrset_real,train
+data/raw/newspaper/Screenshot 2026-07-01 152119.png,تهران اور واشنئن ك درميان ط_يان وال مفابمت يادداشت مير ايران ك بيلستك ميزائل رروكرام ر كس واضح بابندى كا ذكر نهي كيا كيا ب_ اوريه وه بهلور جو خليج ممالك ك ليه مزيد تشويش كا باعث بنا ل كيونكديه وبر ميزائل لي جو حاليد تنازع ك دوران خليج ممالك ير داغ كئ اوربر جانى و مالى نقصانات كا باعث بن_ - دلجسب بات يه لكه جن  ك دوران دونلد ثرمر ك حكومت ايران ك ميزائل صلاحيت كو ختم كرن كو اين ابم ابداف مي شامل قرار ديتى رب  تابم يرس ك دور مير ثرمب ن اين مؤقف مير نسبتاً نرم كا اظهار كرت بوئ2 كهاكه ' اكر ديكر ممالك كياس بيلسنك ميزائل موجود لي تو يه غير منصفاند بوكا كه ايران كوان مي سكجه ) ميزائل ( ركهن س محروم ركها جائ2 _ كن2ز كالج لندن مي سكيورتن سنديز ك ايسوس ايث بروفيسر آندرياس كري2 ك مطابق ايران كا ميزائل روزرام اب بهى عرب ممالك كلي سنجيده سكيورئن جيلنج ب2- تابم وه يه به سمجهت ليل كه ان ممالك ك قيادت اس حقيقت س آكاه ب_كه ايران ك ميزائل ذخير< كو مكمل طورير ختم كرن كا مطالب كس قابل عمل معابد ك راه مي ركاوث بن سكتا ل-,manual_screenshot,train
+data/raw/augmented/urdu_020_aug1_brightness.png,کمپیوٹر نے انسانی زندگی آسان کر دی ہے,augmented_brightness,train
+data/raw/other/utrset_001.jpg,اندراج و تحریر شرعاً صرف مستحب اور پسندیدہ ہے وہ واجب نہیں کہ کسی شرعی,utrset_real,train
+data/raw/augmented/urdu_026_aug1_blur.png,شعر و ادب کا سفر جاری ہے,augmented_blur,train
+data/raw/augmented/urdu_041_aug2_rotation.png,رمضان مسلمانوں کا مقدس مہینہ ہے,augmented_rotation,train
+data/raw/signboards/sign_005.png,میڈیکل سٹور,signboards_synthetic,train
+data/raw/other/utrset_038.jpg,ساری مشکلات دور ہوجائیں گی، عدالتیں بھی بہت سی دقتوں سے محفوظ ہوجائیں گی،,utrset_real,train
+data/raw/augmented/urdu_039_aug1_brightness.png,سولر انرجی ماحول دوست توانائی ہے,augmented_brightness,train
+data/raw/augmented/urdu_032_aug1_rotation.png,پھل اور سبزیاں صحت کے لیے ضروری ہیں,augmented_rotation,train
+data/raw/synthetic/urdu_023.png,ملک میں بارشوں کا نیا سلسلہ شروع ہو گیا,synthetic,train
+data/raw/augmented/urdu_021_aug1_rotation.png,حکومت نے نئی تعلیمی پالیسی کا اعلان کیا,augmented_rotation,train
+data/raw/other/utrset_035.jpg,جائیں جو آنریری منصف کوحاصل ہیں، تاکہ وہ اپنے اختیارات سے ایسی مشکلوں,utrset_real,train
+data/raw/newspaper/Screenshot 2026-07-01 151535.png,كياامريكمايران تنازع مير بدى شكست عرب ممالك ك _بوئ؟ امريكد اور ايران ك درميان مفا٢مت يادداشت ير دستخط ك بعد مشرق وسطن مير عسكرى كشيد2 مي وقت طورير كم آصك ل2- ارجه مذاكرات ابه ابتدائ مرحل مي ليل اوران ك حتم نتائج ك بار مير ابه كجه كهنا قبل ازوقت بوكا مكر اس ك باوجود ايك ا٢م سوال ابهركر سامن آ دبا ر_ اوروه يه ك اس رور تنازع ميل لللب لل زيادد نقصان كس كا بو كا؟ 3 كهنت قبل,manual_screenshot,train
+data/raw/augmented/urdu_024_aug1_blur.png,اسٹاک مارکیٹ میں آج تیزی کا رجحان رہا,augmented_blur,train
+data/raw/augmented/urdu_002_aug1_rotation.png,محنت کامیابی کی کنجی ہے,augmented_rotation,train
+data/raw/signboards/sign_004.png,جنرل اسٹور,signboards_synthetic,train
+data/raw/signboards/sign_010.png,الحمد للہ بیکری,signboards_synthetic,train
+data/raw/newspaper/Screenshot 2026-07-01 181430.png,جلوس ك راست مير روايتى سر6رميال جارى تهيل كه جب يه واقع بيش آيا -,manual_screenshot,train
+data/raw/signboards/sign_008.png,باہر نکلنے کا راستہ,signboards_synthetic,train
+data/raw/newspaper/Screenshot 2026-07-01 151408.png,آزاد جمول و كشمير كى كابينه ن بيلته كارد اسكيم آغازاور طلبه يونين كى بحالى كى منظورى ديدى بينك آف ا جك كو شيدول بينك كا درجه دلان كيلئ ايكويئى كى فراسمى دويزنل بيدكوارثرز مير خواتين بوليس اسنيشنزك قيام اور متعدد ترقياتى منصوب بهى منطور 11:12am 2025 شائع 03 دسمبر,manual_screenshot,train
+data/raw/synthetic/urdu_051.png,شکریہ,synthetic,train
+data/raw/synthetic/urdu_011.png,کراچی پاکستان کا سب سے بڑا شہر ہے,synthetic,train
+data/raw/other/utrset_033.jpg,غیر مسلم حاکم کافیصلہ جائز نہیں ہوسکتاہے اور نہ ایسے مسلمان حاکموں سے اس کے,utrset_real,train
+data/raw/augmented/urdu_034_aug1_blur.png,ورزش کو روزانہ کا معمول بنائیں,augmented_blur,train
+data/raw/augmented/urdu_041_aug1_rotation.png,رمضان مسلمانوں کا مقدس مہینہ ہے,augmented_rotation,train
+data/raw/synthetic/urdu_017.png,سائنس نے دنیا کو بدل دیا ہے,synthetic,train
+data/raw/other/utrset_049.jpg,اگر صوبہ کے مسلمان ایک قاضی القضاۃ کا انتخاب کریں اور گورنمنٹ اس ک منظورکرے,utrset_real,train
+data/raw/synthetic/urdu_039.png,سولر انرجی ماحول دوست توانائی ہے,synthetic,train
+data/raw/augmented/urdu_023_aug2_blur.png,ملک میں بارشوں کا نیا سلسلہ شروع ہو گیا,augmented_blur,train
+data/raw/signboards/sign_009.png,ٹی سٹال,signboards_synthetic,train
+data/raw/signboards/sign_011.png,سگریٹ نوشی منع ہے,signboards_synthetic,train
+data/raw/signboards/sign_006.png,برائے فروخت,signboards_synthetic,train
+data/raw/other/utrset_029.jpg,میں بڑی ہمدردی سے دلچسپی لی، جیسا کہ حسبِ ذیل تفصیلات سے اندازہ ہوگا۔,utrset_real,train
+data/raw/newspaper/Screenshot 2026-07-01 182129.png,دوسرى جانب انديا ن 439 ) ممكند ( اكستان قيديو فهرست باكستان ك حوال ك  جن مي 386 شهرى  اور 53 مابى كيربتائ جا ر بي جو انديا ك جيلو مي قيد لي -,manual_screenshot,train
+data/raw/signboards/sign_001.png,خوش آمدید,signboards_synthetic,train
+data/raw/augmented/urdu_008_aug2_rotation.png,ہمت مرداں مدد خدا,augmented_rotation,train
+data/raw/augmented/urdu_010_aug2_rotation.png,سچائی بہترین پالیسی ہے,augmented_rotation,train
+data/raw/augmented/urdu_018_aug2_brightness.png,ریاضی ایک مشکل لیکن دلچسپ مضمون ہے,augmented_brightness,train
+data/raw/augmented/urdu_027_aug2_rotation.png,اردو ادب کی تاریخ بہت پرانی ہے,augmented_rotation,train
+data/raw/augmented/urdu_046_aug1_blur.png,داخلہ ممنوع,augmented_blur,train
+data/raw/augmented/urdu_046_aug2_brightness.png,داخلہ ممنوع,augmented_brightness,train
+data/raw/synthetic/urdu_050.png,براہ کرم خاموش رہیں,synthetic,train
+data/raw/augmented/urdu_045_aug2_brightness.png,بسم اللہ الرحمٰن الرحیم,augmented_brightness,train
+data/raw/augmented/urdu_050_aug1_brightness.png,براہ کرم خاموش رہیں,augmented_brightness,train
+data/raw/newspaper/Screenshot 2026-07-01 181531.png,ان كا كهنا تها كه مسجد مي بر شخص خاتون كو عجوب ك  طرح ديكه ربا تها- سب ك كوشش تهر كه وه ان كاس بهنجي اور قريب س ديكهيل تاكد وه يه منظر بعد مي فخريه طوربربيان كر سكيل -,manual_screenshot,train
+data/raw/synthetic/urdu_004.png,وقت کی قدر کرنی چاہیے,synthetic,train
+data/raw/other/utrset_036.jpg,مشکل یک آسان صورت یہ ہے کہ قاضیوں کوان معاملات کے لیے وہ اختیارات دیئے,utrset_real,train
+data/raw/books/book_002.png,وقت کی قدر کرنے والے ہی زندگی میں کامیاب ہوتے ہیں۔ گزرا ہوا وقت کبھی واپس نہیں آتا۔,books_synthetic,train
+data/raw/other/utrset_037.jpg,رجسٹری آفس بھی نئی ذمہ داریوں سے محفوظ رہیں گے(۲) اگر بالفعل یہ ممکن نہ ہو تواس,utrset_real,train
+data/raw/augmented/urdu_050_aug2_rotation.png,براہ کرم خاموش رہیں,augmented_rotation,train
+data/raw/synthetic/urdu_042.png,عید الفطر خوشیوں کا تہوار ہے,synthetic,train
+data/raw/augmented/urdu_009_aug1_blur.png,اتحاد میں برکت ہے,augmented_blur,train
+data/raw/augmented/urdu_033_aug1_brightness.png,صاف پانی پینا صحت کے لیے اہم ہے,augmented_brightness,train
+data/raw/augmented/urdu_025_aug1_blur.png,نئے منصوبے کی بنیاد رکھ دی گئی,augmented_blur,train
+data/raw/augmented/urdu_018_aug1_brightness.png,ریاضی ایک مشکل لیکن دلچسپ مضمون ہے,augmented_brightness,train
+data/raw/other/utrset_055.jpg,قضا کے لیے تینوں مذکورہئ بالاشکلوں میں ایک شکل اختیارکرنی پڑے گی، ہندوستان,utrset_real,train
+data/raw/newspaper/Screenshot 2026-07-01 181727.png,دوسرى جانب على ك_ دوست احسن خان ن بتايا كه ' بم ن_ روانئ س قبل بهى على كو روكن ك بهربوروشش كء ان س درخواست ك كد وه رات كا سفرند كري ليكن وه نهيل رك اوركها كه اس وقت نكلنا ان ك لي ضرورى ل٤-,manual_screenshot,train
+data/raw/newspaper/Screenshot 2026-07-01 181452.png,سنه 1970 ك موسم رما ميل لابور مي اس روز جشن كا سمال تها بلكه 75 ساله وكيل اور دانشور لياقت علل ك بقول ' عيدك دن ك س صورتحال ته ' -,manual_screenshot,train
+data/raw/synthetic/urdu_043.png,قرآن مجید مسلمانوں کی مقدس کتاب ہے,synthetic,train
+data/raw/synthetic/urdu_021.png,حکومت نے نئی تعلیمی پالیسی کا اعلان کیا,synthetic,train
+data/raw/other/utrset_009.jpg,ایک تویہ کہ اس قسم کااندراج مفید ونافع ہے، اوراس کا رواج دینا مناسب ہے،,utrset_real,train
+data/raw/newspaper/Screenshot 2026-07-01 151343.png,8م ث ايل يى سربراه سعد رضوى اوران ك بهائى كى كمشدكى كا معما برقرار دونو ربنما 3 ماه س غائب هيل ( قانون نافذ كرن وال ادارو مطابق رضوى برادران رياستى تحويل مير نهين بلكه آزاد كشمير ميل روروش هي-,manual_screenshot,train
+data/raw/other/utrset_015.jpg,نکاح صرف اس وجہ سے وہ لکھا نہیں گیا یا سرکاری رجسٹرمیں درج نہیں ہے,utrset_real,train
+data/raw/synthetic/urdu_024.png,اسٹاک مارکیٹ میں آج تیزی کا رجحان رہا,synthetic,train
+data/raw/newspaper/Screenshot 2026-07-01 181314.png,ان دونور خواتين ن نشاندلل رر ملزم كوبكرا كيا اور بعدازال بوليس ك حوال كيا كيا اور اس بعد سامن آن تفصيلات ن بهت لله سوالات كوجنم ديا,manual_screenshot,train
+data/raw/augmented/urdu_016_aug2_rotation.png,تعلیم ہر انسان کا حق ہے,augmented_rotation,train
+data/raw/augmented/urdu_027_aug1_blur.png,اردو ادب کی تاریخ بہت پرانی ہے,augmented_blur,train
+data/raw/synthetic/urdu_010.png,سچائی بہترین پالیسی ہے,synthetic,train
+data/raw/augmented/urdu_040_aug1_blur.png,ڈیجیٹل ادائیگی تیزی سے مقبول ہو رہی ہے,augmented_blur,train
+data/raw/augmented/urdu_004_aug2_brightness.png,وقت کی قدر کرنی چاہیے,augmented_brightness,train
+data/raw/augmented/urdu_037_aug2_rotation.png,انٹرنیٹ نے معلومات تک رسائی آسان کی,augmented_rotation,train
+data/raw/synthetic/urdu_003.png,علم انسان کو روشنی دیتا ہے,synthetic,train
+data/raw/augmented/urdu_013_aug2_brightness.png,اسلام آباد پاکستان کا دارالحکومت ہے,augmented_brightness,train
+data/raw/other/utrset_044.jpg,مختلف صورتوں،خلع، خیار اور تفریق کے مسائل، ولی ہونے کے باہمی فرق و مراتب,utrset_real,train
+data/raw/augmented/urdu_051_aug1_blur.png,شکریہ,augmented_blur,train
+data/raw/augmented/urdu_023_aug1_brightness.png,ملک میں بارشوں کا نیا سلسلہ شروع ہو گیا,augmented_brightness,train
+data/raw/other/utrset_019.jpg,اس وقت مسئلہ یہ تھا کہ نکاح وطلاق کا اندراج سرکاری طورپر ایک رجسٹرمیں,utrset_real,train
+data/raw/augmented/urdu_028_aug1_rotation.png,غالب اردو شاعری کے عظیم شاعر تھے,augmented_rotation,train
+data/raw/augmented/urdu_032_aug2_brightness.png,پھل اور سبزیاں صحت کے لیے ضروری ہیں,augmented_brightness,train
+data/raw/synthetic/urdu_009.png,اتحاد میں برکت ہے,synthetic,train
+data/raw/augmented/urdu_031_aug1_brightness.png,آج کا موسم خوشگوار ہے,augmented_brightness,train
+data/raw/other/utrset_054.jpg,مختلف مذہبوں اور قوموں کی ایسی مخلوط آبادی ہے، جس کا لحاظ کرکے یہاں کی غیر,utrset_real,train
+data/raw/synthetic/urdu_031.png,آج کا موسم خوشگوار ہے,synthetic,train
+data/raw/synthetic/urdu_035.png,متوازن غذا لمبی عمر کی ضمانت ہے,synthetic,train
+data/raw/other/utrset_042.jpg,دونوں کے لیے مصیبت کاباعث ہوتے ہیں، مسلمان لڑکیاں مظلوم بنی رہتی ہیں، اس مصیبت کو,utrset_real,train
+data/raw/synthetic/urdu_034.png,ورزش کو روزانہ کا معمول بنائیں,synthetic,train
+data/raw/augmented/urdu_026_aug2_blur.png,شعر و ادب کا سفر جاری ہے,augmented_blur,train
+data/raw/augmented/urdu_003_aug2_blur.png,علم انسان کو روشنی دیتا ہے,augmented_blur,train
+data/raw/signboards/sign_007.png,داخلہ بند ہے,signboards_synthetic,train
+data/raw/books/book_008.png,دوستی ایک انمول رشتہ ہے جسے نبھانا ہر انسان کا فرض ہے۔ سچی دوستی مشکل وقت میں کام آتی ہے۔,books_synthetic,train
+data/raw/other/utrset_026.jpg,تھا، اس کامقصد مسلمانوں کونکاح وطلاق کے معاملات پر غور اور نکاح وطلاق,utrset_real,train
+data/raw/newspaper/Screenshot 2026-07-01 181632.png,جمع اور سنيجرك درميان شب ضلع مستون  ك علاق دشت مي مبيند طوربر راسته بهنك جان_ ك بعدان كا سامنا نامعلوم مسلح افراد س بوا- فائرن ك _ اس واقع مير على مرتضن جميل جان ك بازى باركئ جبكد انك ابليد زخمى بوئي- ليكن انك دوكمسن بيئيال اس حمل مي محفوظ ربي -,manual_screenshot,train
+data/raw/books/book_001.png,علم انسان کی سب سے بڑی دولت ہے۔ یہ ایک ایسا خزانہ ہے جو کبھی ختم نہیں ہوتا۔,books_synthetic,train
+data/raw/synthetic/urdu_015.png,کے ٹو دنیا کی دوسری بلند ترین چوٹی ہے,synthetic,train
+data/raw/other/utrset_059.jpg,ہوسکے توغیر مسلم حکومت سے مطالبہ کیاجائے کہ وہی ان پر ایک مسلمان والی مقرر,utrset_real,train
+data/raw/augmented/urdu_030_aug1_blur.png,فیض احمد فیض نے انقلابی شاعری کی,augmented_blur,train
+data/raw/augmented/urdu_051_aug2_rotation.png,شکریہ,augmented_rotation,train
+data/raw/other/utrset_018.jpg,احکام کی بناء پر نکاح وطلاق کی صحت کے لیے کتاب اور رجسٹر میں اندراج کی ضرورت,utrset_real,train
+data/raw/augmented/urdu_035_aug2_rotation.png,متوازن غذا لمبی عمر کی ضمانت ہے,augmented_rotation,train
+data/raw/other/utrset_050.jpg,قوت حاصل ہونے کے لیے ضروری ہے کہ حکومت اس انتخاب کوقبول کرے، اس بناء پر,utrset_real,train
+data/raw/augmented/urdu_019_aug1_brightness.png,آرٹیفیشل انٹیلیجنس مستقبل کی ٹیکنالوجی ہے,augmented_brightness,train
+data/raw/synthetic/urdu_033.png,صاف پانی پینا صحت کے لیے اہم ہے,synthetic,train
+data/raw/augmented/urdu_024_aug2_brightness.png,اسٹاک مارکیٹ میں آج تیزی کا رجحان رہا,augmented_brightness,train
+data/raw/augmented/urdu_025_aug2_brightness.png,نئے منصوبے کی بنیاد رکھ دی گئی,augmented_brightness,train
+data/raw/synthetic/urdu_016.png,تعلیم ہر انسان کا حق ہے,synthetic,train
+data/raw/augmented/urdu_016_aug1_brightness.png,تعلیم ہر انسان کا حق ہے,augmented_brightness,train
+data/raw/other/utrset_021.jpg,میں قابل قبول نہیں سمجھی گئی توپھر مولاناکفایت اللہ اور مولاناقطب الدین کی تائید سے,utrset_real,train
+data/raw/synthetic/urdu_037.png,انٹرنیٹ نے معلومات تک رسائی آسان کی,synthetic,train
+data/raw/other/utrset_032.jpg,تو متعین کردیا ہے مگر جیسا کہ پہلے بھی کہا گیاہے، ہندوستان میں ان کے نکاح،طلاق,utrset_real,train
+data/raw/augmented/urdu_014_aug1_brightness.png,دریائے سندھ پاکستان کا سب سے بڑا دریا ہے,augmented_brightness,train
+data/raw/augmented/urdu_004_aug1_rotation.png,وقت کی قدر کرنی چاہیے,augmented_rotation,train
+data/raw/augmented/urdu_038_aug2_brightness.png,الیکٹرک گاڑیاں مستقبل کی سواری ہیں,augmented_brightness,train
+data/raw/other/utrset_012.jpg,جو نکاح وطلاق کی اس حیثیت پر اثر انداز ہو، قبول نہیں کیاجاسکتا، کیونکہ وہ,utrset_real,test
+data/raw/signboards/sign_012.png,احتیاط: تعمیراتی کام جاری ہے,signboards_synthetic,test
+data/raw/synthetic/urdu_008.png,ہمت مرداں مدد خدا,synthetic,test
+data/raw/newspaper/Screenshot 2026-07-01 181614.png,اينى ابليد اور دوكمسن بينيو ك ٢مراه وه جند خوشكوار دن كزارن اور اين دوست و ميزبان احسن خان س ملاقات ك غرض س كوئن بهنج تهء - منصوبد صرف اتنا تها كه شهر ك رونقو اور بلوجستان ك  قدرتى حسن س لطف اندوز بوا جائ2يادير سميئر جائيل اوربهر وايس كراص لوث آيا جائ2,manual_screenshot,test
+data/raw/synthetic/urdu_029.png,اقبال کا کلام آج بھی متعلق ہے,synthetic,test
+data/raw/newspaper/Screenshot 2026-07-01 182025.png,ايران ك _ قائم مقام وزير دفاع ن_كهال2كه ملك ك دفاعى صلاحيتيل خصوصاً ميزائل اور درون برو6رام ' قوم سلامتى ك سرخ لكير' ٢ي اور اس معامل بركوئ مذاكرات نهي كيه جائير ك -,manual_screenshot,test
+data/raw/synthetic/urdu_032.png,پھل اور سبزیاں صحت کے لیے ضروری ہیں,synthetic,test
+data/raw/other/utrset_025.jpg,کو رجسٹرڈ کرنے کے لیے ایک قانون بناناتھا، اس کمیٹی کے صدر سرشاہ سلیمان (جج,utrset_real,test
+data/raw/synthetic/urdu_038.png,الیکٹرک گاڑیاں مستقبل کی سواری ہیں,synthetic,test
+data/raw/newspaper/Screenshot 2026-07-01 181711.png,احسن خان كا كهنا لكه ' بمارب وبم وكمان ميل لبهر يه نهيل تها كه علل مرتضن جميل اوران ك بج ايك المناد سانح لس دوجار لو ك ورند بم ان كورات كوكراج كلي سفرل نه كرن ديت,manual_screenshot,test
+data/raw/other/utrset_027.jpg,الہ آباد یونیورسٹی) کی تحریک سے ایک کمیٹی بنائی گئی تھی، جس کانام ”مسلم میرج سب کمیٹی“,utrset_real,test
+data/raw/synthetic/urdu_027.png,اردو ادب کی تاریخ بہت پرانی ہے,synthetic,test
+data/raw/augmented/urdu_043_aug1_rotation.png,قرآن مجید مسلمانوں کی مقدس کتاب ہے,augmented_rotation,test
+data/raw/newspaper/Screenshot 2026-07-01 181650.png,كوئنه مي على مرتضن جميل ك قريبر دوست احسن خان كو جب اين دوست بلاكت اطلاع ملى توان ك لي اس خبر بريقين كرنا به مشكل تها,manual_screenshot,test
+data/raw/other/utrset_040.jpg,نظام میں لاکر پورے صوبہ میں مسلمانوں کے نکاح وطلاق کے لیے ایک علیحدہ محکمہئ قضا,utrset_real,test
+data/raw/newspaper/Screenshot 2026-07-01 152101.png,ب ب س نيوز عرب 3 كهنت قبل مطالع كا وقت : 11 منث امريكد اورايران ك درميان مفابمتى يادداشت بر دستخط ك بعد مشرق وسطن مي عسكرى كشيد2 مي وقتى طور _ يركمى آ جكى ل_- امريك اورايران ك درميان مذاكرات ابهى ابتدائى مرحل مي ٢ي اور ان ك حتمر نتائج ك بار مير ابه كجه كهنا قبل ازوقت بوكا - اس ك باوجود ايك ا٢م سوال ابهركر سامن آدبا ب اوروه يه كه  اس بور-  تنازع ميل للب زياد0 نقصان كس كا بو كا؟ اس حوال للل مختلف آرا موجود لي - خليج فارس ك عرب ممالك كويه خدشه لاحق ل_كه امريكد اور ايران ك درميان جارى مذاكرات ك نتيج مير تهران كو 'حد س زياد0 رعايتين ' مل سكتر لين جس ك باعث خط مير ايران كا اثر و رسوخ مزيد ب ه سكتا ل_ -,manual_screenshot,test
+data/raw/synthetic/urdu_028.png,غالب اردو شاعری کے عظیم شاعر تھے,synthetic,test
+data/raw/synthetic/urdu_049.png,یہاں پارکنگ منع ہے,synthetic,test
+data/raw/augmented/urdu_034_aug2_brightness.png,ورزش کو روزانہ کا معمول بنائیں,augmented_brightness,test
+data/raw/other/utrset_041.jpg,کیں کہ (۱) مسلمانوں کے ان مسائل کے لیے قاضی مقرر کیے جائیں اوران کوایک مرکزی,utrset_real,test
+data/raw/augmented/urdu_048_aug2_rotation.png,آگے سڑک بند ہے,augmented_rotation,test
+data/raw/augmented/urdu_042_aug2_brightness.png,عید الفطر خوشیوں کا تہوار ہے,augmented_brightness,test
+data/raw/other/utrset_002.jpg,اور ہندوستان کی مسلم ریاستوں میں اس پر کم و بیش عمل درآمد بھی ہے، جہاں تک جبری,utrset_real,test
+data/raw/signboards/sign_002.png,یہاں پارکنگ منع ہے,signboards_synthetic,test
+data/raw/augmented/urdu_049_aug1_rotation.png,یہاں پارکنگ منع ہے,augmented_rotation,test
+data/raw/newspaper/Screenshot 2026-07-01 182048.png,انهو ن مزيدكها كه ايران اين ان صلاحيتو كو مقام وسائل اور تكنيك مهارت ك ذريع مزيد مضبوط بناتا ر كا.,manual_screenshot,test
+data/raw/augmented/urdu_020_aug2_rotation.png,کمپیوٹر نے انسانی زندگی آسان کر دی ہے,augmented_rotation,test
+data/raw/newspaper/Screenshot 2026-07-01 182103.png,باكستان اور انديا ن قونصلر رسائى ك دوطرف معابد ك تحت ايك د9سر تحويل مي موجود قيديور ك فهرستو كا تبادلد كرليا ل_-,manual_screenshot,test
+data/raw/other/utrset_057.jpg,مندی سے قاضی کاانتخاب کریں، یہ تینوں شکلیں فقہ کی کتابوں میں مذکور ہیں۔,utrset_real,test
+data/raw/synthetic/urdu_048.png,آگے سڑک بند ہے,synthetic,test
+data/raw/augmented/urdu_015_aug1_rotation.png,کے ٹو دنیا کی دوسری بلند ترین چوٹی ہے,augmented_rotation,test
+data/raw/augmented/urdu_035_aug1_blur.png,متوازن غذا لمبی عمر کی ضمانت ہے,augmented_blur,test
+data/raw/augmented/urdu_028_aug2_rotation.png,غالب اردو شاعری کے عظیم شاعر تھے,augmented_rotation,test
+data/raw/augmented/urdu_037_aug1_brightness.png,انٹرنیٹ نے معلومات تک رسائی آسان کی,augmented_brightness,test
+data/raw/other/utrset_051.jpg,اپنی رضامندی سے ایک قاضی کاانتخاب کریں اوراس قاضی کوتنقیدکی طاقت اور,utrset_real,test
+data/raw/augmented/urdu_017_aug1_rotation.png,سائنس نے دنیا کو بدل دیا ہے,augmented_rotation,test
+data/raw/other/utrset_007.jpg,دوسرا پہلو یہ ہے کہ چونکہ اس اندراج میں بہت سی مصلحتیں ہیں، اس سے بڑی حدتک,utrset_real,test
+data/raw/augmented/urdu_022_aug2_rotation.png,پاکستان اور چین کے درمیان تجارت بڑھ رہی ہے,augmented_rotation,test
+data/raw/augmented/urdu_010_aug1_blur.png,سچائی بہترین پالیسی ہے,augmented_blur,test
+data/raw/other/utrset_060.jpg,انتخاب کریں اور وہ قاضیوں کا تقرر کرے جو نکاح وطلاق کے مسئلے کو طے کریں (۲)یہ نہ,utrset_real,test
+data/raw/other/utrset_056.jpg,میں مسلمانوں کے ان شرعی معاملات کے نظم،نسق، ترتیب، ان احکام کے احیاء اور,utrset_real,test
+data/raw/other/utrset_024.jpg,الہ آباد ہائی کورٹ)تھے، اس کے ممبروں میں ڈاکٹر شفاعت احمدخاں کے علاوہ,utrset_real,test
+data/raw/other/utrset_008.jpg,جس قدر لوگ اس پر عمل کریں اتنا ہی فائدہ ہے، اس کانام اختیاری اندراج ہے،,utrset_real,test
+data/raw/other/utrset_017.jpg,نہیں، مذہبی طورپر زبانی ایجاب و قبول (بشرائط مقررہ و معتبرہ) نکاح کے لیے اور,utrset_real,test
+data/raw/books/book_004.png,کتابیں انسان کی بہترین دوست ہوتی ہیں۔ یہ ہمیں نئے جہانوں کی سیر کراتی ہیں۔,books_synthetic,test
+data/raw/other/utrset_045.jpg,ہے کہ ترک وراثت، رضاعت، رشتوں کے حلال و حرام ہونے، عدت اطلاق کی,utrset_real,test
+data/raw/other/utrset_053.jpg,مسلم حکومت کیلیے خاص طورسے مسلمانوں کی خاطر ایک مستقل مسلمان والی کے تصور کو,utrset_real,test
+data/raw/synthetic/urdu_012.png,لاہور پاکستان کا دل ہے,synthetic,test
+data/raw/augmented/urdu_002_aug2_rotation.png,محنت کامیابی کی کنجی ہے,augmented_rotation,test
+data/raw/augmented/urdu_008_aug1_blur.png,ہمت مرداں مدد خدا,augmented_blur,test
+data/raw/augmented/urdu_015_aug2_blur.png,کے ٹو دنیا کی دوسری بلند ترین چوٹی ہے,augmented_blur,test
+data/raw/other/utrset_013.jpg,نہیں ہوئی، ناجائز اور قابل انکار نہیں قرار دی جاسکتی، اس لیے کوئی ایسا قانون,utrset_real,test
+data/raw/other/utrset_058.jpg,کردے، یہ مسلمان والی پھر قاضی مقرر کرے (۳) یہ بھی ممکن نہ ہو تو مسلمان اپنی باہمی رضا,utrset_real,test
