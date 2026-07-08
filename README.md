@@ -1,214 +1,249 @@
+
 # Urdu OCR Project — Code Saviours SI-26
-### Code Saviours Summer Internship 2026 (SI-26)
 
-**Author:** Qandeel Asim  
-**Student ID:** 2023-BS-AI-037  
-**Internship:** Code Saviours Summer Internship 2026 (SI-26)  
-**Week:** 1 of 8  
-**Project:** Urdu Optical Character Recognition (OCR)
+**Author:** Qandeel Asim
+**Student ID:** 2023-BS-AI-037
+**Internship:** Code Saviours Summer Internship 2026 (SI-26)
+**Week:** 2 of 8 | **Project:** Urdu OCR Tool
 
 ---
 
-# Project Overview
+## What Is This Project?
 
-This repository contains the Week 1 implementation of an Urdu Optical Character Recognition (OCR) project. The primary objective of this phase is to build a high-quality labeled dataset that will later be used to train deep learning models for Urdu text recognition.
+This is a complete Urdu OCR (Optical Character Recognition) system being built over 8 weeks.
 
-The notebook automates the complete dataset creation pipeline, including data collection, synthetic image generation, augmentation, labeling, validation, dataset splitting, and statistical analysis.
+- **Week 1** focused on collecting, organizing, and labeling a dataset of Urdu text images.
+- **Week 2** focused on preprocessing that dataset and testing an existing off-the-shelf OCR engine (Tesseract) to identify its limitations on Urdu Nastaliq script — motivating the need for a custom-trained model.
 
----
-
-# Objectives
-
-- Build a diverse Urdu OCR dataset.
-- Collect images from multiple sources.
-- Generate synthetic Urdu text images.
-- Increase dataset diversity using augmentation.
-- Store all labels in a single CSV file.
-- Validate dataset quality.
-- Create train and test datasets.
-- Generate dataset statistics and visualizations.
+All collected images are stored under `data/raw/<category>/`, every image's ground-truth transcription is recorded in `data/labels.csv`, and preprocessed images from Week 2 are stored under `data/processed/`.
 
 ---
 
-# Dataset Sources
+## Week 1: Dataset Collection & Labeling
 
-The dataset is created using **six different sources**.
+### Environment Setup
+- Installed all required Python libraries: `Pillow`, `arabic-reshaper`, `python-bidi`, `gdown`, `matplotlib`, `easyocr`
+- Set up Google Colab environment
+- Created an organized folder structure for the dataset
 
-| Source | Description |
-|---------|-------------|
-| **UTRSet-Real** | Public Urdu OCR research dataset containing printed Urdu text images. |
-| **Synthetic Urdu Text** | Urdu sentences generated using the Noto Nastaliq Urdu font with Pillow. |
-| **Augmented Images** | Automatically generated variations using blur, brightness adjustment, and rotation. |
-| **Books** | Book-page style Urdu text images (synthetic or real). |
-| **Signboards** | Urdu signboard-style images (synthetic or real). |
-| **Newspaper** | Manual newspaper screenshots with OCR-generated transcription. |
+### Dataset Collection — 6 Sources
 
----
+| Source | Type | Count | How |
+|---|---|---|---|
+| UTRSet-Real | Real printed Urdu text | 60 images | Downloaded from Google Drive (ICDAR 2023 research dataset) |
+| Synthetic Images | Generated Urdu text | 51 images | Rendered using Noto Nastaliq Urdu font with Pillow |
+| Augmented — Blur | Modified synthetic images | 34 images | Gaussian blur applied automatically |
+| Augmented — Brightness | Modified synthetic images | 34 images | Brightness jitter applied automatically |
+| Augmented — Rotation | Modified synthetic images | 34 images | Slight rotation applied automatically |
+| Manual Screenshots | Real-world Urdu text | 32 images | Taken from Dawn Urdu, BBC Urdu, Jang, Wikipedia |
+| Synthetic Signboards | Generated short Urdu phrases | 12 images | Rendered signboard-style images with Pillow |
+| Synthetic Book Pages | Generated Urdu paragraphs | 8 images | Rendered book-page-style images with Pillow |
+| **Total** | | **265 images** | |
 
-# Workflow
+### Data Augmentation
+Applied 3 types of augmentation on synthetic images to increase dataset size and variety:
+- **Gaussian Blur** — simulates out-of-focus or low-resolution scans
+- **Brightness Jitter** — simulates different lighting conditions
+- **Slight Rotation** — simulates tilted documents or camera angle
 
-The notebook performs the following steps:
+### Dataset Labeling
+- Every image is paired with its correct Urdu text in `labels.csv`
+- 4 columns: `image`, `text`, `source`, `split`
+- Manual screenshots labeled using EasyOCR for automatic text extraction, then manually verified
 
-1. Install required libraries.
-2. Create project folder structure.
-3. Download the public UTRSet dataset.
-4. Generate synthetic Urdu text images.
-5. Apply image augmentation.
-6. Add book images.
-7. Add signboard images.
-8. Add newspaper screenshots.
-9. Create and update `labels.csv`.
-10. Validate all images and labels.
-11. Split the dataset into training and testing sets.
-12. Generate dataset statistics and visualizations.
+### Dataset Validation
+- Checked every image: file exists, not blank/corrupt, label not empty
+- Result: **265 valid entries, 0 invalid**
 
----
+### Train/Test Split
+- 80% training set → `train.csv` (**212 rows**)
+- 20% test set → `test.csv` (**53 rows**)
 
-# Folder Structure
+### Visualizations
+- Bar chart: images per source
+- Histogram: text length distribution
+- Sample grid: random image previews
+
+### Dataset Sources — Details
+
+**UTRSet-Real**
+- What: Real printed Urdu text word images from the UTRNet paper
+- Where: Google Drive (auto-downloaded by notebook)
+- Citation: Rahman, A., Ghosh, A., & Arora, C. (2023). *UTRNet: High-Resolution Urdu Text Recognition in Printed Documents*. ICDAR 2023, Springer Nature Switzerland.
+- License: CC BY-NC-SA 4.0 (non-commercial, research use only)
+
+**Synthetic Images**
+- What: 51 Urdu sentences rendered as images
+- Font: Noto Nastaliq Urdu (Google Fonts, OFL License)
+- Libraries: `arabic_reshaper` + `python-bidi` for correct RTL rendering
+- Topics covered: news, education, geography, technology, poetry, religion, signboards
+
+**Manual Screenshots**
+- Real Urdu news headlines and articles, screenshotted directly from Dawn Urdu, BBC Urdu, Jang, and Wikipedia
+
+### Urdu OCR Dataset — Final Summary
 
 ```
-URDU-OCR/
-│
-├── SI26_Week1_Qandeel.ipynb
-├── README.md
-│
-├── data/
-│   ├── raw/
-│   │   ├── utrset_real/
-│   │   ├── synthetic/
-│   │   ├── augmented/
-│   │   ├── books/
-│   │   ├── signboards/
-│   │   └── newspaper/
-│   │
-│   ├── labels.csv
-│   ├── train.csv
-│   ├── test.csv
-│   ├── dataset_stats.png
-│   └── sample_grid.png
+Total labeled images : 265
+Training set         : 212
+Test set              : 53
+
+Breakdown by source:
+utrset_real              60
+synthetic                51
+augmented_brightness     34
+augmented_rotation       34
+augmented_blur           34
+manual_screenshot        32
+signboards_synthetic     12
+books_synthetic           8
 ```
 
 ---
 
-# Features
+## Week 2: Image Preprocessing + Testing Existing OCR Tools
 
-- Automated dataset creation
-- Synthetic Urdu image generation
-- Image augmentation
-- Automatic dataset labeling
-- Dataset validation
-- Train/Test split
-- Statistical analysis
-- Sample image visualization
+### Objective
+This week focused on preparing the Week 1 Urdu image dataset for OCR, and testing an existing off-the-shelf OCR engine (Tesseract) to identify its limitations on Urdu Nastaliq script.
 
----
+### What Was Done
+1. Loaded the Week 1 dataset directly from `data/labels.csv` + `data/raw/`, confirming all 265 image paths resolve correctly.
+2. Verified and corrected the `train`/`test` split column, ensuring a reliable 80/20 split (212 train / 53 test) for future model training.
+3. Built an image preprocessing pipeline: **grayscale → denoising → adaptive thresholding (binarization) → deskewing → resizing/normalization**.
+4. Applied this pipeline to **all 265 images** from the Week 1 dataset (0 failures) and saved the output to `data/processed/`, mirroring Week 1's source subfolders.
+5. Linked raw images, processed images, ground-truth text, source, and split together in `data/processed_labels.csv`.
+6. Tested Tesseract OCR (`pytesseract`, `lang='urd'`) on both raw and preprocessed images, sampled across all sources.
+7. Measured OCR accuracy quantitatively using **Character Error Rate (CER)**.
+8. Documented the gap between Tesseract's performance and what is actually needed for reliable Urdu text recognition.
 
-# Libraries Used
+### Week 2 Notebook Structure
 
-- Python 3
-- Google Colab
-- Pillow (PIL)
-- OpenCV
-- NumPy
-- Pandas
-- Matplotlib
-- arabic-reshaper
-- python-bidi
-- EasyOCR
-- gdown
+| Section | Description |
+|---|---|
+| Step 0 — Load Week 1 Dataset | Loads `data/labels.csv` + `data/raw/` directly (or restores from `my_dataset_final.zip`) |
+| Step 1 — Environment Setup | Installs Tesseract, Urdu language pack (`tesseract-ocr-urd`), OpenCV, pytesseract |
+| Step 2 — Imports | Loads all required libraries |
+| Step 3 — Read Labels & Confirm Link | Loads `labels.csv`, verifies every image path resolves, confirms counts match Week 1 |
+| Step 3b — Fix Split Column | Recovers/regenerates a reliable 80/20 train/test split |
+| Step 4 — Preprocessing Pipeline | Grayscale, denoise, binarize, deskew, resize functions |
+| Step 5 — Apply Pipeline & Save | Processes all 265 images, saves to `data/processed/`, writes `data/processed_labels.csv` |
+| Step 6 — Visualize Before/After | Shows sample raw vs. preprocessed image pairs |
+| Step 7 — Test Tesseract OCR | Runs Tesseract (`lang='urd'`) on raw and preprocessed samples |
+| Step 8 — Character Error Rate (CER) | Quantitative accuracy metric, overall and by source |
+| Step 9 — Gap Analysis | Documents why Tesseract fails on Urdu |
+| Step 10 — Auto-generate Gap Analysis | Writes `data/gap_analysis.md` summary file with live computed numbers |
 
----
-
-# Output Files
-
-| File | Description |
-|------|-------------|
-| `labels.csv` | Master dataset containing image path, label, source, and split. |
-| `train.csv` | Training dataset. |
-| `test.csv` | Testing dataset. |
-| `dataset_stats.png` | Dataset statistics charts. |
-| `sample_grid.png` | Random dataset image samples. |
-
----
-
-# Dataset Validation
-
-The notebook automatically checks:
-
-- Missing images
-- Corrupted files
-- Empty labels
-- Duplicate entries
-- Invalid image paths
-
-Only valid records are included in the final dataset.
+### Tools Used (Week 2)
+- **OpenCV (Python)** — image preprocessing
+- **Tesseract OCR** + `tesseract-ocr-urd` language pack
+- **pytesseract** — Python wrapper for Tesseract
+- **Google Colab** for compute and storage
 
 ---
 
-# Train-Test Split
+## Tesseract Results Summary
 
-The validated dataset is divided into:
+Tesseract's Urdu output was frequently incomplete, garbled, or entirely incorrect on Nastaliq-style text — both before and after preprocessing.
 
-- **80% Training Data**
-- **20% Testing Data**
+| Metric | Raw Images | Preprocessed Images |
+|---|---|---|
+| Average Character Error Rate (CER) | **84.8%** | **86.8%** |
 
-This split is saved as:
+**Preprocessing did not reduce the average CER overall** — CER actually rose slightly (by ~2 percentage points). Preprocessing helped on some sources (e.g. `augmented_blur`, where noise reduction genuinely cleaned up the image) but made results worse on others (e.g. `synthetic`), where binarization/deskewing distorted fine Nastaliq strokes Tesseract was already struggling to read.
 
-- `train.csv`
-- `test.csv`
+This is an important finding: **cleaner-looking images do not automatically mean better OCR.** Preprocessing improved visual contrast and reduced noise, but it did not fix Tesseract's core inability to model Nastaliq's diagonal, overlapping, context-dependent letterforms — confirming that the bottleneck is the OCR engine itself, not image quality alone.
 
----
-
-# Visualizations
-
-The notebook automatically generates:
-
-- Images per source
-- Text length distribution
-- Dataset summary
-- Random sample image grid
-
-These visualizations help analyze dataset diversity and quality.
+Sample raw vs. preprocessed outputs and per-source CER charts are included in `SI26-Week2-Qandeel.ipynb`.
 
 ---
 
-# Technologies
+## Gap Analysis — Why Tesseract Fails on Urdu
 
-- Python
-- Google Colab
-- OCR Dataset Engineering
-- Computer Vision
-- Image Processing
-- Data Augmentation
-- Urdu NLP
+1. **Cursive, context-dependent script** — Each Urdu Nastaliq letter's shape changes depending on its position (initial/medial/final/isolated) and its neighboring letters. Tesseract's model is mainly trained on Naskh-style text and struggles with Nastaliq's diagonal, overlapping strokes.
+2. **Diagonal baseline and overlapping ligatures** — Nastaliq doesn't sit on a flat horizontal line; it flows diagonally and letters overlap, making character segmentation very difficult for a general-purpose engine.
+3. **Limited, low-diversity training data** — Tesseract's Urdu model is trained on a small dataset and doesn't generalize well to different fonts, handwriting, or noisy/real-world images.
+4. **Dot and diacritic confusion** — Many Urdu letters (e.g. ب، ت، ث، ن، ی) differ only by dot position/count, and are easily misclassified at lower resolutions.
+5. **Inconsistent word-boundary spacing** — Tesseract's segmentation logic is built around Latin-script spacing rules, which don't reliably apply to Nastaliq text.
 
----
+### Why This Project Matters
 
-# Future Work
-
-The upcoming internship weeks will focus on:
-
-- Image preprocessing
-- OCR baseline evaluation
-- Deep learning model development
-- Model training
-- Performance evaluation
-- Deployment
+This gap is the core justification for building a **custom Urdu OCR model** (e.g. a CNN/CRNN + CTC or Transformer-based architecture) trained specifically on Nastaliq script data, rather than relying on general-purpose OCR engines like Tesseract, or on preprocessing alone.
 
 ---
 
-# Author
+## Week 2 Requirements
 
-**Qandeel Asim**
-
-BS Artificial Intelligence
-
-University of Faisalabad
-
-Code Saviours Summer Internship 2026 (SI-26)
+```bash
+apt-get install tesseract-ocr tesseract-ocr-urd
+pip install pytesseract opencv-python-headless pandas matplotlib
+```
 
 ---
 
-# License
+## Folder Structure
 
-This repository is intended for educational and research purposes as part of the Code Saviours Summer Internship 2026.
+```
+URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM/
+│
+├── SI26-Week1-Qandeel.ipynb     ← Week 1 notebook
+├── SI26-Week2-Qandeel.ipynb     ← Week 2 notebook
+├── README.md                    ← This file
+├── my_dataset_final.zip         ← Complete Week 1 dataset (zipped)
+│
+└── data/
+    ├── labels.csv                ← All 265 labeled entries (image, text, source, split)
+    ├── processed_labels.csv      ← Links raw image, processed image, text, source, split
+    ├── train.csv                 ← 212 rows (80% split)
+    ├── test.csv                  ← 53 rows (20% split)
+    ├── gap_analysis.md           ← Week 2 gap analysis summary (auto-generated)
+    ├── dataset_stats.png         ← Week 1 statistics charts
+    ├── before_after_grid.png     ← Week 2 raw vs. preprocessed samples
+    ├── cer_by_source.png         ← Week 2 CER comparison chart
+    │
+    ├── raw/                      ← Week 1: original collected images
+    │   ├── newspaper/            ← 32 manual screenshots
+    │   ├── synthetic/            ← 51 generated images
+    │   ├── augmented/            ← 102 augmented images (blur/brightness/rotation)
+    │   ├── other/                ← 60 UTRSet-Real images
+    │   ├── books/                ← 8 synthetic book-page images
+    │   └── signboards/           ← 12 synthetic signboard images
+    │
+    └── processed/                ← Week 2: preprocessed images (mirrors raw/ structure)
+```
+
+---
+
+## Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| Google Colab | Development environment |
+| Python 3 | Programming language |
+| Pillow | Image creation and augmentation |
+| arabic-reshaper | Urdu character reshaping |
+| python-bidi | Right-to-left text direction |
+| gdown | Google Drive file download |
+| EasyOCR | Automatic text extraction from images (Week 1 labeling) |
+| OpenCV | Image preprocessing (Week 2) |
+| Tesseract OCR | Existing OCR engine tested (Week 2) |
+| pytesseract | Python wrapper for Tesseract (Week 2) |
+| matplotlib | Dataset and results visualizations |
+
+---
+
+## Week-by-Week Plan
+
+| Week | Task | Status |
+|---|---|---|
+| Week 1 | Dataset collection and labeling | ✅ Complete |
+| Week 2 | Data preprocessing and OCR gap analysis | ✅ Complete |
+| Week 3 | Model selection and fine-tuning setup | 🔜 Upcoming |
+| Week 4 | Model training | 🔜 Upcoming |
+| Week 5 | Deployment on Hugging Face Spaces | 🔜 Upcoming |
+
+---
+
+## Links
+
+- **GitHub:** https://github.com/qandeelasim13/URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM
+- **HuggingFace:** Coming in Week 5
