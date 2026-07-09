@@ -1,4 +1,3 @@
-
 # Urdu OCR Project — Code Saviours SI-26
 
 **Author:** Qandeel Asim
@@ -114,7 +113,8 @@ This week focused on preparing the Week 1 Urdu image dataset for OCR, and testin
 5. Linked raw images, processed images, ground-truth text, source, and split together in `data/processed_labels.csv`.
 6. Tested Tesseract OCR (`pytesseract`, `lang='urd'`) on both raw and preprocessed images, sampled across all sources.
 7. Measured OCR accuracy quantitatively using **Character Error Rate (CER)**.
-8. Documented the gap between Tesseract's performance and what is actually needed for reliable Urdu text recognition.
+8. Manually reviewed the 5 worst-performing samples image-by-image to document exactly what went wrong.
+9. Documented the gap between Tesseract's performance and what is actually needed for reliable Urdu text recognition.
 
 ### Week 2 Notebook Structure
 
@@ -130,7 +130,8 @@ This week focused on preparing the Week 1 Urdu image dataset for OCR, and testin
 | Step 6 — Visualize Before/After | Shows sample raw vs. preprocessed image pairs |
 | Step 7 — Test Tesseract OCR | Runs Tesseract (`lang='urd'`) on raw and preprocessed samples |
 | Step 8 — Character Error Rate (CER) | Quantitative accuracy metric, overall and by source |
-| Step 9 — Gap Analysis | Documents why Tesseract fails on Urdu |
+| Step 8b — Per-Image Gap Analysis | Manual breakdown of the 5 worst-performing images (actual text vs. Tesseract output vs. what went wrong) |
+| Step 9 — Gap Analysis Reasons | Documents why Tesseract fails on Urdu |
 | Step 10 — Auto-generate Gap Analysis | Writes `data/gap_analysis.md` summary file with live computed numbers |
 
 ### Tools Used (Week 2)
@@ -157,7 +158,27 @@ Sample raw vs. preprocessed outputs and per-source CER charts are included in `S
 
 ---
 
-## Gap Analysis — Why Tesseract Fails on Urdu
+## Why We Need a Better Model
+
+### Per-Image Breakdown (5 Worst-Performing Samples)
+
+> The table below is generated automatically by Step 8b of `SI26-Week2-Qandeel.ipynb`
+> (`data/gap_analysis.md`). Run the notebook once and paste the live output here —
+> the format is:
+
+| # | Source | Actual Urdu Text | Tesseract Output | What Went Wrong |
+|---|---|---|---|---|
+| 1 | *(source)* | *(ground truth from labels.csv)* | *(Tesseract's actual output, or "empty" if blank)* | *(gibberish / missing words / wrong characters / dot confusion, etc.)* |
+| 2 | *(source)* | ... | ... | ... |
+| 3 | *(source)* | ... | ... | ... |
+| 4 | *(source)* | ... | ... | ... |
+| 5 | *(source)* | ... | ... | ... |
+
+### Summary
+
+**Tesseract fails on Urdu because** it was trained mainly on Naskh-style printed text, not the cursive, diagonally-flowing Nastaliq script most Urdu text actually uses. Nastaliq's overlapping ligatures and position-dependent letterforms break Tesseract's character segmentation, its Urdu language model is trained on limited, low-diversity data that does not generalize to real-world fonts and noise, and small dot/diacritic differences between otherwise identical letters are lost at normal image resolutions — together explaining the consistently high error rates measured above (84.8% CER on raw images, 86.8% on preprocessed images).
+
+### Why Tesseract Fails on Urdu (General Reasons)
 
 1. **Cursive, context-dependent script** — Each Urdu Nastaliq letter's shape changes depending on its position (initial/medial/final/isolated) and its neighboring letters. Tesseract's model is mainly trained on Naskh-style text and struggles with Nastaliq's diagonal, overlapping strokes.
 2. **Diagonal baseline and overlapping ligatures** — Nastaliq doesn't sit on a flat horizontal line; it flows diagonally and letters overlap, making character segmentation very difficult for a general-purpose engine.
