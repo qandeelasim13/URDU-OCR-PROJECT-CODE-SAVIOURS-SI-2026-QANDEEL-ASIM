@@ -3,7 +3,7 @@
 **Author:** Qandeel Asim
 **Student ID:** 2023-BS-AI-037
 **Internship:** Code Saviours Summer Internship 2026 (SI-26)
-**Week:** 2 of 8 | **Project:** Urdu OCR Tool
+**Week:** 3 of 8 | **Project:** Urdu OCR Tool
 
 ---
 
@@ -13,6 +13,7 @@ This is a complete Urdu OCR (Optical Character Recognition) system being built o
 
 - **Week 1** focused on collecting, organizing, and labeling a dataset of Urdu text images.
 - **Week 2** focused on preprocessing that dataset and testing an existing off-the-shelf OCR engine (Tesseract) to identify its limitations on Urdu Nastaliq script — motivating the need for a custom-trained model.
+- **Week 3** focused on expanding the dataset past the 200-image target, fixing data-quality issues found along the way, and building the PyTorch `Dataset` and `DataLoader` pipeline that will feed the model in Week 4.
 
 All collected images are stored under `data/raw/<category>/`, every image's ground-truth transcription is recorded in `data/labels.csv`, and preprocessed images from Week 2 are stored under `data/processed/`.
 
@@ -192,11 +193,67 @@ This gap is the core justification for building a **custom Urdu OCR model** (e.g
 
 ---
 
-## Week 2 Requirements
+## Week 3: Dataset Expansion + PyTorch Dataset Class & DataLoader
+
+### Objective
+This week focused on confirming the dataset has grown past the 200-image target, cleaning up data-quality issues discovered along the way, and building the PyTorch data pipeline (`Dataset` + `DataLoader`) that Week 4's model training will run on top of.
+
+### What Was Done
+1. Verified the dataset against the 200-image requirement by counting `labels.csv` directly — **248 images**, well past the target.
+2. Discovered that 35 images (all from the `manual_screenshot` source) had a missing `split` value — they had never been assigned to `train` or `test`. Fixed this by assigning them 80/20 (`random_state=42` for reproducibility) and saving the correction back to `labels.csv`.
+3. Discovered that some image paths recorded in `labels.csv` did not match their actual location on Google Drive (a side effect of earlier filename fixes). Built a path-resolution step that first tries the exact path, then falls back to a filename search across the whole project folder, so no image silently fails to load.
+4. Implemented `UrduOCRDataset`, a custom PyTorch `Dataset` class that loads an image, converts it to RGB, runs it through the `TrOCRProcessor`, and tokenizes its Urdu label.
+5. Tested the `Dataset` class end-to-end: correct tensor shapes, and a decode-and-compare check confirming a tokenized label decodes back to the exact original Urdu text.
+6. Rebuilt the train/test split using the (now-corrected) `split` column — **198 training / 50 testing** samples.
+7. Built `DataLoader` objects for both splits (`batch_size=8`, training shuffled, testing not shuffled) and confirmed batching works correctly.
+
+### Week 3 Notebook Structure
+
+| Section | Description |
+|---|---|
+| Step 0 — Setup | Mounts Google Drive, installs `transformers`/`torch`/`pillow`/`pandas` |
+| Step 1 — Verify 200+ Images | Searches the project folder for `labels.csv`, counts total images, checks against the 200 target |
+| Step 1 (composition check) | Breaks down image counts by `source` and `split` |
+| Step 1c — Fix Missing Split Values | Detects rows with a missing `split` value and assigns them `train`/`test` (80/20), saving the fix back to `labels.csv` |
+| Step 1b — Resolve Image Paths | Builds a filename index across the project folder and resolves every image's real path, dropping any that truly can't be found |
+| Step 2 — Dataset Class | Defines and tests `UrduOCRDataset(Dataset)` |
+| Step 3 — Train/Test Split | Rebuilds `train_dataset` / `test_dataset` using `torch.utils.data.Subset` and the corrected `split` column |
+| Step 4 — DataLoader | Builds `train_loader` / `test_loader` and verifies a batch loads correctly |
+
+### Week 3 Dataset Summary
+
+```
+Total labeled images       : 248
+Training samples           : 198
+Testing samples            : 50
+
+Breakdown by source:
+utrset_real              60
+synthetic                51
+manual_screenshot        35
+augmented_blur           34
+augmented_rotation       34
+augmented_brightness     34
+```
+
+### Tools Used (Week 3)
+- **PyTorch** (`torch.utils.data.Dataset`, `DataLoader`, `Subset`) — data pipeline
+- **Hugging Face `transformers`** (`TrOCRProcessor`) — image + text preprocessing for the TrOCR model
+- **pandas** — reading/fixing `labels.csv`
+- **Pillow** — image loading
+- **Google Colab** for compute and storage
+
+### Submission
+- Notebook: `SI26-Week3-qandeel.ipynb`
+- Confirmation: *"My dataset has 248 images and loads correctly"*
+- Updated `labels.csv` (248 entries, corrected `split` column) pushed to GitHub
+
+---
+
+## Week 3 Requirements
 
 ```bash
-apt-get install tesseract-ocr tesseract-ocr-urd
-pip install pytesseract opencv-python-headless pandas matplotlib
+pip install transformers torch pillow pandas
 ```
 
 ---
@@ -208,26 +265,27 @@ URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM/
 │
 ├── SI26-Week1-Qandeel.ipynb     ← Week 1 notebook
 ├── SI26-Week2-Qandeel.ipynb     ← Week 2 notebook
+├── SI26-Week3-qandeel.ipynb     ← Week 3 notebook
 ├── README.md                    ← This file
 ├── my_dataset_final.zip         ← Complete Week 1 dataset (zipped)
 │
 └── data/
-    ├── labels.csv                ← All 265 labeled entries (image, text, source, split)
+    ├── labels.csv                ← All labeled entries (image, text, source, split) — corrected in Week 3
     ├── processed_labels.csv      ← Links raw image, processed image, text, source, split
-    ├── train.csv                 ← 212 rows (80% split)
-    ├── test.csv                  ← 53 rows (20% split)
+    ├── train.csv                 ← Training split (Week 1)
+    ├── test.csv                  ← Testing split (Week 1)
     ├── gap_analysis.md           ← Week 2 gap analysis summary (auto-generated)
     ├── dataset_stats.png         ← Week 1 statistics charts
     ├── before_after_grid.png     ← Week 2 raw vs. preprocessed samples
     ├── cer_by_source.png         ← Week 2 CER comparison chart
     │
     ├── raw/                      ← Week 1: original collected images
-    │   ├── newspaper/            ← 32 manual screenshots
-    │   ├── synthetic/            ← 51 generated images
-    │   ├── augmented/            ← 102 augmented images (blur/brightness/rotation)
-    │   ├── other/                ← 60 UTRSet-Real images
-    │   ├── books/                ← 8 synthetic book-page images
-    │   └── signboards/           ← 12 synthetic signboard images
+    │   ├── newspaper/            ← manual screenshots
+    │   ├── synthetic/            ← generated images
+    │   ├── augmented/            ← augmented images (blur/brightness/rotation)
+    │   ├── other/                ← UTRSet-Real images
+    │   ├── books/                ← synthetic book-page images
+    │   └── signboards/           ← synthetic signboard images
     │
     └── processed/                ← Week 2: preprocessed images (mirrors raw/ structure)
 ```
@@ -248,6 +306,8 @@ URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM/
 | OpenCV | Image preprocessing (Week 2) |
 | Tesseract OCR | Existing OCR engine tested (Week 2) |
 | pytesseract | Python wrapper for Tesseract (Week 2) |
+| PyTorch | `Dataset`/`DataLoader` data pipeline (Week 3) |
+| Hugging Face `transformers` | `TrOCRProcessor` for image/text preprocessing (Week 3) |
 | matplotlib | Dataset and results visualizations |
 
 ---
@@ -258,13 +318,12 @@ URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM/
 |---|---|---|
 | Week 1 | Dataset collection and labeling | ✅ Complete |
 | Week 2 | Data preprocessing and OCR gap analysis | ✅ Complete |
-| Week 3 | Model selection and fine-tuning setup | 🔜 Upcoming |
+| Week 3 | Dataset expansion, cleanup, and PyTorch Dataset/DataLoader pipeline | ✅ Complete |
 | Week 4 | Model training | 🔜 Upcoming |
 | Week 5 | Deployment on Hugging Face Spaces | 🔜 Upcoming |
 
 ---
 
 ## Links
-
 - **GitHub:** https://github.com/qandeelasim13/URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM
 - **HuggingFace:** Coming in Week 5
