@@ -3,7 +3,7 @@
 **Author:** Qandeel Asim
 **Student ID:** 2023-BS-AI-037
 **Internship:** Code Saviours Summer Internship 2026 (SI-26)
-**Week:** 3 of 8 | **Project:** Urdu OCR Tool
+**Week:** 4 of 8 | **Project:** Urdu OCR Tool
 
 ---
 
@@ -13,9 +13,10 @@ This is a complete Urdu OCR (Optical Character Recognition) system being built o
 
 - **Week 1** focused on collecting, organizing, and labeling a dataset of Urdu text images.
 - **Week 2** focused on preprocessing that dataset and testing an existing off-the-shelf OCR engine (Tesseract) to identify its limitations on Urdu Nastaliq script — motivating the need for a custom-trained model.
-- **Week 3** focused on expanding the dataset past the 200-image target, fixing data-quality issues found along the way, and building the PyTorch `Dataset` and `DataLoader` pipeline that will feed the model in Week 4.
+- **Week 3** focused on expanding the dataset past the 200-image target, fixing data-quality issues found along the way, and building the PyTorch `Dataset` and `DataLoader` pipeline that fed the model this week.
+- **Week 4** focused on fine-tuning a TrOCR-based model to actually read Urdu script, after discovering and fixing a fundamental vocabulary mismatch in the base pretrained model.
 
-All collected images are stored under `data/raw/<category>/`, every image's ground-truth transcription is recorded in `data/labels.csv`, and preprocessed images from Week 2 are stored under `data/processed/`.
+All collected images are stored under `data/raw/<category>/`, every image's ground-truth transcription is recorded in `data/labels.csv`, preprocessed images from Week 2 are stored under `data/processed/`, and the Week 4 fine-tuned model is stored under `models/trocr-urdu-finetuned/`.
 
 ---
 
@@ -196,7 +197,7 @@ This gap is the core justification for building a **custom Urdu OCR model** (e.g
 ## Week 3: Dataset Expansion + PyTorch Dataset Class & DataLoader
 
 ### Objective
-This week focused on confirming the dataset has grown past the 200-image target, cleaning up data-quality issues discovered along the way, and building the PyTorch data pipeline (`Dataset` + `DataLoader`) that Week 4's model training will run on top of.
+This week focused on confirming the dataset has grown past the 200-image target, cleaning up data-quality issues discovered along the way, and building the PyTorch data pipeline (`Dataset` + `DataLoader`) that Week 4's model training ran on top of.
 
 ### What Was Done
 1. Verified the dataset against the 200-image requirement by counting `labels.csv` directly — **248 images**, well past the target.
@@ -250,10 +251,79 @@ augmented_brightness     34
 
 ---
 
-## Week 3 Requirements
+## Week 4: Fine-Tuning TrOCR on the Urdu Dataset
+
+### Objective
+This week focused on fine-tuning Microsoft's TrOCR model — originally trained on English printed text — to read Urdu script, using the dataset and PyTorch pipeline built in Weeks 1–3.
+
+### Key Finding: A Vocabulary Mismatch, Not a Bug
+The stock `microsoft/trocr-base-printed` checkpoint uses an **English/Latin-only tokenizer (RoBERTa BPE)**. It has no representation for Urdu characters at all. Fine-tuning directly against it produced a training loss curve that looked healthy (steadily decreasing), but evaluation output was effectively garbage — Character Error Rate above 100% and a negative implied accuracy. This was traced back to a **vocabulary mismatch** between the pretrained tokenizer and the target language, not an error in the training code.
+
+### The Fix
+- Kept the **pretrained visual encoder** from TrOCR (frozen) — its ability to extract visual features from character images transfers regardless of language.
+- Built a **character-level Urdu tokenizer** directly from the project's own dataset text, guaranteeing every character in the labels is representable.
+- Attached a **new, smaller decoder** (trained from scratch) to the frozen encoder, sized for the Urdu character vocabulary.
+- Verified the new tokenizer with a round-trip encode/decode test before training.
+
+### What Was Done
+1. Loaded the Week 3 dataset (`labels.csv`, 248 images, 198 train / 50 test) and resolved all image paths, including cases where images were nested one folder deeper than `labels.csv` recorded.
+2. Loaded the pretrained `microsoft/trocr-base-printed` checkpoint and extracted its visual encoder.
+3. Built a character-level Urdu tokenizer from the dataset's ground-truth text and confirmed it with a round-trip test.
+4. Assembled a new `VisionEncoderDecoderModel` combining the frozen pretrained encoder with a freshly initialized decoder.
+5. Trained the model using Hugging Face's `Seq2SeqTrainer` on Google Colab's GPU runtime, logging training loss every epoch.
+6. Evaluated the fine-tuned model on the held-out test set using Character Error Rate (CER).
+7. Spot-checked individual predictions against ground truth to confirm the model was producing genuine Urdu output rather than noise.
+8. Plotted the training loss curve and saved the fine-tuned model back to Google Drive.
+
+### Week 4 Notebook Structure
+
+| Section | Description |
+|---|---|
+| Section 0 — Install | Installs `transformers`, `datasets`, `jiwer`, `evaluate`, `sentencepiece`, `accelerate` |
+| Section 1 — GPU Check | Confirms a GPU runtime is active before training |
+| Section 2 — Mount Drive | Mounts Google Drive |
+| Section 3 — Load Dataset | Locates and loads `labels.csv`, rebuilds the train/test split |
+| Section 4 — Resolve Image Paths | Drive-wide filename index so every image resolves regardless of nested folder differences |
+| Section 5 — Load Pretrained TrOCR | Loads the pretrained checkpoint to reuse its visual encoder |
+| Section 6 — Build Urdu-Capable Model | Builds the character-level Urdu tokenizer, freezes the pretrained encoder, attaches a fresh decoder |
+| Section 7 — Dataset Class | Defines `UrduOCRDataset(Dataset)` using the new tokenizer |
+| Section 8 — Build Datasets & Sanity Check | Builds `train_dataset`/`eval_dataset`, verifies tensor shapes |
+| Section 9 — Training Setup & Training Loop | `Seq2SeqTrainingArguments`, CER-based `compute_metrics`, and `Seq2SeqTrainer.train()` |
+| Section 10 — Evaluation | Computes final CER/accuracy on the test set, prints sample predictions vs. ground truth |
+| Section 11 — Loss Curve | Plots and saves the training loss curve |
+| Section 12 — Required Submission Statements | Prints final accuracy and training loss summary |
+| Section 13 — Save Model | Saves the fine-tuned model and tokenizer vocabulary to Google Drive |
+
+### Week 4 Results
+
+```
+My model accuracy is 38.53%
+Training loss went from 2.9632 to 0.0046
+Final CER on test set    : 0.6147
+```
+
+Sample predictions on the test set showed exact matches for shorter sentences, with more errors on longer, more complex sentences.
+
+**Note on overfitting:** training loss dropped close to zero while test accuracy remained moderate, indicating the model overfit to the small training set (198 images) — a known and expected limitation given the dataset size at this stage of the project. This is flagged here rather than hidden, since understanding *why* a result looks the way it does is as important as the result itself.
+
+### Tools Used (Week 4)
+- **Hugging Face `transformers`** (`VisionEncoderDecoderModel`, `Seq2SeqTrainer`) — model architecture and training loop
+- **Hugging Face `evaluate` + `jiwer`** — Character Error Rate computation
+- **PyTorch** — custom tokenizer, dataset class, model assembly
+- **Google Colab (GPU runtime)** — training compute
+- **matplotlib** — training loss curve visualization
+
+### Submission
+- Notebook: `SI26-Week4-Qandeel.ipynb`
+- Confirmation: *"My model accuracy is 38.53%"* / *"Training loss went from 2.9632 to 0.0046"*
+- Loss curve screenshot and fine-tuned model pushed/saved alongside the notebook
+
+---
+
+## Week 4 Requirements
 
 ```bash
-pip install transformers torch pillow pandas
+pip install transformers datasets jiwer evaluate sentencepiece accelerate
 ```
 
 ---
@@ -266,28 +336,33 @@ URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM/
 ├── SI26-Week1-Qandeel.ipynb     ← Week 1 notebook
 ├── SI26-Week2-Qandeel.ipynb     ← Week 2 notebook
 ├── SI26-Week3-qandeel.ipynb     ← Week 3 notebook
+├── SI26-Week4-Qandeel.ipynb     ← Week 4 notebook
 ├── README.md                    ← This file
 ├── my_dataset_final.zip         ← Complete Week 1 dataset (zipped)
 │
-└── data/
-    ├── labels.csv                ← All labeled entries (image, text, source, split) — corrected in Week 3
-    ├── processed_labels.csv      ← Links raw image, processed image, text, source, split
-    ├── train.csv                 ← Training split (Week 1)
-    ├── test.csv                  ← Testing split (Week 1)
-    ├── gap_analysis.md           ← Week 2 gap analysis summary (auto-generated)
-    ├── dataset_stats.png         ← Week 1 statistics charts
-    ├── before_after_grid.png     ← Week 2 raw vs. preprocessed samples
-    ├── cer_by_source.png         ← Week 2 CER comparison chart
-    │
-    ├── raw/                      ← Week 1: original collected images
-    │   ├── newspaper/            ← manual screenshots
-    │   ├── synthetic/            ← generated images
-    │   ├── augmented/            ← augmented images (blur/brightness/rotation)
-    │   ├── other/                ← UTRSet-Real images
-    │   ├── books/                ← synthetic book-page images
-    │   └── signboards/           ← synthetic signboard images
-    │
-    └── processed/                ← Week 2: preprocessed images (mirrors raw/ structure)
+├── data/
+│   ├── labels.csv                ← All labeled entries (image, text, source, split) — corrected in Week 3
+│   ├── processed_labels.csv      ← Links raw image, processed image, text, source, split
+│   ├── train.csv                 ← Training split (Week 1)
+│   ├── test.csv                  ← Testing split (Week 1)
+│   ├── gap_analysis.md           ← Week 2 gap analysis summary (auto-generated)
+│   ├── dataset_stats.png         ← Week 1 statistics charts
+│   ├── before_after_grid.png     ← Week 2 raw vs. preprocessed samples
+│   ├── cer_by_source.png         ← Week 2 CER comparison chart
+│   ├── week4_training_loss.png   ← Week 4 training loss curve
+│   │
+│   ├── raw/                      ← Week 1: original collected images
+│   │   ├── newspaper/            ← manual screenshots
+│   │   ├── synthetic/            ← generated images
+│   │   ├── augmented/            ← augmented images (blur/brightness/rotation)
+│   │   ├── other/                ← UTRSet-Real images
+│   │   ├── books/                ← synthetic book-page images
+│   │   └── signboards/           ← synthetic signboard images
+│   │
+│   └── processed/                ← Week 2: preprocessed images (mirrors raw/ structure)
+│
+└── models/
+    └── trocr-urdu-finetuned/     ← Week 4: fine-tuned model + Urdu character tokenizer vocab
 ```
 
 ---
@@ -306,8 +381,9 @@ URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM/
 | OpenCV | Image preprocessing (Week 2) |
 | Tesseract OCR | Existing OCR engine tested (Week 2) |
 | pytesseract | Python wrapper for Tesseract (Week 2) |
-| PyTorch | `Dataset`/`DataLoader` data pipeline (Week 3) |
-| Hugging Face `transformers` | `TrOCRProcessor` for image/text preprocessing (Week 3) |
+| PyTorch | `Dataset`/`DataLoader` data pipeline (Week 3), model assembly (Week 4) |
+| Hugging Face `transformers` | `TrOCRProcessor` (Week 3), `VisionEncoderDecoderModel` + `Seq2SeqTrainer` (Week 4) |
+| Hugging Face `evaluate` / `jiwer` | Character Error Rate computation (Week 4) |
 | matplotlib | Dataset and results visualizations |
 
 ---
@@ -319,7 +395,7 @@ URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM/
 | Week 1 | Dataset collection and labeling | ✅ Complete |
 | Week 2 | Data preprocessing and OCR gap analysis | ✅ Complete |
 | Week 3 | Dataset expansion, cleanup, and PyTorch Dataset/DataLoader pipeline | ✅ Complete |
-| Week 4 | Model training | 🔜 Upcoming |
+| Week 4 | Fine-tuning TrOCR on the Urdu dataset | ✅ Complete |
 | Week 5 | Deployment on Hugging Face Spaces | 🔜 Upcoming |
 
 ---
