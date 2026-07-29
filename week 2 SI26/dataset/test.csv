@@ -1,0 +1,633 @@
+image,text,source,split
+data/raw/augmented/urdu_0231_aug2_brightness.png,شنگھائی کارپیریشن آرگنائیزیشن کے ارکان,augmented_brightness,test
+data/raw/other/utrset_326.jpg,کا بدل نہیں مل سکا۔ میں گرمیوں میں بھی بلاناغہ چار مرتبہ چائے پی لیتی ہوں۔,utrset_real,test
+data/raw/augmented/urdu_0461_aug3_blur.png,خطہ میں ان کی آمد اور سکونت نے لمبے عرصہ کے بعد زبردست تنوع پیدا کر دیا,augmented_blur,test
+data/raw/synthetic/urdu_0220.png,اردو بولنے والے ممالک اور علاقہ جات,synthetic,test
+data/raw/augmented/urdu_0039_aug1_rotation.png,پ پنجاب، ا خیبر پختونخوا (افغانیہ)، ک کشمیر، س سندھ، تان بلوچستان,augmented_rotation,test
+data/raw/augmented/urdu_0241_aug1_rotation.png,اناتول قراش کے خیال میں تاریخ گزشتہ حادثات و اتفاقات کے تحریری بیان سے عبارت ہے,augmented_rotation,test
+data/raw/augmented/urdu_0286_aug3_blur.png,جبکہ ہندی زبان دیوناگری رسم الخط میں لکھی جاتی ہے اور سنسکرت الفاظ زیادہ استعمال کرتی ہے,augmented_blur,test
+data/raw/books/book_122.png,تقريباً ایک فيصد پاکستانی ہندو اور اتنے ہی پاکستانی مسیحی مذہب سے تعلق رکھتے ہيں,books_synthetic,test
+data/raw/augmented/urdu_0027_aug1_blur.png,بنیادی موضوع قسم بندی,augmented_blur,test
+data/raw/augmented/urdu_0433_aug2_rotation.png,گجرات (بھارت) کی زبانیں,augmented_rotation,test
+data/raw/augmented/urdu_0064_aug3_rotation.png,اس دور میں پاکستان کے حکمران جنرل ضیا الحق تھے,augmented_rotation,test
+data/raw/augmented/urdu_0224_aug2_blur.png,پاکستان میں 1947ء کی تاسیسات,augmented_blur,test
+data/raw/augmented/urdu_0219_aug1_rotation.png,1947ء میں قائم ہونے والے ممالک اور علاقے,augmented_rotation,test
+data/raw/augmented/urdu_0281_aug1_rotation.png,اس لحاظ سے یہ دنیا کی نویں بڑی زبان ہے,augmented_rotation,test
+data/raw/signboards/sign_035.png,جرمن ایجادات,signboards_synthetic,test
+data/raw/augmented/urdu_0204_aug3_rotation.png,تعلیمی ادارے بلحاظ زمرہ جات,augmented_rotation,test
+data/raw/augmented/urdu_0013_aug1_brightness.png,علم جغرافیہ پرانے زمانے میں بھی موجود رہا ہے,augmented_brightness,test
+data/raw/augmented/urdu_0518_aug1_brightness.png,نیز راماین، مہا بھارت اور پرانوں میں بھی اس کا مذکور ملتا ہے,augmented_brightness,test
+data/raw/augmented/urdu_0376_aug1_rotation.png,ساتھ ساتھ کئی اہم، مقبول، معروف اسلامی ادبی کتب کا خزینہ اردو میں دستیاب ہے,augmented_rotation,test
+data/raw/other/utrset_108.jpg,میں ہدیہ تبریک پیش کرتے ہیں۔,utrset_real,test
+data/raw/augmented/urdu_0058_aug3_rotation.png,جنرل ایوب کے دور میں پاکستان میں ترقی تو ہوئی لیکن مشرقی پاکستان دور ہوتا گیا,augmented_rotation,test
+data/raw/augmented/urdu_0041_aug1_rotation.png,اس واقعہ نے برصغیر اور جنوبی ایشیا کی تاریخ پر گہرے اثرات مرتب کیے,augmented_rotation,test
+data/raw/augmented/urdu_0327_aug1_brightness.png,2011ء کی مردم شماری کے مطابق ہندوستان میں اردو بولنے والوں کی تعداد 50,augmented_brightness,test
+data/raw/synthetic/urdu_0347.png,دکنی، جنوبی ہندوستان کے علاقے دکن میں بولی جاتی ہے,synthetic,test
+data/raw/augmented/urdu_0127_aug1_blur.png,پاکستان کی بہت قديم اور رنگارنگ تہذيب ہے,augmented_blur,test
+data/raw/other/utrset_187.jpg,حصہ اس مذاق سے اثنا ہے-,utrset_real,test
+data/raw/synthetic/urdu_0476.png,مقامی لوگوں کے ساتھ ميل جول ہوا اور ايک ن‏‏ئی تہذيب نے جنم ليا,synthetic,test
+data/raw/synthetic/urdu_0063.png,اگلا دور 1977ء تا 1988ء مارشل لا کا تھا,synthetic,test
+data/raw/books/book_062.png,مختصر عرصہ کے لیے چوہدرى شجاعت حسين نے وزیراعظم کی ذمہ داریاں سرانجام دیں اور شوکت عزیز کے قومی اسمبلی کے ممبر منتخب ہونے کے بعد وزارت عظمیٰ سے مستعفی ہو گئے,books_synthetic,test
+data/raw/augmented/urdu_0385_aug2_brightness.png,ادب کی دوسری قسم نظم ہے,augmented_brightness,test
+data/raw/other/utrset_210.jpg,سجاد حیدر,utrset_real,test
+data/raw/other/utrset_353.jpg,تھے  ___ باپ تو اس پر جان چھڑکتے تھے کیا مجال کہ ریتا کی معمولی سے,utrset_real,test
+data/raw/synthetic/urdu_0021.png,اس کے 1700 سال بعد کولمبس نے اس ملک امریکا کو دریافت کیا,synthetic,test
+data/raw/synthetic/urdu_0282.png,اردو زبان کو کئی ہندوستانی ریاستوں میں سرکاری حیثیت بھی حاصل ہے,synthetic,test
+data/raw/augmented/urdu_0253_aug2_rotation.png,افکار ابن خلدون، 75),augmented_rotation,test
+data/raw/augmented/urdu_0448_aug3_rotation.png,دوسری طرف اسی دور میں متعدد مذہبی تحریکیں برپا ہوئیں جن میں جین مت اور بدھ مت قابل ذکر ہیں,augmented_rotation,test
+data/raw/augmented/urdu_0505_aug1_brightness.png,سنسکرت زبان کی شہرہ آفاق رزمیہ داستانیں راماین اور مہا بھارت اسی عہد کی یادگار ہیں,augmented_brightness,test
+data/raw/augmented/urdu_0357_aug2_blur.png,ہندی کے ساتھ موازنہ,augmented_blur,test
+data/raw/augmented/urdu_0175_aug2_rotation.png,اچھا اور مناسب علاج درمیانے سے لیکر اعلیٰ طبقے کے ليے مخصوص ہے,augmented_rotation,test
+data/raw/other/utrset_215.jpg,"""زود پشیماں"" ان سائل کے تاریک وغیرمنکشف پہلووں میں سے ایک پہلوپرنہایت",utrset_real,test
+data/raw/other/utrset_073.jpg,بڑہتاہے۔ کہ”عشق“ کی ستم ظریفی میں اضافہ ہوتاہے اور”دیوتا“اسکی محبوبہ کے قوس گوں لبوں پر اُن مرمرین گلاب کی پتیوں,utrset_real,test
+data/raw/augmented/urdu_0140_aug1_rotation.png,کرکٹ کے ساتھ ساتھ پاکستان ميں ہاکی بھی بہت شوق سے کھيلی جاتی ہے,augmented_rotation,test
+data/raw/augmented/urdu_0465_aug3_blur.png,""" مائیکل فشر لکھتے ہیں:",augmented_blur,test
+data/raw/augmented/urdu_0226_aug2_blur.png,پنجابی زبان بولنے والے ممالک اور علاقہ جات,augmented_blur,test
+data/raw/augmented/urdu_0215_aug2_brightness.png,قرارداد پاکستان,augmented_brightness,test
+data/raw/synthetic/urdu_0358.png,معیاری اردو کا اکثر معیاری ہندی سے موازنہ کیا جاتا ہے,synthetic,test
+data/raw/augmented/urdu_0356_aug3_blur.png,کھری بولی: (کھڑی بولی),augmented_blur,test
+data/raw/other/utrset_118.jpg,قریب میں محاسن ومعائب پر ہرپہلوسے روشنی ڈالیں گے۔کہ اس عامیانہ ہڑبونگ کی قلعی کُہلے۔,utrset_real,test
+data/raw/augmented/urdu_0555_aug3_rotation.png,ان میں عورتیں بھی تھیں اور شاہزادے بھی تھے,augmented_rotation,test
+data/raw/synthetic/urdu_0054.png,1951ء سے 1958ء تک کئی حکومتیں آئیں اور ختم ہو گئیں,synthetic,test
+data/raw/augmented/urdu_0136_aug1_brightness.png,کچھ جگہوں ميں اس تحريک کا زيادہ جھکاؤ اسلام اور کچھ ميں روايات کی طرف ہے,augmented_brightness,test
+data/raw/augmented/urdu_0124_aug3_rotation.png,پاکستان ميں تمام تر اعلیٰ تعليم بھی انگريزی ميں ہی دی جاتی ہے,augmented_rotation,test
+data/raw/augmented/urdu_0073_aug3_brightness.png,شوکت عزیز قومی اسمبلی کی مدت 15 نومبر 2007ء کو ختم ہونے کے بعد مستعفی ہو گئے,augmented_brightness,test
+data/raw/augmented/urdu_0454_aug2_blur.png,کچھ عرصہ کے بعد اس جد و جہد میں آل انڈیا مسلم لیگ بھی شامل ہو گئی,augmented_blur,test
+data/raw/other/utrset_399.jpg,نا ماں میں شکر کے لےے بالکل نہیں جا سکتا۔ اتنی لمبی لائن میں,utrset_real,test
+data/raw/augmented/urdu_0293_aug1_rotation.png,اس کا مطلب بلند کیمپ کی زبان ہے,augmented_rotation,test
+data/raw/augmented/urdu_0381_aug3_rotation.png,فکشن اصناف: افسانہ نگاری کافی مشہور صنف تسلیم کی گئی,augmented_rotation,test
+data/raw/synthetic/urdu_0489.png,اس عہد میں چھوٹے چھوٹے قبیلوں اور سرداروں نے آپس میں مل کر جن پد قائم کرنا شروع کیا,synthetic,test
+data/raw/signboards/sign_104.png,تاریخ کی ابتدا,signboards_synthetic,test
+data/raw/augmented/urdu_0291_aug3_rotation.png,اردو کا مطلب ترک زبان میں فوج ہے,augmented_rotation,test
+data/raw/augmented/urdu_0348_aug3_blur.png,اردو ہندوستان کے دوسرے حصوں کی طرح پڑھی اور لکھی جاتی ہے,augmented_blur,test
+data/raw/other/utrset_222.jpg,کی ہیں جیسی کہ نواب با قرحسین سے سرزد ہوئیں، اور آیا دو نوجون ، سودا زده دل,utrset_real,test
+data/raw/synthetic/urdu_0180.png,قومی پرچم گیارہ اگست 1947ء کو لیاقت علی خان نے دستور ساز اسمبلی میں پیش کیا,synthetic,test
+data/raw/other/utrset_240.jpg,ایک خوف محسوس ہورہاہے۔ میں نہیں چاہتاکہ دوسرا حملہ مجھ پر ہو----- میں نہیں چاہتا,utrset_real,test
+data/raw/synthetic/urdu_0386.png,نظم کے معنی موتی پرونا ہے,synthetic,test
+data/raw/augmented/urdu_0276_aug1_blur.png,اُردُو برصغیر کی معیاری زبانوں میں سے ایک ہے,augmented_blur,test
+data/raw/signboards/sign_001.png,خوش آمدید,signboards_synthetic,test
+data/raw/augmented/urdu_0042_aug2_rotation.png,"""پاکستان کا مطلب کیا؟ لَآ اِلٰہَ اِلَّا اللہُ"" اس تحریک کا مقبول عام نعرہ تھا",augmented_rotation,test
+data/raw/other/utrset_306.jpg,لائبریری بھی بنائی ہے۔ اچھی اچھی کتابیں ہیں وہاں مگر کیا مجال کہ کسی کو پڑھنے,utrset_real,test
+data/raw/other/utrset_270.jpg,ڈاکٹرکمارؔاور نرس شیلاؔ مریض کی چارپائی کی دوسری طرف تھے۔ان کی آنکھیں خوف,utrset_real,test
+data/raw/augmented/urdu_0342_aug2_brightness.png,یہ ملک کی سماجی و ثقافتی میراث کا خزانہ ہے,augmented_brightness,test
+data/raw/augmented/urdu_0216_aug1_brightness.png,آل انڈیا مسلم لیگ,augmented_brightness,test
+data/raw/synthetic/urdu_0353.png,اردو کی وہ بولیاں جن کی شناخت کی گئی ہے، یہ ہیں:,synthetic,test
+data/raw/synthetic/urdu_0073.png,شوکت عزیز قومی اسمبلی کی مدت 15 نومبر 2007ء کو ختم ہونے کے بعد مستعفی ہو گئے,synthetic,test
+data/raw/augmented/urdu_0181_aug1_brightness.png,قومی پھول - پاکستان کا قوی پھول چنبیلی (یاسمین) ہے,augmented_brightness,test
+data/raw/augmented/urdu_0551_aug3_brightness.png,یہ تینوں شاہی خانوادے تمل اکام کے تاجوران ثلاثہ کہلاتے ہیں,augmented_brightness,test
+data/raw/signboards/sign_020.png,جس نے لفظ جغرافیہ استعمال کیا,signboards_synthetic,test
+data/raw/synthetic/urdu_0322.png,08 ملین اردو بولنے والے تھے)، خاص طور پر سب سے زیادہ اردو بولنے والی ریاستوں اتر پردیش (c,synthetic,test
+data/raw/augmented/urdu_0297_aug3_blur.png,جیسے غلام حمدان مصحفی نے اپنی ایک,augmented_blur,test
+data/raw/other/utrset_015.jpg,نکاح صرف اس وجہ سے وہ لکھا نہیں گیا یا سرکاری رجسٹرمیں درج نہیں ہے,utrset_real,test
+data/raw/augmented/urdu_0209_aug3_blur.png,پاکستان کی سیاسی جماعتیں,augmented_blur,test
+data/raw/augmented/urdu_0207_aug2_rotation.png,فہرست متعلقہ مضامین پاکستان,augmented_rotation,test
+data/raw/augmented/urdu_0363_aug1_blur.png,ہندوستان میں ہندی سے اردو اتنی نہیں بدل گئی جتنی پاکستان میں ہے,augmented_blur,test
+data/raw/synthetic/urdu_0583.png,کیرالا کی مسالوں کی تجارت قدیم دنیا کے تاجروں کو کھینچ کھینچ کر ہندوستان لا رہی تھی,synthetic,test
+data/raw/synthetic/urdu_0367.png,"اردو کو اس کے کم باضابطہ رجسٹر میں  (  ،  ) کہا گیا ہے، جس کا مطلب ہے ""کھردرا مرکب""",synthetic,test
+data/raw/augmented/urdu_0245_aug3_brightness.png,ظہیرالدین مرغشی کے نزدیک یہ ایک ایسا علم ہے جو اگلے وقتوں کے بارے میں اطلاعات پر مشتمل ہے,augmented_brightness,test
+data/raw/augmented/urdu_0068_aug1_brightness.png,1990ء میں نواز شریف کی قیادت میں آئی جے آئی اور اس کی حلیف جماعتیں اقتدار میں آئیں,augmented_brightness,test
+data/raw/augmented/urdu_0248_aug3_blur.png,گو تاریخ اور اساطیر مین فرق ہے,augmented_blur,test
+data/raw/synthetic/urdu_0333.png,یہ پاکستان کے تمام صوبوں/علاقوں میں لکھی، بولی اور استعمال کی جاتی ہے,synthetic,test
+data/raw/synthetic/urdu_0385.png,ادب کی دوسری قسم نظم ہے,synthetic,test
+data/raw/signboards/sign_055.png,یہ ایک تاریخی کامیابی تھی,signboards_synthetic,test
+data/raw/synthetic/urdu_0464.png,یہاں سے نئے سنگی دور کا آغاز ہوتا ہے,synthetic,test
+data/raw/synthetic/urdu_0395.png,غزل: دو مصرعوں پر مشتمل مکمل، بامعنی اور جداگانہ اشعار کی لڑی,synthetic,test
+data/raw/augmented/urdu_0213_aug2_blur.png,پاکستان کے نیشنل پارک,augmented_blur,test
+data/raw/books/book_023.png,پاکستان نے اپنا پہلا آئین 1956ء میں بنایا جو 1958 میں منسوخ کردیا گیا اس کے بعد 1962 میں پاکستان کا دوسرا آئین پیش کیا گیا جو 1969 میں جزل یحیی خان نے منسوح کر دیا,books_synthetic,test
+data/raw/signboards/sign_145.png,شاعری میں لکھا ہے: -,signboards_synthetic,test
+data/raw/books/book_140.png,ہاکی پاكستان كا قومى كھيل بھى ہےـ چوگان (پولو) پاکستان کے شمالی علاقہ جات كے لوگوں كا كھيل ہے اور اس كھيل كى پيدائش بھى يہيں ہوئى اور آج تک ان علاقوں ميں بہت شوق سے کھیلی جاتی ہے,books_synthetic,test
+data/raw/augmented/urdu_0473_aug3_rotation.png,اس دریافت کے بعد محققین کی توجہ مذکورہ مقام کی جانب مبذول ہوئی,augmented_rotation,test
+data/raw/augmented/urdu_0585_aug2_rotation.png,یہاں پہنچ کر توما نے سات گرجا گھروں کی بنیاد رکھی,augmented_rotation,test
+data/raw/augmented/urdu_0128_aug2_blur.png,ان تمام تہذيبوں نے پاکستان کی موجودہ تہذيب پر بہت گہرا اثر چھوڑا ہے,augmented_blur,test
+data/raw/augmented/urdu_0592_aug2_brightness.png,اس عہد میں گندھارا اور متھرا کے فنون بھی بہار دکھانے لگے تھے,augmented_brightness,test
+data/raw/augmented/urdu_0159_aug2_brightness.png,عالمی معاشی بحران سے پہلے پاکستان میں سالانہ تقریباً پانچ (5) لاکھ سیاح آتے تھے,augmented_brightness,test
+data/raw/augmented/urdu_0314_aug1_blur.png,اور مذہبی سیاق و سباق,augmented_blur,test
+data/raw/other/utrset_299.jpg,پتلیاں,utrset_real,test
+data/raw/other/utrset_167.jpg,اصل یہ ہے کہ فن کامرتبہ اس جماعت سے کیا جارہا ہے، جبکے ہاتھ  میں اسوقت,utrset_real,test
+data/raw/augmented/urdu_0341_aug2_brightness.png,یہ تعلیم، اَدب، دفتر، عدالت، وسیط اور دینی اِداروں میں مستعمل ہے,augmented_brightness,test
+data/raw/other/utrset_267.jpg,--- ٹھیک اسی طرح جیسے میں نے کیاتھا۔,utrset_real,test
+data/raw/augmented/urdu_0173_aug3_rotation.png,ورزشی کھیلوں میں عبدالخالق نے سال 1954ء اور سال 1958ء کے ایشیائی کھیلوں میں حصہ لیا,augmented_rotation,test
+data/raw/augmented/urdu_0305_aug1_blur.png,اس کا تعلق وسطی ہند آریائی زبانوں کے مغربی ہندی زبان سے ہے,augmented_blur,test
+data/raw/augmented/urdu_0559_aug2_blur.png,سیلاپتی کارم کو ایلانگو ادیگل نے لکھا جو ایک غیر مذہبی رزمیہ ہے,augmented_blur,test
+data/raw/augmented/urdu_0453_aug3_brightness.png,لیکن ہندوستان کے باشندے کمپنی راج سے سخت بیزار اور بد دل تھے,augmented_brightness,test
+data/raw/synthetic/urdu_0398.png,بالخصوص شہیدانِ کربلا کی شہادت کو بیان کرنے والی نظم,synthetic,test
+data/raw/augmented/urdu_0051_aug3_rotation.png,پاکستان کی عبوری حکومت ١١ اگست ١٩٤٧ کو تشکیل دی گئی تھی,augmented_rotation,test
+data/raw/augmented/urdu_0381_aug2_brightness.png,فکشن اصناف: افسانہ نگاری کافی مشہور صنف تسلیم کی گئی,augmented_brightness,test
+data/raw/augmented/urdu_0184_aug3_rotation.png,دیگر 45 پھلوں کے نام بھی جان سکتے ہیں,augmented_rotation,test
+data/raw/synthetic/urdu_0406.png,مرثیہ اور نوحہ لکھنے میں شہرت یافتہ شعرا میر ببر علی انیس اور مرزا سلامت علی دبیر ہیں,synthetic,test
+data/raw/augmented/urdu_0509_aug2_blur.png,وادی سندھ کی تہذیب کے خاتمہ کے بعد اسی عہد میں پہلی بار ہندوستان میں بڑے بڑے شہر بسائے گئے,augmented_blur,test
+data/raw/synthetic/urdu_0371.png,صوبہ بہار میں عدالتی زبان اردو تھی جو کیتھی رسم الخط میں لکھی جاتی تھی,synthetic,test
+data/raw/other/utrset_335.jpg,کب تک واپس آئے گا۔ وہ اس کا ہم مذاق ہوگا بھی کہ نہیں۔ اسے تو یہ بھی نہیں,utrset_real,test
+data/raw/synthetic/urdu_0224.png,پاکستان میں 1947ء کی تاسیسات,synthetic,test
+data/raw/augmented/urdu_0198_aug1_brightness.png,بلحاظ سال آبادی,augmented_brightness,test
+data/raw/augmented/urdu_0263_aug2_blur.png,جامعاتی قسم بندی,augmented_blur,test
+data/raw/other/utrset_383.jpg,کے کلاس ساتھ ہوتے جس کی وجہ سے کبھی کبھی بلوبلو ہوجاتااورکبھی دوایک,utrset_real,test
+data/raw/augmented/urdu_0298_aug3_brightness.png,شاعری میں لکھا ہے: -,augmented_brightness,test
+data/raw/signboards/sign_102.png,تاريخ دان,signboards_synthetic,test
+data/raw/augmented/urdu_0529_aug3_blur.png,یہ نند سلطنت کے عروج کا زمانہ تھا اور اس کی ثروت اور دولت مندی کے چرچے ہر طرف تھے,augmented_blur,test
+data/raw/augmented/urdu_0331_aug3_blur.png,پاکستان میں کوئی بھی خطہ اردو کو اپنی مادری زبان کے طور پر استعمال نہیں کرتا,augmented_blur,test
+data/raw/other/utrset_385.jpg,یونیورسٹی میں موہن اور ریتا کا ساتھ ہوا۔ موہن سائنس اور,utrset_real,test
+data/raw/augmented/urdu_0025_aug1_brightness.png,مسلمانوں کے علمی زوال کے بعد یورپ میں اس مضمون پر بہت پیش رفت ہوئی,augmented_brightness,test
+data/raw/augmented/urdu_0294_aug1_blur.png,پہلے اسے ہندوی، ہندی اور ہندوستانی کے نام سے جانا جاتا تھا,augmented_blur,test
+data/raw/synthetic/urdu_0256.png,پانچواں سبب امرا و سلاطین کے قرب کی خواہش,synthetic,test
+data/raw/signboards/sign_108.png,افکار ابن خلدون، 75),signboards_synthetic,test
+data/raw/augmented/urdu_0435_aug1_brightness.png,مہاراشٹر کی زبانیں,augmented_brightness,test
+data/raw/augmented/urdu_0559_aug3_rotation.png,سیلاپتی کارم کو ایلانگو ادیگل نے لکھا جو ایک غیر مذہبی رزمیہ ہے,augmented_rotation,test
+data/raw/augmented/urdu_0208_aug1_rotation.png,پاکستان کے وزیراعظم,augmented_rotation,test
+data/raw/synthetic/urdu_0142.png,دیہی علاقوں میں شہروں کے بہ نسبت سوٹ اور ٹائی کا استعمال کم ہوتا ہے,synthetic,test
+data/raw/augmented/urdu_0480_aug1_blur.png,یہ وید ویدک سنسکرت میں لکھے گئے ہیں اور آج بھی ہندوؤں کی مقدس کتابوں میں شامل ہیں,augmented_blur,test
+data/raw/synthetic/urdu_0009.png,آج تک انسان نے جتنی بھی ترقی کی ہے,synthetic,test
+data/raw/synthetic/urdu_0045.png,14 اگست 1947ء کو پاکستان وجود میں آیا,synthetic,test
+data/raw/augmented/urdu_0317_aug3_brightness.png,انگریزی نے ایک مشترکہ سرکاری زبان کے طور پر دونوں پر بہت زیادہ اثر ڈالا ہے,augmented_brightness,test
+data/raw/augmented/urdu_0405_aug3_brightness.png,نوحہ: معرکۂ کربلا میں ہوئے شہیدوں کے واقعات کو بیان کرنے والی صنف نوحہ ہے,augmented_brightness,test
+data/raw/synthetic/urdu_0254.png,مورخ کی ذمہ داری,synthetic,test
+data/raw/other/utrset_255.jpg,ضروری ہے لیکن اس کی کنجی میرے پاس نہیں اور قفل کاسوراخ بھی مجھے نظر نہیں آرہا,utrset_real,test
+data/raw/augmented/urdu_0072_aug2_brightness.png,2004ء میں جنرل مشرف نے شوکت عزیز کو وزیر اعظم بنانے کا فيصلہ کیا,augmented_brightness,test
+data/raw/synthetic/urdu_0240.png,آغاز تمذن سے اب تک تاریخ نے کئی روپ دھارے ہیں,synthetic,test
+data/raw/signboards/sign_045.png,اعداد و شمار,signboards_synthetic,test
+data/raw/augmented/urdu_0521_aug2_rotation.png,سلطنت کا نظم و انصرام عاملہ، عدلیہ اور فوج کے شعبوں میں منقسم تھا,augmented_rotation,test
+data/raw/augmented/urdu_0348_aug2_rotation.png,اردو ہندوستان کے دوسرے حصوں کی طرح پڑھی اور لکھی جاتی ہے,augmented_rotation,test
+data/raw/augmented/urdu_0040_aug1_rotation.png,یہ علاقہ سیاسی، مذہبی اور ثقافتی طور پر عرب دنیا سے جڑ جاتا ہے,augmented_rotation,test
+data/raw/augmented/urdu_0603_aug2_rotation.png,گپت خاندان کی تباہی ان منگول قوموں کے ہاتھوں ہوئی جو ہن کہلاتی تھیں,augmented_rotation,test
+data/raw/augmented/urdu_0540_aug3_rotation.png,بالآخر اس نے زور و تشدد کی راہ ترک کر دی اور بدھ مت قبول کرنے کا اعلان کیا,augmented_rotation,test
+data/raw/synthetic/urdu_0355.png,یہ زبان دکن بھارت میں بولی جاتی ہے,synthetic,test
+data/raw/other/utrset_122.jpg,رکہکر آزادانہ طورپر کسی خاص ”مذہبیت“ کی رعایت کئے بغیر تاریخ کومکمل کرے۔ کامیاب مورّخ کا,utrset_real,test
+data/raw/augmented/urdu_0168_aug2_rotation.png,پاکستان کرکٹ کے ٹیم، جنہیں شاہین کہا جاتا ہے، نے 1992ء میں کرکٹ کا عالمی کپ جیتا تھا,augmented_rotation,test
+data/raw/augmented/urdu_0034_aug2_blur.png,پاکستان وفاقی پارلیمانی جمہوری ریاست کے تحت چلتا ہے,augmented_blur,test
+data/raw/other/utrset_037.jpg,رجسٹری آفس بھی نئی ذمہ داریوں سے محفوظ رہیں گے(۲) اگر بالفعل یہ ممکن نہ ہو تواس,utrset_real,test
+data/raw/other/utrset_174.jpg,ہے۔ شاعری کے سوا فنون لطیفہ کے تمام اقسام آج کل خالاف وقار وستانت,utrset_real,test
+data/raw/synthetic/urdu_0431.png,زبان بمقابلہ لہجہ,synthetic,test
+data/raw/augmented/urdu_0284_aug3_rotation.png,1947ء میں تقسیم ہند کے بعد سے پاکستانی شہر کراچی میں ایک تیسرا معیار پیدا ہوا ہے,augmented_rotation,test
+data/raw/augmented/urdu_0251_aug1_brightness.png,(سبط حسن، ماضی کے مزار,augmented_brightness,test
+data/raw/synthetic/urdu_0399.png,قصیدہ: قصیدہ اردو نظم کی وہ صنف ہے جسے کسی کی تعریف میں کہی گئی نظمی شکل کہہ سکتے ہیں,synthetic,test
+data/raw/augmented/urdu_0145_aug2_brightness.png,اس وقت پاکستان میں نیوز، انٹرٹینمنٹ، ہیلتھ، ایجوکیشن، علاقائی اور بہت سے چینلز موجود ہیں,augmented_brightness,test
+data/raw/signboards/sign_098.png,مؤتمر عالم اسلامی کے رکن ممالک,signboards_synthetic,test
+data/raw/augmented/urdu_0341_aug3_blur.png,یہ تعلیم، اَدب، دفتر، عدالت، وسیط اور دینی اِداروں میں مستعمل ہے,augmented_blur,test
+data/raw/augmented/urdu_0195_aug1_blur.png,چوکور شیلڈ جس میں ملک کی چار اہم صنعتوں کی علامت کندہ ہے,augmented_blur,test
+data/raw/augmented/urdu_0276_aug3_blur.png,اُردُو برصغیر کی معیاری زبانوں میں سے ایک ہے,augmented_blur,test
+data/raw/augmented/urdu_0350_aug1_brightness.png,ڈھاکیہ اردو بنگلہ دیش کے پرانے ڈھاکہ شہر کی ایک بولی ہے جو مغل دور سے شروع ہوتی ہے,augmented_brightness,test
+data/raw/augmented/urdu_0504_aug3_blur.png,سنسکرت کے رزمیے,augmented_blur,test
+data/raw/augmented/urdu_0561_aug2_brightness.png,سیتَلئی ساتّنار نے منی میکالئی تصنیف کی جو دراصل سیلاپتی کارم ہی کا تسلسل ہے,augmented_brightness,test
+data/raw/other/utrset_092.jpg,ضخامت ص۲٤٠ ۔قیمت عصر,utrset_real,test
+data/raw/other/utrset_023.jpg,کے ساتھ مولاناکفایت اللہ دہلوی،مولوی نعیم الدین مرادآبادی اور مولانا قطب الدین,utrset_real,test
+data/raw/augmented/urdu_0548_aug2_blur.png,موریا سلطنت کی بنیادیں اپنے عہد کی ترقی یافتہ معیشت اور ہنر مند سماج پر استوار تھیں,augmented_blur,test
+data/raw/other/utrset_058.jpg,کردے، یہ مسلمان والی پھر قاضی مقرر کرے (۳) یہ بھی ممکن نہ ہو تو مسلمان اپنی باہمی رضا,utrset_real,test
+data/raw/other/utrset_314.jpg,ہوا ہے۔ وہاں سے بھی جھاڑ جھنکاڑ سمیٹ لائے گا کتنے گلے ہیں اس راہدادی میں,utrset_real,test
+data/raw/augmented/urdu_0167_aug2_rotation.png,تاہم، کرکٹ پاکستان کا سب سے زیادہ مشہور کھیل ہے,augmented_rotation,test
+data/raw/synthetic/urdu_0297.png,جیسے غلام حمدان مصحفی نے اپنی ایک,synthetic,test
+data/raw/books/book_103.png,"صوبہ پنجاب کا کل رقبہ 205,344 مربع کلومیٹر ہے جبکہ 2013ء میں آبادی 10 کروڑ 10لاکھ تھی",books_synthetic,test
+data/raw/augmented/urdu_0014_aug3_rotation.png,لیکن اس دور میں اس کی اہمیت بہت کم تھی,augmented_rotation,test
+data/raw/augmented/urdu_0465_aug1_brightness.png,""" مائیکل فشر لکھتے ہیں:",augmented_brightness,test
+data/raw/augmented/urdu_0103_aug2_rotation.png,صوبہ جات کی تقسیم یکم جولائی 1970ء کو کی گئی,augmented_rotation,test
+data/raw/signboards/sign_152.png,5 فیصد کم ہوئی (اس وقت 5,signboards_synthetic,test
+data/raw/augmented/urdu_0486_aug1_blur.png,ہڑپہ کا تمدن رخصت ہو چکا تھا اور اس کی جگہ دیہی زندگی نے لے لی تھی,augmented_blur,test
+data/raw/augmented/urdu_0575_aug2_blur.png,کل دس شونگ بادشاہ گذرے ہیں لیکن اگنی متر کی وفات کے بعد سلطنت کا شیرازہ تیزی سے بکھرنے لگا,augmented_blur,test
+data/raw/books/book_067.png,مئی 2013ء میں عام انتحابات ہوئے جس میں پاکستان مسلم لیگ ن ایک بڑی جماعت کے طور پر ابھری,books_synthetic,test
+data/raw/other/utrset_280.jpg,یاشاید اس کی وجہ یہ ہوکہ اس کومجھ پر حملہ کرنے کاموقع حاصل نہ تھا۔ میں مکرجی کیطرف,utrset_real,test
+data/raw/other/utrset_349.jpg,ضرورت سے زیادہ تھا۔ وہ ہر وقت اونچے اونچے خواب دیکھتی اور,utrset_real,test
+data/raw/augmented/urdu_0132_aug1_rotation.png,پاکستان ميں بہت مختلف قسم کی موسيقی ملتی ہے,augmented_rotation,test
+data/raw/augmented/urdu_0464_aug1_rotation.png,یہاں سے نئے سنگی دور کا آغاز ہوتا ہے,augmented_rotation,test
+data/raw/other/utrset_099.jpg,کتابیں۔ شرارؔ برقی۔,utrset_real,test
+data/raw/synthetic/urdu_0549.png,یہ فولاد چین اور عرب تک جاتا تھا,synthetic,test
+data/raw/synthetic/urdu_0106.png,"صوبہ سندھ کا کل رقبہ 140,914 مربع کلومیٹر ہے جبکہ 2012ء میں آبادی 4 کروڑ 24 لاکھ تھی",synthetic,test
+data/raw/other/utrset_387.jpg,دیکھ کر اپنی بری حالت کا شدید احساس ہوتا ہے اور وہ سخت شرمندگی,utrset_real,test
+data/raw/augmented/urdu_0541_aug2_rotation.png,اشوک کے عہد حکومت میں بدھ مت سارے ہندوستان میں پھیل چکا تھا,augmented_rotation,test
+data/raw/augmented/urdu_0180_aug1_blur.png,قومی پرچم گیارہ اگست 1947ء کو لیاقت علی خان نے دستور ساز اسمبلی میں پیش کیا,augmented_blur,test
+data/raw/synthetic/urdu_0532.png,برصغیر کی تاریخ میں پہلی بار ایسی عظیم الشان اور مستحکم سلطنت قائم ہوئی تھی,synthetic,test
+data/raw/synthetic/urdu_0264.png,دور قديم کی تاريخ,synthetic,test
+data/raw/synthetic/urdu_0525.png,345 ق م میں آخری شی شو ناگ بادشاہ کالا شوک مہا پدم نند کے ہاتھوں مارا گیا,synthetic,test
+data/raw/augmented/urdu_0400_aug3_brightness.png,اس کے چار اقسام ہیں,augmented_brightness,test
+data/raw/augmented/urdu_0421_aug3_rotation.png,رومن حروف تہجی کا قاعدہ,augmented_rotation,test
+data/raw/augmented/urdu_0019_aug3_rotation.png,زمانہ قدیم کے جغرافیہ دانوں کی بعض تحریریں بڑی دلچسپ ہیں,augmented_rotation,test
+data/raw/synthetic/urdu_0408.png,اردو ہندی تنازع,synthetic,test
+data/raw/augmented/urdu_0536_aug3_brightness.png,شاید اس کی وجہ یہ تھی کہ جنوب سے کلنگ کے تجارتی روابط مضبوط تھے,augmented_brightness,test
+data/raw/augmented/urdu_0471_aug2_blur.png,گیرو رنگ کے برتنوں کی ثقافت,augmented_blur,test
+data/raw/augmented/urdu_0391_aug3_blur.png,بالخصوص نظم میں اردو کے مقابلہ میں دوسری زبان نہیں,augmented_blur,test
+data/raw/synthetic/urdu_0598.png,انھی وجوہ سے گپت عہد کو ہندوستانی ثقافت کی تاریخ کا اہم ترین موڑ سمجھا جاتا ہے,synthetic,test
+data/raw/augmented/urdu_0420_aug2_brightness.png,(جلد اول) بنيادی اردو,augmented_brightness,test
+data/raw/other/utrset_291.jpg,دور ہی رہے۔اس کے بعدجلالؔ نے مجھ سے دریافت کیاکہ کیاکمرے کوتاریک بنایا,utrset_real,test
+data/raw/augmented/urdu_0223_aug3_brightness.png,انگریزی بولنے والے ممالک اور علاقہ جات,augmented_brightness,test
+data/raw/augmented/urdu_0304_aug3_brightness.png,اردو زبان کو برطانوی دور میں انگریزوں نے ترقی دی، تاکہ فارسی کی اہمیت کو ختم کیا جا سکے,augmented_brightness,test
+data/raw/augmented/urdu_0235_aug1_blur.png,ہریانوی زبان بولنے والے ممالک اور علاقہ جات,augmented_blur,test
+data/raw/augmented/urdu_0503_aug3_blur.png,ان تحریکوں نے برہمنیت کے تسلط کو للکارا اور قدیم رسم و رواج کے زور کو توڑنے کی کوشش کی,augmented_blur,test
+data/raw/augmented/urdu_0399_aug2_brightness.png,قصیدہ: قصیدہ اردو نظم کی وہ صنف ہے جسے کسی کی تعریف میں کہی گئی نظمی شکل کہہ سکتے ہیں,augmented_brightness,test
+data/raw/augmented/urdu_0562_aug3_blur.png,اس میں کوولن کی بیٹی مادھوی کی کہانی نظم کی گئی ہے جو بودھ بھکشونی بن جاتی ہے,augmented_blur,test
+data/raw/books/book_026.png,پاکستان دنیا کا ایک اہم طاقتور ملک ہے، جیسا کہ اس کی فوج دنیا کی چھٹی بڑی فوج ہے اور یہ اسلامی دنیا کی واحد اور جنوبی ایشیا کی دوسری ایٹمی طاقت ہے,books_synthetic,test
+data/raw/augmented/urdu_0111_aug3_rotation.png,پاکستان کے مشرقی، وسطی اور جنوبی علاقے میدانی ہیں جبکہ مغربی اور شمالی علاقے پہاڑی ہیں,augmented_rotation,test
+data/raw/augmented/urdu_0532_aug3_rotation.png,برصغیر کی تاریخ میں پہلی بار ایسی عظیم الشان اور مستحکم سلطنت قائم ہوئی تھی,augmented_rotation,test
+data/raw/augmented/urdu_0333_aug3_blur.png,یہ پاکستان کے تمام صوبوں/علاقوں میں لکھی، بولی اور استعمال کی جاتی ہے,augmented_blur,test
+data/raw/augmented/urdu_0363_aug2_rotation.png,ہندوستان میں ہندی سے اردو اتنی نہیں بدل گئی جتنی پاکستان میں ہے,augmented_rotation,test
+data/raw/other/utrset_025.jpg,کو رجسٹرڈ کرنے کے لیے ایک قانون بناناتھا، اس کمیٹی کے صدر سرشاہ سلیمان (جج,utrset_real,test
+data/raw/books/book_061.png,2004ء میں جنرل مشرف نے شوکت عزیز کو وزیر اعظم بنانے کا فيصلہ کیا,books_synthetic,test
+data/raw/augmented/urdu_0549_aug1_rotation.png,یہ فولاد چین اور عرب تک جاتا تھا,augmented_rotation,test
+data/raw/augmented/urdu_0590_aug1_rotation.png,اس کے باوصف بدھ مت کے استحکام میں کشانیوں کے غیر معمولی کردار کو فراموش نہیں جا سکتا,augmented_rotation,test
+data/raw/augmented/urdu_0027_aug3_rotation.png,بنیادی موضوع قسم بندی,augmented_rotation,test
+data/raw/synthetic/urdu_0015.png,عموما دریاؤں، پہاڑوں، سمندروں اور مقامات کے نام یاد کرلینا ہی کافی سمجھا جاتا تھا,synthetic,test
+data/raw/augmented/urdu_0192_aug2_brightness.png,قومی ترانہ - قومی ترانے کے لیے دیکھیں مضمون قومی ترانہ,augmented_brightness,test
+data/raw/synthetic/urdu_0553.png,ان کا دھرم مختلف اور پیشے جدا جدا تھے,synthetic,test
+data/raw/synthetic/urdu_0518.png,نیز راماین، مہا بھارت اور پرانوں میں بھی اس کا مذکور ملتا ہے,synthetic,test
+data/raw/augmented/urdu_0472_aug3_blur.png,یہ دیہاتوں کے باشندے تھے اور شکار و کاشت کاری ان کا ذریعۂ معاش تھا,augmented_blur,test
+data/raw/augmented/urdu_0134_aug2_rotation.png,پاکستانی تہذيب ميں مغربی عناصر بڑھتے جا رہے ہيں,augmented_rotation,test
+data/raw/signboards/sign_002.png,یہاں پارکنگ منع ہے,signboards_synthetic,test
+data/raw/other/utrset_268.jpg,نے دیکھاکہ کمارؔ نے رخ بدل کر اپنے پیچھے کی طرف نظر ڈالی اور کمرے میں ادھر ادھر دیکھا,utrset_real,test
+data/raw/augmented/urdu_0501_aug2_rotation.png,بدھ مت اور جین مت,augmented_rotation,test
+data/raw/synthetic/urdu_0140.png,کرکٹ کے ساتھ ساتھ پاکستان ميں ہاکی بھی بہت شوق سے کھيلی جاتی ہے,synthetic,test
+data/raw/augmented/urdu_0368_aug3_brightness.png,ʃkəɾi  ])  یا صرف لشکری,augmented_brightness,test
+data/raw/augmented/urdu_0154_aug3_brightness.png,موہن جو دڑو کے اثریاتی کھنڈر,augmented_brightness,test
+data/raw/synthetic/urdu_0561.png,سیتَلئی ساتّنار نے منی میکالئی تصنیف کی جو دراصل سیلاپتی کارم ہی کا تسلسل ہے,synthetic,test
+data/raw/augmented/urdu_0223_aug1_brightness.png,انگریزی بولنے والے ممالک اور علاقہ جات,augmented_brightness,test
+data/raw/synthetic/urdu_0071.png,صدر فاروق احمد خان لغاری کے حکم پر یہ حکومت بھی بر طرف ہو گئی,synthetic,test
+data/raw/newspaper/Screenshot 2026-07-01 152119.png,تهران اور واشنئن ك درميان ط_يان وال مفابمت يادداشت مير ايران ك بيلستك ميزائل رروكرام ر كس واضح بابندى كا ذكر نهي كيا كيا ب_ اوريه وه بهلور جو خليج ممالك ك ليه مزيد تشويش كا باعث بنا ب كيونكهيه وبى ميزائل لي جو حاليه تنازع ك دوران خليج ممالك ير داغ كئ اوربر جانى و مالى نقصانات كا باعث بن_ - دلجسب بات يه لكه جن  ك دوران دونلد ثرمر ك حكومت ايران ك ميزائل صلاحيت كو ختم كرن كو اين ابم ابداف مي شامل قرار ديتى رب  تابم يرس ك دور مير ثرمب ن اين مؤقف مير نسبتاً نرم كا اظهار كرت بوئ2 كهاكه ' اكر ديكر ممالك كياس بيلسنك ميزائل موجود لي تو يه غير منصفاند بوكا كه ايران كوان مي سكجه ) ميزائل ( ركهن س محروم ركها جائ2 _ كن2ز كالج لندن مير سكيورلن سنديز ك ايسوس ايث بروفيسر آندرياس كري2 ك مطابق ايران كا ميزائل روزرام اب بهى عرب ممالك كلي سنجيده سكيورئن جيلنج ب2- تابم وه يه به سمجهت ليل كه ان ممالك ك قيادت اس حقيقت س آكاه ب_كه ايران ك ميزائل ذخير< كو مكمل طورير ختم كرن كا مطالب كس قابل عمل معابد ك راه مي ركاوث بن سكتا ل-,manual_screenshot,test
+data/raw/augmented/urdu_0506_aug2_blur.png,مہا بھارت دنیا کی طویل ترین نظم سمجھی جاتی ہے,augmented_blur,test
+data/raw/synthetic/urdu_0552.png,ان کے مسائل کا بچشم خود مشاہدہ کیا اور ان کے درد و کرب کو محسوس کیا,synthetic,test
+data/raw/augmented/urdu_0029_aug3_brightness.png,چھوٹے پیغام خانوں کا استعمال کرنے والے مضامین,augmented_brightness,test
+data/raw/augmented/urdu_0155_aug1_blur.png,تخت بائی اور پڑوسی شہر شہر بہلول کے بدھ مت کے کھنڈر,augmented_blur,test
+data/raw/augmented/urdu_0584_aug1_blur.png,پہلی صدی عیسوی کے آس پاس توما رسول بحری راستے سے ہندوستان پہنچا اور موزریز ساحل پر اترا,augmented_blur,test
+data/raw/synthetic/urdu_0501.png,بدھ مت اور جین مت,synthetic,test
+data/raw/augmented/urdu_0101_aug2_blur.png,تحقیقات کے لیے وفاقی ادارۂ تحقیقات‎ (ایف آئی اے) اور دیگر تحقیقاتی ادارے موجود ہیں,augmented_blur,test
+data/raw/augmented/urdu_0278_aug3_blur.png,2001ء کی مردم شماری کے مطابق اردو کو بطور مادری زبان بھارت میں 5,augmented_blur,test
+data/raw/augmented/urdu_0098_aug3_blur.png,تقسیم کے وقت بھارت میں 16 آرڈیننس فیکٹریاں تھیں جبکہ پاکستان میں ایک بھی نہیں تھی,augmented_blur,test
+data/raw/augmented/urdu_0450_aug3_rotation.png,پھر دسویں صدی کے اواخر اور گیارھویں صدی کے اوائل میں محمود غزنوی کا ورود ہوا,augmented_rotation,test
+data/raw/augmented/urdu_0008_aug1_blur.png,جغرافیہ کو زمین کی سائنس بھی کہا جاتا ہے,augmented_blur,test
+data/raw/books/book_006.png,مثلاً سٹرابو جو ایک اطالوی جغرافیہ دان تھا، اس خیال کا مالک تھا کہ سمندر کا پانی ایک بہت بڑے دریا کی طرح کسی ڈھلان پر بند رہتا ہے,books_synthetic,test
+data/raw/augmented/urdu_0262_aug2_blur.png,ادواری قسم بندی,augmented_blur,test
+data/raw/books/book_032.png,سن 1947ء سے پہلے بھارت، پاکستان اور بنگلہ دیش برطانوی کالونیاں تھیں اور برّصغیر کے نام سے جانے جاتے تھے,books_synthetic,test
+data/raw/synthetic/urdu_0600.png,یہی وجہ ہے کہ تاریخ کے چہرے پر اس عہد کو گپت سلطنت کا بوسۂ امن قرار دیا جاتا ہے,synthetic,test
+data/raw/augmented/urdu_0102_aug1_blur.png,پاکستان ميں 4 صوبے، 2 وفاقی علاقے اور پاکستانی کشمير کے 2 حصے ہيں,augmented_blur,test
+data/raw/augmented/urdu_0557_aug3_blur.png,پَتو پاٹّو اوسط لمبائی کی دس نظموں کا مجموعہ ہے اور سنگم ادب کا حصہ سمجھا جاتا ہے,augmented_blur,test
+data/raw/signboards/sign_088.png,بیرونی روابط,signboards_synthetic,test
+data/raw/augmented/urdu_0463_aug3_brightness.png,ٹم ڈائسن رقم طراز ہے:,augmented_brightness,test
+data/raw/synthetic/urdu_0566.png,اس دور کو مزید مختلف ذیلی ادوار میں تقسیم کیا گیا ہے,synthetic,test
+data/raw/augmented/urdu_0150_aug2_blur.png,اس کے بعد گندھارا طرز کا بدھ طرز تعمیر آیا جس میں قدیم یونان کے اجزاء بھی شامل تہے,augmented_blur,test
+data/raw/augmented/urdu_0046_aug3_rotation.png,جبکہ دریائے سندھ، چناب اور جہلم پر پاکستان کا حق تسلیم کر لیا گیا,augmented_rotation,test
+data/raw/other/utrset_080.jpg,جداکردیا۔اور وہ حیران وپریشان اس ”بے نیازی“ کاناقابلِ فہم مظاہرہ کرتاتنہاوبیکس رہگیا۔,utrset_real,test
+data/raw/augmented/urdu_0435_aug3_blur.png,مہاراشٹر کی زبانیں,augmented_blur,test
+data/raw/augmented/urdu_0398_aug1_rotation.png,بالخصوص شہیدانِ کربلا کی شہادت کو بیان کرنے والی نظم,augmented_rotation,test
+data/raw/augmented/urdu_0346_aug1_brightness.png,وہ ریاست جس کے لیے اسے آئین کے آغاز سے فوراً پہلے استعمال کیا جا رہا تھا,augmented_brightness,test
+data/raw/augmented/urdu_0221_aug3_brightness.png,اسلامی جمہوریتیں,augmented_brightness,test
+data/raw/augmented/urdu_0604_aug2_brightness.png,یہ لوگ سفید رنگت کی وجہ سے سفید ہن کہلائے,augmented_brightness,test
+data/raw/other/utrset_282.jpg,”میرے دشمن بہت سے ہیں ڈاکٹر شاہد۔ مکرجیؔ میراداہنابازوتھا۔ اگر ان دشمنوں,utrset_real,test
+data/raw/augmented/urdu_0147_aug1_blur.png,اردو فلم انڈسٹری لالی وڈ کی صدر مقامات لاہور، کراچی اور پشاور میں واقع ہے,augmented_blur,test
+data/raw/synthetic/urdu_0134.png,پاکستانی تہذيب ميں مغربی عناصر بڑھتے جا رہے ہيں,synthetic,test
+data/raw/synthetic/urdu_0184.png,دیگر 45 پھلوں کے نام بھی جان سکتے ہیں,synthetic,test
+data/raw/augmented/urdu_0407_aug3_rotation.png,پاکستان کی زبانیں,augmented_rotation,test
+data/raw/augmented/urdu_0084_aug3_rotation.png,پاکستانی سیاست کی بنیاد کو آئین پاکستان نے قائم کیا ہے,augmented_rotation,test
+data/raw/books/book_003.png,جس میں زمین، اس کی خصوصیات، اس کے باشندوں‎ ،‎اس کے مظاہر، اور اس کے نقوش کا مطالعہ کیا جاتا ہے,books_synthetic,test
+data/raw/books/book_022.png,اس کے بعد محمد علی جناح کی قیادت میں تحریک پاکستان کامیاب ہوئی اور 14 اگست 1947ء کو ہندوستان کے مشرق اور مغرب میں دو حصوں میں ایک آزاد اور خودمختار اسلامی ریاست قائم ہوئی,books_synthetic,test
+data/raw/synthetic/urdu_0423.png,بھارت کی زبانیں,synthetic,test
+data/raw/augmented/urdu_0130_aug1_blur.png,اس ميں اس علاقوں کی تاريخی عليحدگی کے ساتھ ساتھ موسم اور آب و ہوا کا بھی بہت اثر ہے,augmented_blur,test
+data/raw/augmented/urdu_0300_aug2_brightness.png,لفظ اردو کو شاعر غلام ہمدانی مصحفی نے 1780ء کے آس پاس سب سے پہلے استعمال کیا تھا,augmented_brightness,test
+data/raw/synthetic/urdu_0274.png,زبانوں ميں وقت کے ساتھ ساتھ ہونے والی تبديليوں کا مطالعہ کيا جاتا ہے,synthetic,test
+data/raw/augmented/urdu_0241_aug3_rotation.png,اناتول قراش کے خیال میں تاریخ گزشتہ حادثات و اتفاقات کے تحریری بیان سے عبارت ہے,augmented_rotation,test
+data/raw/augmented/urdu_0326_aug2_rotation.png,ہندوستان اور پاکستان میں اردو بولنے والوں کی تعداد 100 ملین سے زیادہ ہے,augmented_rotation,test
+data/raw/synthetic/urdu_0044.png,اس تحریک کی قیادت محمد علی جناح نے کی,synthetic,test
+data/raw/other/utrset_071.jpg,سامنے یہ کچھ ہوااوراس نے دیکہا۔ وہ آگے بڑہناچاہتاتھاکہ دوخواصوں نے بڑہ کر ایک چادر بیاٹرس پر ڈالدی۔ وہ دیکہتا,utrset_real,test
+data/raw/augmented/urdu_0054_aug3_blur.png,1951ء سے 1958ء تک کئی حکومتیں آئیں اور ختم ہو گئیں,augmented_blur,test
+data/raw/augmented/urdu_0174_aug2_rotation.png,اس نے 35 سونے کے طمغے اور 15 عالمی چاندی اور پیتل کے طمغے پاکستان کے لیے حاصل کئے,augmented_rotation,test
+data/raw/augmented/urdu_0548_aug1_brightness.png,موریا سلطنت کی بنیادیں اپنے عہد کی ترقی یافتہ معیشت اور ہنر مند سماج پر استوار تھیں,augmented_brightness,test
+data/raw/synthetic/urdu_0578.png,"ساتواہن سلاطین اصلاً دکنی تھے، اسی بنا پر وہ ""آندھرا سلاطین"" بھی کہلاتے ہیں",synthetic,test
+data/raw/synthetic/urdu_0592.png,اس عہد میں گندھارا اور متھرا کے فنون بھی بہار دکھانے لگے تھے,synthetic,test
+data/raw/augmented/urdu_0541_aug3_rotation.png,اشوک کے عہد حکومت میں بدھ مت سارے ہندوستان میں پھیل چکا تھا,augmented_rotation,test
+data/raw/augmented/urdu_0528_aug2_rotation.png,نند سلطنت کی سرحدیں بنگال سے پنجاب تک اور جنوب میں وندھیاچل تک پھیلی ہوئی تھیں,augmented_rotation,test
+data/raw/augmented/urdu_0597_aug3_blur.png,کلاسیکی دور (320 عیسوی - 650 عیسوی),augmented_blur,test
+data/raw/augmented/urdu_0339_aug3_rotation.png,"بھارت میں 3,000 سے زیادہ اردو اشاعتیں ہیں جن میں 405 روزانہ اردو اخبارات بھی شامل ہیں",augmented_rotation,test
+data/raw/other/utrset_307.jpg,آج کل میں آتا ہوگا۔ بہت خوش ہوگی اس سے مل کے اس نے ایک عمدہ,utrset_real,test
+data/raw/books/book_087.png,تقسیم برصغیر کے بعد ہندوستانی فوج پاکستان اور بھارت میں بالترتیب 36% اور 64% کےتناسب میں تقسیم ہو گئی,books_synthetic,test
+data/raw/augmented/urdu_0256_aug2_brightness.png,پانچواں سبب امرا و سلاطین کے قرب کی خواہش,augmented_brightness,test
+data/raw/augmented/urdu_0213_aug1_rotation.png,پاکستان کے نیشنل پارک,augmented_rotation,test
+data/raw/augmented/urdu_0576_aug2_rotation.png,شونگ سلطنت اپنے دور حکمرانی میں بیرونی اور اندرونی دونوں طاقتوں سے نبرد آزما رہی,augmented_rotation,test
+data/raw/signboards/sign_141.png,مزید دیکھیے,signboards_synthetic,test
+data/raw/other/utrset_169.jpg,ہمرانی، حریری، زمخشری، اور سیوطی ، جن کا شمار اکابر علما میں ہے ، انکے مقامات,utrset_real,test
+data/raw/augmented/urdu_0220_aug2_brightness.png,اردو بولنے والے ممالک اور علاقہ جات,augmented_brightness,test
+data/raw/augmented/urdu_0112_aug1_blur.png,پاکستان کا سب سے بڑا دریا دریائے سندھ ہے,augmented_blur,test
+data/raw/augmented/urdu_0138_aug2_blur.png,پاکستان کا سب سے پسنديدہ کھيل کرکٹ ہے,augmented_blur,test
+data/raw/augmented/urdu_0601_aug2_brightness.png,بعد میں آنے والے گپت سلاطین الچون ہن کی آمد تک اپنی سرحدوں کا کامیاب دفاع کرتے رہے,augmented_brightness,test
+data/raw/signboards/sign_073.png,پاکستان کے اخبار,signboards_synthetic,test
+data/raw/signboards/sign_112.png,افکار ابن خلدون، 75 تا79),signboards_synthetic,test
+data/raw/synthetic/urdu_0032.png,اس کے جنوب میں 1046 کلومیٹر (650 میل) کی ساحلی پٹی ہے جو بحیرہ عرب سے ملتی ہے,synthetic,test
+data/raw/synthetic/urdu_0061.png,اس دور میں سوشلسٹ اور پین اسلامک عنصر بڑھا,synthetic,test
+data/raw/signboards/sign_013.png,حالات حاضرہ,signboards_synthetic,test
+data/raw/synthetic/urdu_0146.png,پی ٹی وی ورلڈ پاکستان کا پہلا انگریزی چینل ہے,synthetic,test
+data/raw/books/book_015.png,"881,913 مربع کلومیٹر (340,509 مربع میل) کے ساتھ یہ دنیا کا تینتیسواں بڑے رقبے والا ملک ہے",books_synthetic,test
+data/raw/synthetic/urdu_0206.png,ڈویژنل دار الحکومت,synthetic,test
+data/raw/augmented/urdu_0009_aug1_blur.png,آج تک انسان نے جتنی بھی ترقی کی ہے,augmented_blur,test
+data/raw/synthetic/urdu_0356.png,کھری بولی: (کھڑی بولی),synthetic,test
+data/raw/synthetic/urdu_0526.png,مہا پدم نند نو نندوں میں سے پہلا تھا اور اس کے بعد اسی کے آٹھ بیٹے نند کہلائے,synthetic,test
+data/raw/augmented/urdu_0348_aug1_brightness.png,اردو ہندوستان کے دوسرے حصوں کی طرح پڑھی اور لکھی جاتی ہے,augmented_brightness,test
+data/raw/other/utrset_130.jpg,”تاریخِ ہند“ مرتب کی تھی۔ جس کی اشاعت کوبھی عرصہ ہوا۔ جب سے اب تک کوئی قابل ذکر رائے زنی اس,utrset_real,test
+data/raw/augmented/urdu_0280_aug1_brightness.png,اردو تاریخی طور پر ہندوستان کی مسلم آبادی سے جڑی ہے,augmented_brightness,test
+data/raw/other/utrset_370.jpg,لیمپ تک پہنچ جاتا ہے اور موہن جھٹ ہتھیلی یا کاپی سے آڑکرلیتا ہے۔,utrset_real,test
+data/raw/augmented/urdu_0569_aug2_blur.png,گپت سلطنت کا یہ دور ہندومت کی تاریخ کا عہد زریں سمجھا جاتا ہے,augmented_blur,test
+data/raw/augmented/urdu_0322_aug1_brightness.png,08 ملین اردو بولنے والے تھے)، خاص طور پر سب سے زیادہ اردو بولنے والی ریاستوں اتر پردیش (c,augmented_brightness,test
+data/raw/synthetic/urdu_0285.png,اُردو کا بعض اوقات ہندی کے ساتھ موازنہ کیا جاتا ہے,synthetic,test
+data/raw/augmented/urdu_0272_aug3_rotation.png,لسانيات ايک ايسا مضمون ہے جس ميں انسانی زبانوں کا مطالعہ کيا جاتا ہے,augmented_rotation,test
+data/raw/signboards/sign_025.png,طبیعی جغرافیہ,signboards_synthetic,test
+data/raw/augmented/urdu_0179_aug1_blur.png,گہرا سبز رنگ جس پر ہلال اور پانچ کونوں والا ستارہ بنا ہوا ہے,augmented_blur,test
+data/raw/synthetic/urdu_0187.png,قومی پرندہ - پاکستان کا قومی پرندہ چکور ہے,synthetic,test
+data/raw/augmented/urdu_0373_aug1_rotation.png,اس کی بنیادی وجہ اردو کے مصنفین اور فنکار ہیں,augmented_rotation,test
+data/raw/augmented/urdu_0523_aug2_rotation.png,یہی دور ہے جس میں گوتم بدھ نے اپنی زندگی کا بیشتر حصہ مگدھ سلطنت میں گذارا,augmented_rotation,test
+data/raw/synthetic/urdu_0157.png,ٹھٹھہ کی تاریخی یادگاریں,synthetic,test
+data/raw/synthetic/urdu_0565.png,یہ عہد موریہ سلطنت کے زوال سے شروع ہو کر گپت سلطنت کے زوال تک جاری رہا,synthetic,test
+data/raw/augmented/urdu_0489_aug1_blur.png,اس عہد میں چھوٹے چھوٹے قبیلوں اور سرداروں نے آپس میں مل کر جن پد قائم کرنا شروع کیا,augmented_blur,test
+data/raw/augmented/urdu_0318_aug1_rotation.png,بروس (2021ء) کے مطابق، اٹھارویں صدی سے اردو نے انگریزی الفاظ کو ڈھال لیا ہے,augmented_rotation,test
+data/raw/synthetic/urdu_0110.png,"پاکستان کا سمندری ساحل تقریباً 1,046 کلومیٹر ہے اور 6,774 کلومیٹر زمینی سرحد ہے",synthetic,test
+data/raw/augmented/urdu_0513_aug3_rotation.png,یہ چار ریاستیں تھیں: وَتس، اَوَنتی، کوشل اور مگدھ,augmented_rotation,test
+data/raw/augmented/urdu_0263_aug3_rotation.png,جامعاتی قسم بندی,augmented_rotation,test
+data/raw/synthetic/urdu_0528.png,نند سلطنت کی سرحدیں بنگال سے پنجاب تک اور جنوب میں وندھیاچل تک پھیلی ہوئی تھیں,synthetic,test
+data/raw/augmented/urdu_0072_aug1_brightness.png,2004ء میں جنرل مشرف نے شوکت عزیز کو وزیر اعظم بنانے کا فيصلہ کیا,augmented_brightness,test
+data/raw/augmented/urdu_0565_aug1_rotation.png,یہ عہد موریہ سلطنت کے زوال سے شروع ہو کر گپت سلطنت کے زوال تک جاری رہا,augmented_rotation,test
+data/raw/other/utrset_184.jpg,مگروہ اسے اس تصنیف میں اپنے عالم اسباب سے زبردستی کھینچ کرکے حسن و عشق کی دنیا,utrset_real,test
+data/raw/synthetic/urdu_0555.png,ان میں عورتیں بھی تھیں اور شاہزادے بھی تھے,synthetic,test
+data/raw/augmented/urdu_0395_aug1_brightness.png,غزل: دو مصرعوں پر مشتمل مکمل، بامعنی اور جداگانہ اشعار کی لڑی,augmented_brightness,test
+data/raw/augmented/urdu_0583_aug2_brightness.png,کیرالا کی مسالوں کی تجارت قدیم دنیا کے تاجروں کو کھینچ کھینچ کر ہندوستان لا رہی تھی,augmented_brightness,test
+data/raw/synthetic/urdu_0435.png,مہاراشٹر کی زبانیں,synthetic,test
+data/raw/newspaper/Screenshot 2026-07-01 181614.png,اينى ابليد اور دوكمسن بينيو ك ٢مراه وه جند خوشكوار دن كزارن اور اين دوست و ميزبان احسن خان س ملاقات ك غرض س كوئن بهنج تهء - منصوبد صرف اتنا تها كه شهر ك رونقو اور بلوجستان ك  قدرتى حسن س لطف اندوز بوا جائ2يادير سميئر جائيل اوربهر وايس كراص لوث آيا جائ2,manual_screenshot,test
+data/raw/other/utrset_338.jpg,اس کی خدمت کےلیے مخصوص کردیا تھا۔ وہ نہایت سعادت مندی اور پھرتی سے,utrset_real,test
+data/raw/augmented/urdu_0457_aug2_blur.png,چنانچہ اسی عہد سے قدیم انسانوں کے وجود کی اثریاتی شہادتیں بھی وافر تعداد میں ملتی ہیں,augmented_blur,test
+data/raw/augmented/urdu_0432_aug2_brightness.png,کرناٹک کی زبانیں,augmented_brightness,test
+data/raw/augmented/urdu_0469_aug2_blur.png,کہا جاتا ہے کہ وادی سندھ کی تہذیب کے دور عروج میں یہاں پچاس لاکھ افراد بستے تھے,augmented_blur,test
+data/raw/augmented/urdu_0177_aug3_rotation.png,قومی شاعر – حکیم الامت حضرت ڈاکٹر علامہ محمد اقبال,augmented_rotation,test
+data/raw/augmented/urdu_0126_aug1_blur.png,ثقافت اور معاشرہ,augmented_blur,test
+data/raw/augmented/urdu_0163_aug1_blur.png,پنجاب اور سندھ کے کھانے مصالحےدار ہوتے ہیں جو جنوبی ایشیا کے کھانوں کی خاصیت ہے,augmented_blur,test
+data/raw/synthetic/urdu_0523.png,یہی دور ہے جس میں گوتم بدھ نے اپنی زندگی کا بیشتر حصہ مگدھ سلطنت میں گذارا,synthetic,test
+data/raw/augmented/urdu_0396_aug3_rotation.png,مثنوی: ایک لمبی نظم جس میں کوئی قصہ یا داستان کہی گئی ہو,augmented_rotation,test
+data/raw/augmented/urdu_0439_aug2_blur.png,مدھیہ پردیش کی زبانیں,augmented_blur,test
+data/raw/augmented/urdu_0470_aug1_brightness.png,کہا جاتا ہے کہ ان کے ہاں کسی طرز کا بلدیاتی نظم بھی پایا جاتا تھا,augmented_brightness,test
+data/raw/synthetic/urdu_0392.png,اردو کی روایات میں کئی اصناف ہیں جن میں غزل نمایاں ترین حیثیت کی حامل ہے,synthetic,test
+data/raw/augmented/urdu_0007_aug1_blur.png,جس نے لفظ جغرافیہ استعمال کیا,augmented_blur,test
+data/raw/augmented/urdu_0290_aug2_rotation.png,خاص کر جنوبی ایشیائی زبانوں میں اردو اپنی شاعری کے حوالے سے جانی جاتی ہے,augmented_rotation,test
+data/raw/signboards/sign_134.png,موجودہ ممالک کی تاريخ,signboards_synthetic,test
+data/raw/augmented/urdu_0175_aug3_brightness.png,اچھا اور مناسب علاج درمیانے سے لیکر اعلیٰ طبقے کے ليے مخصوص ہے,augmented_brightness,test
+data/raw/augmented/urdu_0110_aug3_blur.png,"پاکستان کا سمندری ساحل تقریباً 1,046 کلومیٹر ہے اور 6,774 کلومیٹر زمینی سرحد ہے",augmented_blur,test
+data/raw/augmented/urdu_0602_aug1_brightness.png,تاہم شمال کی اس شورش سے دکن سمیت جنوبی ہندوستان کے اکثر حصے عام طور پر محفوظ رہے,augmented_brightness,test
+data/raw/synthetic/urdu_0005.png,ایراٹورتھینیس ‎(276-194B,synthetic,test
+data/raw/books/book_029.png,پ پنجاب، ا خیبر پختونخوا (افغانیہ)، ک کشمیر، س سندھ، تان بلوچستان,books_synthetic,test
+data/raw/books/book_127.png,اردو کے علاوہ پاکستان ميں کئی اور زبانيں بولی جاتی ہيں، ان ميں پنجابی، سرائیکی، سندھی، گجراتی، بلوچی، براہوی، پہاڑی، پشتو اور ہندکو زبانیں قابلِ ذکر ہيں,books_synthetic,test
+data/raw/augmented/urdu_0148_aug2_blur.png,لالی وڈ نے اب تک بہت سے فلمیں ریلیز کی ہیں اور کر رہا ہے,augmented_blur,test
+data/raw/synthetic/urdu_0535.png,البتہ کلنگ کا علاقہ (موجودہ اوڈیشا) اس کے دائرۂ اقتدار سے باہر رہا,synthetic,test
+data/raw/augmented/urdu_0060_aug1_rotation.png,ذوالفقار علی بھٹو پاکستان کے صدر اور بعد ازاں وزیر اعظم رہے,augmented_rotation,test
+data/raw/synthetic/urdu_0475.png,ويدک دور (تقریباً 1500 ق م تا 600 ق م),synthetic,test
+data/raw/other/utrset_185.jpg,لٹریچرمیں نظریات وقیق کا عادی ہے، اور ہرسلہ پراستدلال عنوان سے غور کرتا ہے-,utrset_real,test
+data/raw/augmented/urdu_0012_aug1_brightness.png,اور اس گھر سے زیادہ فوائد حاصل کرنے کے لیے علم جغرافیہ انسان کی رہنمائی کرتا ہے,augmented_brightness,test
+data/raw/augmented/urdu_0390_aug3_blur.png,جنوبی ایشیا میں اردو ایک اہم زبان ہے,augmented_blur,test
+data/raw/augmented/urdu_0444_aug2_brightness.png,آریائی قبائل وسط ایشیا سے نکل کر خطۂ پنجاب میں وارد ہوئے,augmented_brightness,test
+data/raw/augmented/urdu_0424_aug2_brightness.png,بھارت کی سرکاری زبانیں,augmented_brightness,test
+data/raw/augmented/urdu_0476_aug3_brightness.png,مقامی لوگوں کے ساتھ ميل جول ہوا اور ايک ن‏‏ئی تہذيب نے جنم ليا,augmented_brightness,test
+data/raw/augmented/urdu_0402_aug3_blur.png,نعت: حضرت محمد  کی شان میں کہا گیا قصیدہ,augmented_blur,test
+data/raw/synthetic/urdu_0192.png,قومی ترانہ - قومی ترانے کے لیے دیکھیں مضمون قومی ترانہ,synthetic,test
+data/raw/augmented/urdu_0115_aug3_blur.png,زیادہ تر بلوچستان پہاڑی سلسلوں پر مشتمل ہے لیکن بلوچستان کا سبی علاقہ میدانی اور صحرائی ہے,augmented_blur,test
+data/raw/augmented/urdu_0055_aug2_rotation.png,1956ء میں پاکستان میں پہلا آئین نافذ ہوا,augmented_rotation,test
+data/raw/augmented/urdu_0095_aug2_rotation.png,1947ء میں قیام پاکستان سے پہلے پاک عسکریہ، ہندوستانی فوج کا حصہ تھی,augmented_rotation,test
+data/raw/augmented/urdu_0226_aug3_blur.png,پنجابی زبان بولنے والے ممالک اور علاقہ جات,augmented_blur,test
+data/raw/augmented/urdu_0105_aug3_rotation.png,"صوبہ پنجاب کا کل رقبہ 205,344 مربع کلومیٹر ہے جبکہ 2013ء میں آبادی 10 کروڑ 10لاکھ تھی",augmented_rotation,test
+data/raw/synthetic/urdu_0277.png,آئین ہند کے مطابق اسے 22 دفتری شناخت شدہ زبانوں میں شامل کیا جا چکا ہے,synthetic,test
+data/raw/augmented/urdu_0350_aug3_rotation.png,ڈھاکیہ اردو بنگلہ دیش کے پرانے ڈھاکہ شہر کی ایک بولی ہے جو مغل دور سے شروع ہوتی ہے,augmented_rotation,test
+data/raw/augmented/urdu_0337_aug2_brightness.png,35% تلگو بولنے والے اور 43,augmented_brightness,test
+data/raw/augmented/urdu_0191_aug2_blur.png,(قابل اعتبار حوالہ درکار ہے) ان کا تعلق سیالکوٹ سے ہے,augmented_blur,test
+data/raw/books/book_016.png,اس کے جنوب میں 1046 کلومیٹر (650 میل) کی ساحلی پٹی ہے جو بحیرہ عرب سے ملتی ہے,books_synthetic,test
+data/raw/augmented/urdu_0482_aug2_rotation.png,ویدک عہد کا دورانیہ 1500 ق م سے 500 ق م تک ہے,augmented_rotation,test
+data/raw/augmented/urdu_0414_aug2_blur.png,ترتیب وڈیزائننگ ایم پی خاؿ اردولشکری زبان,augmented_blur,test
+data/raw/augmented/urdu_0004_aug3_brightness.png,"""جغرافیہ وہ علم ہے",augmented_brightness,test
+data/raw/synthetic/urdu_0034.png,پاکستان وفاقی پارلیمانی جمہوری ریاست کے تحت چلتا ہے,synthetic,test
+data/raw/augmented/urdu_0526_aug2_blur.png,مہا پدم نند نو نندوں میں سے پہلا تھا اور اس کے بعد اسی کے آٹھ بیٹے نند کہلائے,augmented_blur,test
+data/raw/newspaper/Screenshot 2026-07-01 151343.png,اجول ث ايل يى سربراه سعد رضوى اوران ك بهائى كى كمشدكى كا معما برقرار دونو ربنما 3 ماه س غائب هيل ( قانون نافذ كرن وال ادارو مطابق رضوى برادران رياستى تحويل مير نهين بلكه آزاد كشمير ميل روروش هي-,manual_screenshot,test
+data/raw/synthetic/urdu_0288.png,لیکن حقیقت یہ ہے کہ ہندی، اُردو زبان سے نکلی ہے,synthetic,test
+data/raw/augmented/urdu_0048_aug2_rotation.png,پاکستانی حکمران,augmented_rotation,test
+data/raw/other/utrset_304.jpg,ہوں گی چڑیا چڈے کی کہانی۔ چاند کی بڑھیا جیسی کتابیں جینی نے سوچا۔,utrset_real,test
+data/raw/signboards/sign_003.png,براہ کرم قطار میں کھڑے ہوں,signboards_synthetic,test
+data/raw/synthetic/urdu_0153.png,یہ عمارتیں نئی ریاست کی خود اعتمادی کو ظاہر کرتی ہیں,synthetic,test
+data/raw/augmented/urdu_0315_aug2_blur.png,1973 میں، اردو کو پاکستان کی واحد قومی زبان کے طور پر تسلیم کیا گیا تھا,augmented_blur,test
+data/raw/books/book_130.png,ان تمام تہذيبوں نے پاکستان کی موجودہ تہذيب پر بہت گہرا اثر چھوڑا ہے,books_synthetic,test
+data/raw/other/utrset_062.jpg,ہو، ایسے معاملات کے نظم ونسق و ترتیب واجماء کے لیے حسب ذیل تین شکلیں تجویز کی جاسکتی,utrset_real,test
+data/raw/synthetic/urdu_0165.png,پاکستان نے ہاکی کا عالمی کپ بھی چار بار جیتا ہے جو ایک ریکارڈ ہے,synthetic,test
+data/raw/synthetic/urdu_0486.png,ہڑپہ کا تمدن رخصت ہو چکا تھا اور اس کی جگہ دیہی زندگی نے لے لی تھی,synthetic,test
+data/raw/books/book_115.png,خیبر پختونخوا کے مغربی علاقوں میں نیچے پہاڑ ہیں جبکہ شمالی خیبر پختونخوا اور شمالی علاقہ جات میں دنیا کا سب سے اونچا پہاڑی سلسلہ واقع ہے,books_synthetic,test
+data/raw/augmented/urdu_0130_aug2_rotation.png,اس ميں اس علاقوں کی تاريخی عليحدگی کے ساتھ ساتھ موسم اور آب و ہوا کا بھی بہت اثر ہے,augmented_rotation,test
+data/raw/augmented/urdu_0371_aug1_rotation.png,صوبہ بہار میں عدالتی زبان اردو تھی جو کیتھی رسم الخط میں لکھی جاتی تھی,augmented_rotation,test
+data/raw/other/utrset_113.jpg,ونعتیہ نظموں کامتبرک مجموعہ ہے(اگرچہ اکثرنظمیں مطبوعہ ہیں،سرورق بلاک کارنگین ہے۔ سردرِ کائنات,utrset_real,test
+data/raw/newspaper/Screenshot 2026-07-01 152101.png,ب ب س نيوز عرب 3 كهنت قبل مطالع كا وقت : 11 منث امريكد اورايران ك درميان مفابمتى يادداشت بر دستخط ك بعد مشرق وسطن مي عسكرى كشيد2 مي وقتى طور _ يركمى آ جكى ل_- امريك اورايران ك درميان مذاكرات ابهى ابتدائى مرحل مي ٢ي اور ان ك حتمر نتائج ك بار مير ابه كجه كهنا قبل ازوقت بوكا - اس ك باوجود ايك ا٢م سوال ابهركر سامن آدبا ب اوروه يه كه  اس بور-  تنازع ميل للب زياد0 نقصان كس كا بو كا؟ اس حوال للل مختلف آرا موجود لي - خليج فارس ك عرب ممالك كويه خدشه لاحق ل_كه امريكد اور ايران ك درميان جارى مذاكرات ك نتيج مير تهران كو 'حد س زياد0 رعايتين ' مل سكتر لين جس ك باعث خط مير ايران كا اثر و رسوخ مزيد ب ه سكتا ل_ -,manual_screenshot,test
+data/raw/synthetic/urdu_0010.png,وہ جغرافیہ کی ہی مرہون منت ہے,synthetic,test
+data/raw/signboards/sign_024.png,جغرافیہ کی شاخیں,signboards_synthetic,test
+data/raw/augmented/urdu_0431_aug1_blur.png,زبان بمقابلہ لہجہ,augmented_blur,test
+data/raw/augmented/urdu_0567_aug1_rotation.png,یہی وہ دور ہے جس میں شونگ اور ساتواہن سلطنتوں کو عروج حاصل ہوا,augmented_rotation,test
+data/raw/synthetic/urdu_0440.png,ویکی ڈیٹا سے مطابقت رکھنے والی مختصر تفصیل,synthetic,test
+data/raw/augmented/urdu_0329_aug2_rotation.png,پاکستان میں اردو,augmented_rotation,test
+data/raw/augmented/urdu_0340_aug2_blur.png,اُردو پاکستان کی قومی زبان ہے اور یہ پورے ملک میں بولی اور سمجھی جاتی ہے,augmented_blur,test
+data/raw/augmented/urdu_0584_aug2_rotation.png,پہلی صدی عیسوی کے آس پاس توما رسول بحری راستے سے ہندوستان پہنچا اور موزریز ساحل پر اترا,augmented_rotation,test
+data/raw/augmented/urdu_0429_aug1_blur.png,جموں و کشمیر کی زبانیں,augmented_blur,test
+data/raw/augmented/urdu_0239_aug3_blur.png,تصور تاریخ اتنا ہی قدیم ہے کہ جتنا تصور زماں و مکاں,augmented_blur,test
+data/raw/synthetic/urdu_0369.png,اگر کوئی لفظ فارسی یا عربی زبان کا ہو تو تقریر کی سطح زیادہ رسمی اور عظیم تر سمجھی جاتی ہے,synthetic,test
+data/raw/augmented/urdu_0596_aug2_brightness.png,ان کا آخری قابل ذکر بادشاہ واسو دیو اول تھا,augmented_brightness,test
+data/raw/augmented/urdu_0434_aug3_blur.png,مغربی بنگال کی زبانیں,augmented_blur,test
+data/raw/other/utrset_247.jpg,کاایک سفید ذرہ میری نگاہ کی زدمیں آگیا----- یہ محض ایک سادہ سفید ذرہئ خون تھا---,utrset_real,test
+data/raw/augmented/urdu_0493_aug2_blur.png,کرو سلطنت کے زوال کے بعد ویدک تہذیب کا مرکز اس کی مشرقی ہمسایہ ریاست پانچال منتقل ہو گیا,augmented_blur,test
+data/raw/synthetic/urdu_0136.png,کچھ جگہوں ميں اس تحريک کا زيادہ جھکاؤ اسلام اور کچھ ميں روايات کی طرف ہے,synthetic,test
+data/raw/augmented/urdu_0237_aug2_brightness.png,(ڈاکٹر آفتاب اصغر، مقدمہ تاریخ مبارک شاہی,augmented_brightness,test
+data/raw/signboards/sign_014.png,24 اگست 2006,signboards_synthetic,test
+data/raw/synthetic/urdu_0029.png,چھوٹے پیغام خانوں کا استعمال کرنے والے مضامین,synthetic,test
+data/raw/books/book_105.png,"صوبہ سندھ کا کل رقبہ 140,914 مربع کلومیٹر ہے جبکہ 2012ء میں آبادی 4 کروڑ 24 لاکھ تھی",books_synthetic,test
+data/raw/other/utrset_045.jpg,ہے کہ ترک وراثت، رضاعت، رشتوں کے حلال و حرام ہونے، عدت اطلاق کی,utrset_real,test
+data/raw/augmented/urdu_0263_aug1_rotation.png,جامعاتی قسم بندی,augmented_rotation,test
+data/raw/augmented/urdu_0553_aug2_rotation.png,ان کا دھرم مختلف اور پیشے جدا جدا تھے,augmented_rotation,test
+data/raw/synthetic/urdu_0459.png,مائیکل پیٹراگلیا اور بریجٹ آلچن لکھتے ہیں:,synthetic,test
+data/raw/augmented/urdu_0264_aug3_brightness.png,دور قديم کی تاريخ,augmented_brightness,test
+data/raw/other/utrset_244.jpg,سب سے پہلے مجھے یہ خیال ہواکہ یہ کمرے کی روشنی کاتاثر ہے لیکن روشنی کوادھر,utrset_real,test
+data/raw/books/book_084.png,پاکستان کی دفاع کا ذمہ ملک کے مسلح افواج پر ہے جس کی بنیادی طور پر تین شاخیں ہیں:,books_synthetic,test
+data/raw/signboards/sign_143.png,ف کی بولی,signboards_synthetic,test
+data/raw/other/utrset_352.jpg,معمولی خواہش بھی ٹل جائے۔ اس غیر معمولی لاڈپیار نے ریتا کا دماغ آسمان پر,utrset_real,test
+data/raw/augmented/urdu_0123_aug2_rotation.png,پاکستان کے خواص بھی بنيادی طور پر انگريزی کا استعمال کرتے ہيں,augmented_rotation,test
+data/raw/other/utrset_083.jpg,دونوں ایک دوسرے کے والہ و شیداہوگئے۔ روز یٹنی نے اُسکے ’اعتراف جمال‘ کی سندمیں اکثر تصاویرمین اسکے,utrset_real,test
+data/raw/augmented/urdu_0529_aug1_blur.png,یہ نند سلطنت کے عروج کا زمانہ تھا اور اس کی ثروت اور دولت مندی کے چرچے ہر طرف تھے,augmented_blur,test
+data/raw/books/book_002.png,- ایپل کمپیوٹرز نے 1،8 ملین بیٹریز کو معیار کی کمی کی وجہ سے واپس منگوا لیا ہے,books_synthetic,test
+data/raw/augmented/urdu_0474_aug2_blur.png,آہنی دور (1500 ق م تا 200 ق م),augmented_blur,test
+data/raw/augmented/urdu_0156_aug1_rotation.png,شاہی قلعہ لاہور اور شالیمار باغ لاہور,augmented_rotation,test
+data/raw/other/utrset_361.jpg,کلرک کی حیثیت  سے نوکری شروع کی تھی مگر جلد ترقی کرکے ایک چھوٹے,utrset_real,test
+data/raw/augmented/urdu_0349_aug2_rotation.png,ان ریاستوں میں اردو کے کئی روزنامے اور کئی ماہانہ رسائل شائع ہوتے ہیں,augmented_rotation,test
+data/raw/augmented/urdu_0483_aug2_brightness.png,اتھرو وید کے زمانہ تک پیپل کے درخت اور گائے مقدس سمجھے جانے لگے تھے,augmented_brightness,test
+data/raw/synthetic/urdu_0410.png,اردو زبان کے شاعروں کی فہرست,synthetic,test
+data/raw/newspaper/Screenshot 2026-07-01 182025.png,ايران ك _ قائم مقام وزير دفاع ن_كهال2كه ملك ك دفاعى صلاحيتيل خصوصاً ميزائل اور درون برو6رام ' قوم سلامتى ك سرخ لكير' ٢ي اور اس معامل بركوئ مذاكرات نهي كيه جائير ك -,manual_screenshot,test
+data/raw/newspaper/Screenshot 2026-07-01 152146.png,ب ب س 2 كهنت قبل مطالع كا وقت : 8 منث ممبئى بوليس ن 26 جون كو عاشوره ك جلوس ك دوران ايك ايس شخص كوكرفتاركيا تها جو مبيند طوربر جلوس مي شامل عزادارو مير جور مار زبر س بهر كيبسول تقسيم كر ربا تها - يه معامل سن2ين رخ اختياركر سكتا تها مهر جلوس مي شامل دو خواتين رخسار سيد اور ابلام حميدىء ك بروقت بوشيارى اور عقلمندى ن_ شهركو بر نقصان س بجا ليا - كرفتار بون وال_ شخص ك شناخت ' فياض بريم ج ' ك  طورير _ بوئر ل_ اوربوليس ك مطابق ملذم ك قبض س 14 بزار 900 كيبسول برآمد كيكئ ليل - ابتدائى تفتيش ميريه سامن آيا ل_كه كيبسول مير ' زنك فاسفائيد' نام زبريلا كيميكل موجود تهاء اور اس موادك مزيد جانج ك لي اس٤  ليبارثرى بهيج ديا كيا ل جبك - ملذم لل تفتيش كا عمل جارى ل- جلوس مير رضاكارك طوربر فرائض سرانجام دين والى الام حميدى اور رخسار سيد كو فياض رريم ج ير اس وقت شك بوا جب وه جلوس ك شركا ميريه كيبسول بانث رب ته -,manual_screenshot,test
+data/raw/synthetic/urdu_0477.png,اسی دور ميں ويد لکھے گئے جن میں آریائی قبائل کے خداؤں کی حمدیہ نظمیں اکٹھا کی گئی ہیں,synthetic,test
+data/raw/augmented/urdu_0595_aug2_blur.png,تیسری صدی عیسوی تک پہنچتے پہنچتے کشانوں کی سلطنت بکھرنے لگی,augmented_blur,test
+data/raw/augmented/urdu_0453_aug2_blur.png,لیکن ہندوستان کے باشندے کمپنی راج سے سخت بیزار اور بد دل تھے,augmented_blur,test
+data/raw/augmented/urdu_0180_aug2_brightness.png,قومی پرچم گیارہ اگست 1947ء کو لیاقت علی خان نے دستور ساز اسمبلی میں پیش کیا,augmented_brightness,test
+data/raw/augmented/urdu_0090_aug1_blur.png,بین الاقوامی تعلقات,augmented_blur,test
+data/raw/augmented/urdu_0268_aug1_blur.png,موجودہ ممالک کی تاريخ,augmented_blur,test
+data/raw/augmented/urdu_0307_aug2_blur.png,اور اسے دکنی کے نام سے جانا جاتا ہے، جس میں تیلگو زبان اور مراٹھی زبان کے  الفاظ شامل ہیں,augmented_blur,test
+data/raw/signboards/sign_038.png,آئین، حکومت اور سياست,signboards_synthetic,test
+data/raw/synthetic/urdu_0197.png,اتحاد، ایمان، نظم تحریر ہے,synthetic,test
+data/raw/augmented/urdu_0205_aug1_rotation.png,گلگت بلتستان نے ابھی تک 2017ء کی مردم شماری کے کوئی نتائج عوامی طور پر جاری نہیں کیے ہیں,augmented_rotation,test
+data/raw/signboards/sign_004.png,جنرل اسٹور,signboards_synthetic,test
+data/raw/other/utrset_014.jpg,اورکوئی طلاق صرف اس وجہ سے کہ وہ لکھی نہیں گئی یا سرکاری رجسٹر میں درج,utrset_real,test
+data/raw/augmented/urdu_0334_aug1_brightness.png,جبکہ کچھ اردو الفاظ کو پاکستان کی علاقائی زبانوں نے بھی ضم کر لیا ہے,augmented_brightness,test
+data/raw/augmented/urdu_0334_aug2_blur.png,جبکہ کچھ اردو الفاظ کو پاکستان کی علاقائی زبانوں نے بھی ضم کر لیا ہے,augmented_blur,test
+data/raw/augmented/urdu_0350_aug2_brightness.png,ڈھاکیہ اردو بنگلہ دیش کے پرانے ڈھاکہ شہر کی ایک بولی ہے جو مغل دور سے شروع ہوتی ہے,augmented_brightness,test
+data/raw/augmented/urdu_0575_aug3_brightness.png,کل دس شونگ بادشاہ گذرے ہیں لیکن اگنی متر کی وفات کے بعد سلطنت کا شیرازہ تیزی سے بکھرنے لگا,augmented_brightness,test
+data/raw/other/utrset_004.jpg,جہاں تک پہلی صورت کاتعلق ہے، شریعت اسلامیہ کی رو سے اس پر اعتراض جائز نہیں،,utrset_real,test
+data/raw/newspaper/Screenshot 2026-07-01 182129.png,دوسرى جانب انديا ن 439 ) ممكند ( اكستان قيديو فهرست باكستان ك حوال ك  جن مي 386 شهرى  اور 53 مابى كيربتائ جا ر بي جو انديا ك جيلو مي قيد لي -,manual_screenshot,test
+data/raw/signboards/sign_051.png,ٹھٹھہ کی تاریخی یادگاریں,signboards_synthetic,test
+data/raw/augmented/urdu_0259_aug2_brightness.png,تاريخ کی قسم بندی,augmented_brightness,test
+data/raw/synthetic/urdu_0351.png,اسے بنگلہ دیش کی حکومت نے سرکاری طور پر تسلیم نہیں کیا ہے,synthetic,test
+data/raw/signboards/sign_096.png,دولت مشترکہ کے رکن ممالک,signboards_synthetic,test
+data/raw/augmented/urdu_0359_aug3_rotation.png,سماجی لسانی ہونا؛ کچھ ان کی الگ الگ درجہ بندی کرتے ہیں,augmented_rotation,test
+data/raw/augmented/urdu_0300_aug1_rotation.png,لفظ اردو کو شاعر غلام ہمدانی مصحفی نے 1780ء کے آس پاس سب سے پہلے استعمال کیا تھا,augmented_rotation,test
+data/raw/augmented/urdu_0359_aug2_brightness.png,سماجی لسانی ہونا؛ کچھ ان کی الگ الگ درجہ بندی کرتے ہیں,augmented_brightness,test
+data/raw/augmented/urdu_0588_aug1_blur.png,کُجُل کڈفِسیس کشان سلطنت کا پہلا فرماں روا تھا,augmented_blur,test
+data/raw/other/utrset_381.jpg,اول آتا تھا۔ اس کو تعلیم اور ترقی کی اہمیت اور اپنے ماں باپ کی,utrset_real,test
+data/raw/synthetic/urdu_0222.png,اقوام متحدہ کے رکن ممالک,synthetic,test
+data/raw/synthetic/urdu_0439.png,مدھیہ پردیش کی زبانیں,synthetic,test
+data/raw/augmented/urdu_0218_aug1_blur.png,فہرست پاکستان کے جزائر,augmented_blur,test
+data/raw/augmented/urdu_0361_aug2_blur.png,اردو بولنے والے ممالک,augmented_blur,test
+data/raw/augmented/urdu_0287_aug1_rotation.png,کچھ ماہرینِ لسانیات اُردو اور ہندی کو ایک ہی زبان کی دو معیاری صورتیں گردانتے ہیں,augmented_rotation,test
+data/raw/augmented/urdu_0190_aug3_blur.png,قومی نعرہ - پاکستان کا مطلب کیا؟ لَآ اِلٰہَ اِلَّا اللہُ,augmented_blur,test
+data/raw/synthetic/urdu_0460.png,اور جنوبی ایشیا کے ماحولیاتی تاریخ دان مائیکل فشر کے الفاظ میں:,synthetic,test
+data/raw/augmented/urdu_0352_aug2_blur.png,بنگلہ دیش میں پھنسے ہوئے پاکستانیوں کی بولی جانے والی اردو اس بولی سے مختلف ہے,augmented_blur,test
+data/raw/augmented/urdu_0113_aug1_blur.png,یہ علاقے نہری ہیں اور زیر کاشت ہیں,augmented_blur,test
+data/raw/augmented/urdu_0405_aug2_blur.png,نوحہ: معرکۂ کربلا میں ہوئے شہیدوں کے واقعات کو بیان کرنے والی صنف نوحہ ہے,augmented_blur,test
+data/raw/other/utrset_279.jpg,لگتا۔ مکرمیؔ کے چہرے کاعالم تبدیل ہوگیاتھا۔دہشت و نفرت غائب ہوچکی تھی۔ اب,utrset_real,test
+data/raw/augmented/urdu_0249_aug1_blur.png,تاریخ کے کردار حقیقی اور زمان اور مکان متعین و مشخص ہوتے ہیں,augmented_blur,test
+data/raw/augmented/urdu_0312_aug2_blur.png,شاہ عبدالقادر رائے پوری پہلے شخص تھے جنہوں نے قرآن کا اردو میں ترجمہ کیا,augmented_blur,test
+data/raw/augmented/urdu_0386_aug1_blur.png,نظم کے معنی موتی پرونا ہے,augmented_blur,test
+data/raw/augmented/urdu_0590_aug3_rotation.png,اس کے باوصف بدھ مت کے استحکام میں کشانیوں کے غیر معمولی کردار کو فراموش نہیں جا سکتا,augmented_rotation,test
+data/raw/augmented/urdu_0033_aug2_rotation.png,پاکستان کے مشرق ميں بھارت، شمال مشرق ميں چین اور مغرب ميں افغانستان اور ايران واقع ہيں,augmented_rotation,test
+data/raw/augmented/urdu_0319_aug1_rotation.png,ہندی کے بڑھتے ہوئے سنسکرتائزیشن سے کچھ حد تک اردو کی ہائپر فارسائزیشن کی حوصلہ افزائی ہوئی,augmented_rotation,test
+data/raw/synthetic/urdu_0190.png,قومی نعرہ - پاکستان کا مطلب کیا؟ لَآ اِلٰہَ اِلَّا اللہُ,synthetic,test
+data/raw/augmented/urdu_0267_aug2_rotation.png,آسٹريليا کا تاريخ,augmented_rotation,test
+data/raw/synthetic/urdu_0077.png,یوں نوازشریف پاکستان کے تیسرے بار وزیرِ اعظم منتخب ہوئے,synthetic,test
+data/raw/synthetic/urdu_0176.png,قومی دن – یوم پاکستان، 23 مارچ کو منایا جاتا ہے,synthetic,test
+data/raw/augmented/urdu_0267_aug1_rotation.png,آسٹريليا کا تاريخ,augmented_rotation,test
+data/raw/augmented/urdu_0400_aug1_rotation.png,اس کے چار اقسام ہیں,augmented_rotation,test
+data/raw/augmented/urdu_0393_aug3_brightness.png,نظمی اردو (اردو شاعری) میں ذیل کے اصناف ہیں:,augmented_brightness,test
+data/raw/augmented/urdu_0204_aug2_rotation.png,تعلیمی ادارے بلحاظ زمرہ جات,augmented_rotation,test
+data/raw/books/book_085.png,1947ء میں قیام پاکستان سے پہلے پاک عسکریہ، ہندوستانی فوج کا حصہ تھی,books_synthetic,test
+data/raw/augmented/urdu_0440_aug1_brightness.png,ویکی ڈیٹا سے مطابقت رکھنے والی مختصر تفصیل,augmented_brightness,test
+data/raw/augmented/urdu_0264_aug1_blur.png,دور قديم کی تاريخ,augmented_blur,test
+data/raw/synthetic/urdu_0396.png,مثنوی: ایک لمبی نظم جس میں کوئی قصہ یا داستان کہی گئی ہو,synthetic,test
+data/raw/augmented/urdu_0333_aug1_rotation.png,یہ پاکستان کے تمام صوبوں/علاقوں میں لکھی، بولی اور استعمال کی جاتی ہے,augmented_rotation,test
+data/raw/newspaper/Screenshot 2026-07-01 182033.png,ب ب س فارس ك خبرك مطابق سماج رابطك ويب سائث ايكس يرجارى بيان ميل ماجل ابن الرضا ن كها كه بارليمنث ك اقتصادى كميئن ك اركان ك ساته حاليه اجلاس مير امريكه اور اسرائيل ك ساته حاليد جنf ك مختلف بهلوؤ اور نتائج كا جائزه ليا كيا,manual_screenshot,test
+data/raw/augmented/urdu_0050_aug1_blur.png,پاکستان کے پہلے گورنر جنرل قائد اعظم محمد علی جناح اور پہلے وزیراعظم لیاقت علی خان تھے,augmented_blur,test
+data/raw/augmented/urdu_0518_aug2_blur.png,نیز راماین، مہا بھارت اور پرانوں میں بھی اس کا مذکور ملتا ہے,augmented_blur,test
+data/raw/augmented/urdu_0397_aug2_rotation.png,مرثیہ: شہیدوں کے واقعات کو بیان کرنے والی نظم,augmented_rotation,test
+data/raw/augmented/urdu_0574_aug3_blur.png,بعد ازاں اس کا بیٹا اگنی متر اس کا جانشین ہوا,augmented_blur,test
+data/raw/books/book_036.png,اس کے علاوہ چونکہ پاکستانی پنجاب میں بہنے والے تمام دریا بھارت کے زیر انتظام کشمیر سے ہوکر آتے ہیں، لہذا پاکستان کو 1960ء میں انڈیا کے ساتھ سندھ طاس معاہدہ کرنا پڑا، جس کے تحت پاکستان کو مشرقی دریاؤں، ستلج، بیاس اور راوی سے دستبردار ہونا پڑا,books_synthetic,test
+data/raw/other/utrset_162.jpg,حوادث سے کی جائے۔ لیکن افسوس ہے کہ گلکتہ یھی کے تماشاگا ہوں میں اس شریف,utrset_real,test
+data/raw/augmented/urdu_0253_aug1_blur.png,افکار ابن خلدون، 75),augmented_blur,test
+data/raw/augmented/urdu_0434_aug1_blur.png,مغربی بنگال کی زبانیں,augmented_blur,test
+data/raw/augmented/urdu_0153_aug1_blur.png,یہ عمارتیں نئی ریاست کی خود اعتمادی کو ظاہر کرتی ہیں,augmented_blur,test
+data/raw/augmented/urdu_0390_aug2_blur.png,جنوبی ایشیا میں اردو ایک اہم زبان ہے,augmented_blur,test
+data/raw/augmented/urdu_0391_aug1_brightness.png,بالخصوص نظم میں اردو کے مقابلہ میں دوسری زبان نہیں,augmented_brightness,test
+data/raw/augmented/urdu_0284_aug1_rotation.png,1947ء میں تقسیم ہند کے بعد سے پاکستانی شہر کراچی میں ایک تیسرا معیار پیدا ہوا ہے,augmented_rotation,test
+data/raw/synthetic/urdu_0162.png,پاکستان میں اشیائے خورد و نوش کے نام بہت آسان ہیں,synthetic,test
+data/raw/other/utrset_072.jpg,پر بوسہ یدتاہے جن پر آج سے پہلے ڈانٹے کی جرائت نہوئی اوراسکے لب اُنہیں کبہی بھی”زحمت وصل نہ دے سکے۔ مگر آہ کہ آج اوراسکے,utrset_real,test
+data/raw/augmented/urdu_0521_aug1_blur.png,سلطنت کا نظم و انصرام عاملہ، عدلیہ اور فوج کے شعبوں میں منقسم تھا,augmented_blur,test
+data/raw/augmented/urdu_0384_aug2_brightness.png,سفر نامہ، مضمون، سرگذشت، انشائیہ، مراسلہ، خود نوشت وغیرہ دیگر اصناف میں سے ہیں,augmented_brightness,test
+data/raw/augmented/urdu_0121_aug1_blur.png,تقريباً ایک فيصد پاکستانی ہندو اور اتنے ہی پاکستانی مسیحی مذہب سے تعلق رکھتے ہيں,augmented_blur,test
+data/raw/other/utrset_032.jpg,تو متعین کردیا ہے مگر جیسا کہ پہلے بھی کہا گیاہے، ہندوستان میں ان کے نکاح،طلاق,utrset_real,test
+data/raw/synthetic/urdu_0328.png,8 ملین تھی (کل آبادی کا 4,synthetic,test
+data/raw/signboards/sign_062.png,بلحاظ سال آبادی,signboards_synthetic,test
+data/raw/augmented/urdu_0457_aug1_brightness.png,چنانچہ اسی عہد سے قدیم انسانوں کے وجود کی اثریاتی شہادتیں بھی وافر تعداد میں ملتی ہیں,augmented_brightness,test
+data/raw/synthetic/urdu_0128.png,ان تمام تہذيبوں نے پاکستان کی موجودہ تہذيب پر بہت گہرا اثر چھوڑا ہے,synthetic,test
+data/raw/augmented/urdu_0054_aug2_brightness.png,1951ء سے 1958ء تک کئی حکومتیں آئیں اور ختم ہو گئیں,augmented_brightness,test
+data/raw/other/utrset_009.jpg,ایک تویہ کہ اس قسم کااندراج مفید ونافع ہے، اوراس کا رواج دینا مناسب ہے،,utrset_real,test
+data/raw/augmented/urdu_0494_aug1_rotation.png,ویدک عہد کے اواخر میں ویدک تہذیب کے نئے مرکز کے طور پر ودیہ مملکت ابھر کر سامنے آئی,augmented_rotation,test
+data/raw/augmented/urdu_0516_aug1_rotation.png,ابتدا میں راجگیر پایۂ تخت رہا لیکن بعد میں پاٹلی پتر (موجودہ پٹنہ) منتقل ہو گیا,augmented_rotation,test
+data/raw/augmented/urdu_0336_aug1_brightness.png,ارریہ ضلع، بہار میں، اردو بولنے والوں کی کثرت ہے اور حیدرآباد ضلع، تلنگانہ (43,augmented_brightness,test
+data/raw/augmented/urdu_0365_aug2_rotation.png,پرتگالیوں سے ادھار کی تعداد بھی کم ہے,augmented_rotation,test
+data/raw/synthetic/urdu_0091.png,یہ سب وقت اور حالات کے تحت بدلتا رہتا ہے,synthetic,test
+data/raw/books/book_123.png,ان کے علاوہ کراچی ميں پارسی، پنجاب وسرحد ميں سکھ اور شمالی علاقوں ميں قبائلی مذاہب کے پيرو کار بھی موجود ہيں,books_synthetic,test
+data/raw/synthetic/urdu_0050.png,پاکستان کے پہلے گورنر جنرل قائد اعظم محمد علی جناح اور پہلے وزیراعظم لیاقت علی خان تھے,synthetic,test
+data/raw/other/utrset_374.jpg,اس نے میز بنارکھا ہے اور خود چارپائی کی پٹی پر بیٹھا ہے۔ سامنے,utrset_real,test
+data/raw/augmented/urdu_0446_aug3_brightness.png,ان قبیلوں میں وَرَن کا نظام بھی رائج تھا جو آگے چل کر ذات پات کی شکل میں سامنے آیا,augmented_brightness,test
+data/raw/augmented/urdu_0358_aug3_rotation.png,معیاری اردو کا اکثر معیاری ہندی سے موازنہ کیا جاتا ہے,augmented_rotation,test
+data/raw/synthetic/urdu_0226.png,پنجابی زبان بولنے والے ممالک اور علاقہ جات,synthetic,test
+data/raw/signboards/sign_070.png,پاکستان کے وزیراعظم,signboards_synthetic,test
+data/raw/synthetic/urdu_0512.png,500 یا 400 ق م یعنی گوتم بدھ کے عہد تک مذکورہ سولہ مہا جن پد چار بڑی ریاستوں میں ضم ہو گئے,synthetic,test
+data/raw/other/utrset_206.jpg,صحیح مذاق غاٹرنظر رکھنے والوں سے اس کا گلۂ قریم ہے کہ وہ اسے اپنے ہاتھوں,utrset_real,test
+data/raw/books/book_096.png,پولیس فورس میں ایک الگ شاخ بھی بنایا گیا ہے جسے پولیس قومی رضا کار کہا جاتا ہے، اس فورس کا مقصد تمام صوبوں میں جہاں ضرورت پڑے وہاں کام کرنا ہے,books_synthetic,test
+data/raw/signboards/sign_080.png,تحریک پاکستان,signboards_synthetic,test
+data/raw/synthetic/urdu_0143.png,شیروانی کا استعمال خاص کر تقاریب اور خوشیوں کے مواقع پر کیا جاتا ہے,synthetic,test
+data/raw/synthetic/urdu_0198.png,بلحاظ سال آبادی,synthetic,test
+data/raw/augmented/urdu_0271_aug3_rotation.png,یونانی مستعار الفاظ,augmented_rotation,test
+data/raw/augmented/urdu_0310_aug1_brightness.png,ایک اردو فارسی لغت خان آرزو نے 1751ء میں احمد شاہ بہادر کے دور میں لکھی تھی,augmented_brightness,test
+data/raw/synthetic/urdu_0152.png,آزادی کے بعد کا فن تعمیر بھی ایک منفرد مقام رکھتا ہے,synthetic,test
+data/raw/augmented/urdu_0450_aug1_rotation.png,پھر دسویں صدی کے اواخر اور گیارھویں صدی کے اوائل میں محمود غزنوی کا ورود ہوا,augmented_rotation,test
+data/raw/augmented/urdu_0094_aug3_rotation.png,پاکستان کی دفاع کا ذمہ ملک کے مسلح افواج پر ہے جس کی بنیادی طور پر تین شاخیں ہیں:,augmented_rotation,test
+data/raw/augmented/urdu_0109_aug2_brightness.png,"پاکستان کا کل رقبہ 796,095 مربع کلومیٹر ہے",augmented_brightness,test
+data/raw/synthetic/urdu_0020.png,مگر ان عجیب و غریب خیالات کے ساتھ ساتھ قدیم یونانیوں نے بعض حیرت انگیز دریافتیں بھی کیں,synthetic,test
+data/raw/augmented/urdu_0242_aug2_rotation.png,ای ایچ کار کی رائے میں تحقیق شدہ واقعات کے ایک سلسلے پر مشتمل ہے,augmented_rotation,test
+data/raw/books/book_050.png,1972ء سے لے کر 1977ء تک پاکستان میں پاکستان پیپلز پارٹی کی حکومت تھی,books_synthetic,test
+data/raw/signboards/sign_009.png,ٹی سٹال,signboards_synthetic,test
+data/raw/other/utrset_171.jpg,ان کا تقوے کسی کو نہیں معلوم ، تا ہم وہ فن غنا کے ماہرین میں تھے ۔,utrset_real,test
+data/raw/augmented/urdu_0520_aug2_rotation.png,مگدھ کے دائرۂ اقتدار میں بعض جمہوری برادریاں مثلاً راج کمار برادری وغیرہ بھی شامل تھیں,augmented_rotation,test
+data/raw/augmented/urdu_0255_aug2_blur.png,افکار ابن خلدون، 79),augmented_blur,test
+data/raw/augmented/urdu_0532_aug2_brightness.png,برصغیر کی تاریخ میں پہلی بار ایسی عظیم الشان اور مستحکم سلطنت قائم ہوئی تھی,augmented_brightness,test
+data/raw/other/utrset_366.jpg,ملتے ہوئے کمرے میں داخل ہوتی ہے۔,utrset_real,test
+data/raw/augmented/urdu_0326_aug1_blur.png,ہندوستان اور پاکستان میں اردو بولنے والوں کی تعداد 100 ملین سے زیادہ ہے,augmented_blur,test
+data/raw/synthetic/urdu_0538.png,اشوک نے 232 ق م میں اپنی وفات تک تقریباً 37 برس حکومت کی,synthetic,test
+data/raw/augmented/urdu_0100_aug2_blur.png,قانون نافذ کرنے والے ادارے,augmented_blur,test
+data/raw/augmented/urdu_0047_aug1_rotation.png,ریاست بہاولپور کے نواب صادق محمد خان پنجم نے اس وقت پاکستان کی مالی مدد کی,augmented_rotation,test
+data/raw/augmented/urdu_0568_aug1_rotation.png,چوتھی صدی عیسوی سے چھٹی صدی عیسوی تک گپت سلطنت قائم رہی,augmented_rotation,test
+data/raw/augmented/urdu_0006_aug2_blur.png,وہ پہلا شخص تھا,augmented_blur,test
+data/raw/augmented/urdu_0565_aug3_rotation.png,یہ عہد موریہ سلطنت کے زوال سے شروع ہو کر گپت سلطنت کے زوال تک جاری رہا,augmented_rotation,test
+data/raw/synthetic/urdu_0093.png,ایک ایٹمی طاقت ہونے کے باعث بھی اسے اقوام عالم میں مسلمان ممالک میں اونچا مقام حاص  ہے,synthetic,test
+data/raw/synthetic/urdu_0086.png,آئین پاکستان نے ایک وفاق اور اس کے ماتحت صوبائی حکومتیں قائم کی ہیں,synthetic,test
+data/raw/other/utrset_341.jpg,آگ میں پھل,utrset_real,test
+data/raw/synthetic/urdu_0449.png,"انھی وجوہ سے یہ دور ""ہندوستان کا عہد زریں"" کہلاتا ہے",synthetic,test
+data/raw/synthetic/urdu_0402.png,نعت: حضرت محمد  کی شان میں کہا گیا قصیدہ,synthetic,test
+data/raw/augmented/urdu_0474_aug3_blur.png,آہنی دور (1500 ق م تا 200 ق م),augmented_blur,test
+data/raw/augmented/urdu_0384_aug1_brightness.png,سفر نامہ، مضمون، سرگذشت، انشائیہ، مراسلہ، خود نوشت وغیرہ دیگر اصناف میں سے ہیں,augmented_brightness,test
+data/raw/other/utrset_373.jpg,مٹی کے تیل کو چھوٹا لیمپ جل رہا ہے جس کی چمنی بھی نہیں ہے۔ ہوا,utrset_real,test
+data/raw/augmented/urdu_0387_aug1_brightness.png,یعنی کلام کو ایک ترتیب وار ہیئت کے ساتھ پیش کریں تو وہ صنف نظم کہلاتی ہے,augmented_brightness,test
+data/raw/augmented/urdu_0136_aug2_rotation.png,کچھ جگہوں ميں اس تحريک کا زيادہ جھکاؤ اسلام اور کچھ ميں روايات کی طرف ہے,augmented_rotation,test
+data/raw/augmented/urdu_0401_aug1_blur.png,حمد: اللہ کی تعریف میں کہا گیا قصیدہ,augmented_blur,test
+data/raw/signboards/sign_065.png,تعلیمی ادارے بلحاظ زمرہ جات,signboards_synthetic,test
+data/raw/augmented/urdu_0197_aug3_brightness.png,اتحاد، ایمان، نظم تحریر ہے,augmented_brightness,test
+data/raw/other/utrset_074.jpg,اور بے پناہ تیر اسکے۔ دل میں پیوست کردیتاہے دانٹے اس غیر متوقع،دلخراش اورناقابل دیدنظارے کی تاب نہ لاکر آگے,utrset_real,test
+data/raw/augmented/urdu_0443_aug1_brightness.png,عین اسی دور میں ہند,augmented_brightness,test
+data/raw/synthetic/urdu_0330.png,یہ مدرسوں میں اعلیٰ ثانوی جماعتوں تک لازمی مضمون کی طور پر پڑھائی جاتی ہے,synthetic,test
+data/raw/augmented/urdu_0481_aug2_brightness.png,نیز یہ ہندوستان کے ان قدیم ترین متون میں سے ہیں جو دست بردِ زمانہ سے محفوظ رہے,augmented_brightness,test
+data/raw/augmented/urdu_0157_aug3_rotation.png,ٹھٹھہ کی تاریخی یادگاریں,augmented_rotation,test
+data/raw/augmented/urdu_0298_aug1_blur.png,شاعری میں لکھا ہے: -,augmented_blur,test
+data/raw/augmented/urdu_0087_aug3_blur.png,پاکستان کی مختلف علاقہ جات کے متعلق آئین پاکستان کا دوسرا آرٹیکل بیان کرتا ہے:,augmented_blur,test
+data/raw/synthetic/urdu_0420.png,(جلد اول) بنيادی اردو,synthetic,test
+data/raw/books/book_064.png,16 نومبر 2007ء کو سینٹ کے چیرمین جناب میاں محمد سومرو نے عبوری وزیر اعظم کا حلف اٹھایا,books_synthetic,test
+data/raw/augmented/urdu_0010_aug1_blur.png,وہ جغرافیہ کی ہی مرہون منت ہے,augmented_blur,test
+data/raw/augmented/urdu_0227_aug2_blur.png,جنوب ایشیائی ممالک,augmented_blur,test
+data/raw/signboards/sign_126.png,اسلامی تاريخ,signboards_synthetic,test
+data/raw/synthetic/urdu_0496.png,دوسری شہر کاری (600 ق م تا 200 ق م),synthetic,test
+data/raw/signboards/sign_157.png,35% تلگو بولنے والے اور 43,signboards_synthetic,test
+data/raw/augmented/urdu_0159_aug3_rotation.png,عالمی معاشی بحران سے پہلے پاکستان میں سالانہ تقریباً پانچ (5) لاکھ سیاح آتے تھے,augmented_rotation,test
+data/raw/augmented/urdu_0524_aug3_rotation.png,ہریک خانوادہ کے بعد شی شو ناگ خانوادہ تخت سلطنت پر متمکن ہوا,augmented_rotation,test
+data/raw/augmented/urdu_0173_aug2_blur.png,ورزشی کھیلوں میں عبدالخالق نے سال 1954ء اور سال 1958ء کے ایشیائی کھیلوں میں حصہ لیا,augmented_blur,test
+data/raw/augmented/urdu_0411_aug2_rotation.png,اردو زبان کے مصنفین کی فہرست,augmented_rotation,test
+data/raw/augmented/urdu_0382_aug1_rotation.png,افسانہ لکھنے والے کو افسانہ نگار کہتے ہیں,augmented_rotation,test
+data/raw/augmented/urdu_0052_aug2_rotation.png,1948 میں قائد اعظم ٹی بی سے وفات پا گئے,augmented_rotation,test
+data/raw/augmented/urdu_0445_aug3_blur.png,یہاں سے ویدک دور کا آغاز ہوتا ہے,augmented_blur,test
+data/raw/augmented/urdu_0005_aug1_rotation.png,ایراٹورتھینیس ‎(276-194B,augmented_rotation,test
+data/raw/augmented/urdu_0086_aug1_brightness.png,آئین پاکستان نے ایک وفاق اور اس کے ماتحت صوبائی حکومتیں قائم کی ہیں,augmented_brightness,test
+data/raw/augmented/urdu_0354_aug1_blur.png,دکنی - اس کو دکھنی، دیسیا، مرگان نام سے بھی جانا جاتا ہے,augmented_blur,test
+data/raw/augmented/urdu_0070_aug3_blur.png,اس وقت پاکستان کے صدر فاروق احمد خان لغاری تھے,augmented_blur,test
+data/raw/augmented/urdu_0024_aug2_rotation.png,اس دور کے اہم ناموں میں ابن بطوطہ، ابن خلدون اور ادریسی شامل ہیں,augmented_rotation,test
+data/raw/augmented/urdu_0261_aug2_brightness.png,علاقائی قسم بندی,augmented_brightness,test
+data/raw/augmented/urdu_0596_aug1_blur.png,ان کا آخری قابل ذکر بادشاہ واسو دیو اول تھا,augmented_blur,test
+data/raw/books/book_074.png,آئین پاکستان نے ایک وفاق اور اس کے ماتحت صوبائی حکومتیں قائم کی ہیں,books_synthetic,test
+data/raw/other/utrset_248.jpg,ایک ناقابل یقین چیز موجودہے۔میں نے پلیٹ کوخواہ مخواہ ادھر ادھر حرکت دی تو خون,utrset_real,test
+data/raw/augmented/urdu_0466_aug1_blur.png,برنجی دور – پہلی شہر کاری (تقریباً 3300 ق م تا 1800 ق م),augmented_blur,test
+data/raw/other/utrset_049.jpg,اگر صوبہ کے مسلمان ایک قاضی القضاۃ کا انتخاب کریں اور گورنمنٹ اس ک منظورکرے,utrset_real,test
+data/raw/synthetic/urdu_0349.png,ان ریاستوں میں اردو کے کئی روزنامے اور کئی ماہانہ رسائل شائع ہوتے ہیں,synthetic,test
+data/raw/other/utrset_089.jpg,شایقین ادب کیلئے اس کتاب کامطالعہ دلچسپی کاباعث ہوگا۔,utrset_real,test
+data/raw/synthetic/urdu_0118.png,پاکستان دنيا کا ايک ترقی پزیر ملک ہے,synthetic,test
+data/raw/augmented/urdu_0265_aug2_blur.png,امريکہ کی تاريخ,augmented_blur,test
+data/raw/augmented/urdu_0059_aug3_blur.png,1972ء سے لے کر 1977ء تک پاکستان میں پاکستان پیپلز پارٹی کی حکومت تھی,augmented_blur,test
+data/raw/signboards/sign_021.png,وہ جغرافیہ کی ہی مرہون منت ہے,signboards_synthetic,test
+data/raw/augmented/urdu_0380_aug1_brightness.png,ایک فکشن ہے تو دوسرا غیر فکشن,augmented_brightness,test
+data/raw/synthetic/urdu_0310.png,ایک اردو فارسی لغت خان آرزو نے 1751ء میں احمد شاہ بہادر کے دور میں لکھی تھی,synthetic,test
+data/raw/augmented/urdu_0031_aug3_blur.png,"881,913 مربع کلومیٹر (340,509 مربع میل) کے ساتھ یہ دنیا کا تینتیسواں بڑے رقبے والا ملک ہے",augmented_blur,test
+data/raw/signboards/sign_052.png,قلعہ روہتاس,signboards_synthetic,test
+data/raw/augmented/urdu_0569_aug3_brightness.png,گپت سلطنت کا یہ دور ہندومت کی تاریخ کا عہد زریں سمجھا جاتا ہے,augmented_brightness,test
+data/raw/augmented/urdu_0380_aug3_brightness.png,ایک فکشن ہے تو دوسرا غیر فکشن,augmented_brightness,test
+data/raw/augmented/urdu_0157_aug2_rotation.png,ٹھٹھہ کی تاریخی یادگاریں,augmented_rotation,test
+data/raw/augmented/urdu_0498_aug1_brightness.png,گنگا اور بالخصوص وسطی گنگا کے میدانوں میں نئے شہر آباد ہوئے,augmented_brightness,test
+data/raw/augmented/urdu_0490_aug1_blur.png,برصغیر ہند میں 1200 ق م سے چھٹی صدی ق م کا درمیانی عرصہ آہنی دور کہلاتا ہے,augmented_blur,test
+data/raw/augmented/urdu_0231_aug3_blur.png,شنگھائی کارپیریشن آرگنائیزیشن کے ارکان,augmented_blur,test
+data/raw/synthetic/urdu_0074.png,16 نومبر 2007ء کو سینٹ کے چیرمین جناب میاں محمد سومرو نے عبوری وزیر اعظم کا حلف اٹھایا,synthetic,test
