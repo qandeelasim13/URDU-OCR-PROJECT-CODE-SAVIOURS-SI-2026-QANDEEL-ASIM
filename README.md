@@ -364,6 +364,43 @@ URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM/
 └── models/
     └── trocr-urdu-finetuned/     ← Week 4: fine-tuned model + Urdu character tokenizer vocab
 ```
+Week 5: Web Application Deployment with Gradio & Hugging Face Spaces
+Objective
+
+The final week focused on converting the trained Urdu TrOCR model into a user-friendly web application that allows users to upload an Urdu text image and receive the extracted text instantly. The application was prepared for deployment on Hugging Face Spaces using the Gradio framework.
+
+What Was Done
+Loaded the fine-tuned Urdu TrOCR model and image processor from the saved model directory.
+Switched the model to evaluation mode for inference.
+Built an OCR prediction function that accepts an uploaded image, preprocesses it, generates text using the trained model, and returns the extracted Urdu text.
+Added safe error handling to prevent the application from crashing when invalid or empty images are uploaded.
+Included sample images to make testing easier for users.
+Designed a simple and interactive Gradio interface with image upload, prediction output, title, description, and example images.
+Generated the deployment files required for Hugging Face Spaces, including app.py, requirements.txt, and an updated project README.
+Verified that the complete application was ready for deployment as a live Urdu OCR demo.
+Week 5 Notebook Structure
+Section	Description
+Section 0 — Install Dependencies	Installs Gradio and required libraries
+Section 1 — Setup Paths	Defines project and model directories
+Section 2 — Load Fine-Tuned Model	Loads the trained TrOCR model and image processor
+Section 3 — Prediction Function	Generates Urdu text from uploaded images
+Section 4 — Dataset Sanity Check	Verifies dataset and sample images
+Section 5 — Gradio Interface	Builds the interactive OCR web application
+Section 6 — Deployment Files	Creates app.py, requirements.txt, and deployment folder
+Section 7 — README Generation	Produces the final project documentation
+Features
+Upload Urdu text images through a web interface.
+Extract Urdu text using the fine-tuned TrOCR model.
+Handles invalid uploads safely without crashing.
+Includes sample images for quick testing.
+Ready for deployment on Hugging Face Spaces.
+Tools Used (Week 5)
+Gradio — Interactive web interface
+Hugging Face Transformers — Model loading and inference
+PyTorch — Deep learning inference
+Pillow (PIL) — Image processing
+Google Colab — Development environment
+Hugging Face Spaces — Model deployment
 
 ---
 
