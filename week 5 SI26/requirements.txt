@@ -1,6 +1,0 @@
-streamlit
-torch
-transformers==4.46.3
-sentencepiece
-protobuf>=3.20.2,<6
-pillow
