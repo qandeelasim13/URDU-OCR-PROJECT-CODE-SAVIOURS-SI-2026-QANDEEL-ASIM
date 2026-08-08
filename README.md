@@ -21,145 +21,130 @@ Model weights: [huggingface.co/qandeelasim13/urdu-ocr-trocr-si26](https://huggin
 
 A complete Urdu OCR (Optical Character Recognition) system, built over 5 weeks — from raw dataset collection through a fine-tuned deep learning model to a live, public web app.
 
-- **Week 1** — collected, organized, and labeled a dataset of Urdu text images.
-- **Week 2** — preprocessed that dataset and benchmarked an off-the-shelf OCR engine (Tesseract) to establish why a custom model was needed.
-- **Week 3** — expanded the dataset, fixed data-quality issues, and built the PyTorch `Dataset`/`DataLoader` pipeline.
+- **Week 1** — collected and labeled a large-scale dataset of Urdu text images (scaled up from an initial small pilot to 3,160 images).
+- **Week 2** — preprocessed that dataset, benchmarked an off-the-shelf OCR engine (Tesseract) to establish why a custom model was needed, and cleaned the dataset down to its final validated size.
+- **Week 3** — verified the cleaned dataset, built a character-level Urdu tokenizer, and built the PyTorch `Dataset`/`DataLoader` pipeline.
 - **Week 4** — fine-tuned a TrOCR-based model end-to-end to read Urdu script.
 - **Week 5** — wrapped the fine-tuned model in a Streamlit web app and deployed it publicly.
 
 All collected images are stored under `data/raw/<category>/`, every image's ground-truth transcription is recorded in `data/labels.csv`, preprocessed images from Week 2 are stored under `data/processed/`, and the final fine-tuned model is hosted on the Hugging Face Hub (see Live Demo above).
 
+> **Note on dataset size across weeks:** the project started with a small 265-image pilot, then was rebuilt at scale in Week 1 (v2) to 3,160 images. Week 2's cleaning step removed 32 low-quality/duplicate rows (all from the `manual_screenshot` source), leaving **3,128 images** as the dataset used from Week 3 onward.
+
 ---
 
-## Week 1: Dataset Collection & Labeling
+## Week 1 (v2): Large-Scale Dataset Collection & Labeling
+
+### What Changed From the Original Pilot
+The original Week 1 pass built 265 images from six sources using small hand-typed text lists (50 sentences, 8 paragraphs, 12 phrases) — not enough data or variety for the model to generalize on unseen images. Week 1 (v2) keeps the same six sources, folder structure, and CSV format, but replaces the hand-typed lists with a large pool of **real Urdu sentences pulled live from Urdu Wikipedia**, rendered with **three different Urdu fonts** instead of one.
 
 ### Environment Setup
-- Installed all required Python libraries: `Pillow`, `arabic-reshaper`, `python-bidi`, `gdown`, `matplotlib`, `easyocr`
-- Set up Google Colab environment
-- Created an organized folder structure for the dataset
+- Installed: `Pillow`, `arabic-reshaper`, `python-bidi`, `gdown`, `matplotlib`, `easyocr`, `datasets`
+- Google Colab environment, with a final step that syncs the whole `data/` folder to Google Drive for later weeks
 
-### Dataset Collection — 6 Sources
+### Dataset Collection — 6 Sources (Scaled)
 
-| Source | Type | Count | How |
-|---|---|---|---|
-| UTRSet-Real | Real printed Urdu text | 60 images | Downloaded from Google Drive (ICDAR 2023 research dataset) |
-| Synthetic Images | Generated Urdu text | 51 images | Rendered using Noto Nastaliq Urdu font with Pillow |
-| Augmented — Blur | Modified synthetic images | 34 images | Gaussian blur applied automatically |
-| Augmented — Brightness | Modified synthetic images | 34 images | Brightness jitter applied automatically |
-| Augmented — Rotation | Modified synthetic images | 34 images | Slight rotation applied automatically |
-| Manual Screenshots | Real-world Urdu text | 32 images | Taken from Dawn Urdu, BBC Urdu, Jang, Wikipedia |
-| Synthetic Signboards | Generated short Urdu phrases | 12 images | Rendered signboard-style images with Pillow |
-| Synthetic Book Pages | Generated Urdu paragraphs | 8 images | Rendered book-page-style images with Pillow |
-| **Total** | | **265 images** | |
+| Source | What changed | Final count |
+|---|---|---|
+| UTRSet-Real | Samples raised 60 → 400 | **400** |
+| Synthetic | 50 hardcoded sentences → real Wikipedia sentences, 3 fonts instead of 1 | **604** |
+| Augmented — Blur | Applied to synthetic images | **618** |
+| Augmented — Brightness | Applied to synthetic images | **598** |
+| Augmented — Rotation | Applied to synthetic images | **596** |
+| Books (synthetic paragraphs) | 8 hardcoded paragraphs → real Wikipedia paragraphs | **150** |
+| Signboards (synthetic phrases) | 12 hardcoded phrases → real Wikipedia phrases + original 12 | **162** |
+| Manual Screenshots | Unchanged — real headlines from Dawn Urdu, BBC Urdu, Jang, Wikipedia | **32** |
+| **Total** | | **3,160 images** |
 
 ### Data Augmentation
-Applied 3 types of augmentation on synthetic images to increase dataset size and variety:
+Applied 3 augmented variants per synthetic image (raised from 2 in the original pilot):
 - **Gaussian Blur** — simulates out-of-focus or low-resolution scans
 - **Brightness Jitter** — simulates different lighting conditions
 - **Slight Rotation** — simulates tilted documents or camera angle
 
 ### Dataset Labeling
-- Every image is paired with its correct Urdu text in `labels.csv`
-- 4 columns: `image`, `text`, `source`, `split`
+- Every image is paired with its correct Urdu text in `labels.csv` (`image`, `text`, `source`, `split` columns)
 - Manual screenshots labeled using EasyOCR for automatic text extraction, then manually verified
 
-### Dataset Validation
-- Checked every image: file exists, not blank/corrupt, label not empty
-- Result: **265 valid entries, 0 invalid**
-
 ### Train/Test Split
-- 80% training set → `train.csv` (**212 rows**)
-- 20% test set → `test.csv` (**53 rows**)
+- 80% training set → **2,528 rows**
+- 20% test set → **632 rows**
 
-### Visualizations
-- Bar chart: images per source
-- Histogram: text length distribution
-- Sample grid: random image previews
+### Week 1 (v2) — Final Summary
+
+```
+Total labeled images : 3,160
+Training set          : 2,528
+Test set               : 632
+
+Breakdown by source:
+augmented_blur           618
+synthetic                604
+augmented_brightness     598
+augmented_rotation       596
+utrset_real              400
+signboards_synthetic     162
+books_synthetic          150
+manual_screenshot         32
+```
 
 ### Dataset Sources — Details
 
 **UTRSet-Real**
-- What: Real printed Urdu text word images from the UTRNet paper
-- Where: Google Drive (auto-downloaded by notebook)
 - Citation: Rahman, A., Ghosh, A., & Arora, C. (2023). *UTRNet: High-Resolution Urdu Text Recognition in Printed Documents*. ICDAR 2023, Springer Nature Switzerland.
 - License: CC BY-NC-SA 4.0 (non-commercial, research use only)
 
 **Synthetic Images**
-- What: 51 Urdu sentences rendered as images
-- Font: Noto Nastaliq Urdu (Google Fonts, OFL License)
+- Real Urdu sentences pulled live from Urdu Wikipedia, rendered as images
+- Fonts: three different Urdu fonts (incl. Noto Nastaliq Urdu, Google Fonts, OFL License)
 - Libraries: `arabic_reshaper` + `python-bidi` for correct RTL rendering
-- Topics covered: news, education, geography, technology, poetry, religion, signboards
 
 **Manual Screenshots**
-- Real Urdu news headlines and articles, screenshotted directly from Dawn Urdu, BBC Urdu, Jang, and Wikipedia
-
-### Urdu OCR Dataset — Week 1 Summary
-
-```
-Total labeled images : 265
-Training set         : 212
-Test set              : 53
-
-Breakdown by source:
-utrset_real              60
-synthetic                51
-augmented_brightness     34
-augmented_rotation       34
-augmented_blur           34
-manual_screenshot        32
-signboards_synthetic     12
-books_synthetic           8
-```
+- Real Urdu news headlines and articles, screenshotted from Dawn Urdu, BBC Urdu, Jang, and Wikipedia
 
 ---
 
-## Week 2: Image Preprocessing + Testing Existing OCR Tools
+## Week 2 (v3): Preprocessing, Baseline OCR Test & Data Validation
 
 ### Objective
-Prepare the Week 1 Urdu image dataset for OCR, and test an off-the-shelf OCR engine (Tesseract) to identify its limitations on Urdu Nastaliq script.
+Preprocess the Week 1 (v2) images, benchmark Tesseract's out-of-the-box performance on Urdu, and clean/validate the dataset ahead of training.
 
-### What Was Done
-1. Loaded the Week 1 dataset directly from `data/labels.csv` + `data/raw/`, confirming all 265 image paths resolve correctly.
-2. Verified and corrected the `train`/`test` split column (212 train / 53 test).
-3. Built an image preprocessing pipeline: **grayscale → denoising → adaptive thresholding (binarization) → deskewing → resizing/normalization**.
-4. Applied this pipeline to **all 265 images** (0 failures) and saved output to `data/processed/`.
-5. Linked raw images, processed images, ground-truth text, source, and split in `data/processed_labels.csv`.
-6. Tested Tesseract OCR (`pytesseract`, `lang='urd'`) on raw and preprocessed images, sampled across all sources.
-7. Measured OCR accuracy using **Character Error Rate (CER)**.
-8. Manually reviewed the 5 worst-performing samples image-by-image.
-9. Documented the gap between Tesseract's performance and what reliable Urdu recognition actually needs.
+### Part A — Preprocessing
+- Built an Otsu-threshold + aspect-preserving resize pipeline and applied it across all raw images.
+- Visually compared raw vs. processed images side by side, and checked dataset-wide raw image dimensions and processed black-pixel percentage as a QA pass.
 
-### Week 2 Notebook Structure
+### Part B — Baseline Tesseract Test
+- Ran Tesseract (`lang='urd'`) on sample processed images and manually inspected the output against ground truth.
+- Measured a **word-recovery rate**: on average, only **2.1%** of words across the 5 sampled images were correctly recovered by Tesseract — confirming, quantitatively, that an off-the-shelf engine is not viable for this script without a custom model.
 
-| Section | Description |
-|---|---|
-| Step 0 — Load Week 1 Dataset | Loads `data/labels.csv` + `data/raw/` (or restores from `my_dataset_final.zip`) |
-| Step 1 — Environment Setup | Installs Tesseract, Urdu language pack (`tesseract-ocr-urd`), OpenCV, pytesseract |
-| Step 2 — Imports | Loads all required libraries |
-| Step 3 — Read Labels & Confirm Link | Verifies every image path resolves, confirms counts match Week 1 |
-| Step 3b — Fix Split Column | Recovers/regenerates a reliable 80/20 train/test split |
-| Step 4 — Preprocessing Pipeline | Grayscale, denoise, binarize, deskew, resize functions |
-| Step 5 — Apply Pipeline & Save | Processes all 265 images, saves to `data/processed/` |
-| Step 6 — Visualize Before/After | Sample raw vs. preprocessed image pairs |
-| Step 7 — Test Tesseract OCR | Runs Tesseract (`lang='urd'`) on raw and preprocessed samples |
-| Step 8 — Character Error Rate (CER) | Quantitative accuracy metric, overall and by source |
-| Step 8b — Per-Image Gap Analysis | Manual breakdown of the 5 worst-performing images |
-| Step 9 — Gap Analysis Reasons | Documents why Tesseract fails on Urdu |
-| Step 10 — Auto-generate Gap Analysis | Writes `data/gap_analysis.md` |
+**Example (raw Tesseract output vs. what it should read):**
+```
+Image: utrset_101 → Tesseract: "اسماباتن سے )گا کن سک اک سحا١‏ دتشبتی خ نی ررسدو" (mostly gibberish)
+Image: utrset_255 → Tesseract: (blank)
+Image: utrset_050 → Tesseract: (blank)
+```
+
+### Part C — Data Validation & Cleaning
+1. Verified every image actually opens (no corrupt files).
+2. Checked for empty, placeholder, or duplicate text labels — **removed 32 rows**, all from the `manual_screenshot` source.
+3. Checked text length distribution per source.
+4. Checked character vocabulary: **121 unique characters** across the dataset, including 50 non-Urdu-range characters (digits, punctuation — expected in small amounts).
+5. Checked source balance and did a final visual spot-check (one image per source).
+6. Saved the cleaned `labels.csv` back to Google Drive.
+
+### Week 2 (v3) — Final Summary
+
+```
+Removed 32 rows (empty/placeholder/duplicate — all manual_screenshot)
+Final dataset size : 3,128 images
+Training set        : 2,502
+Test set             : 626
+```
 
 ### Tools Used (Week 2)
-- **OpenCV (Python)** — image preprocessing
-- **Tesseract OCR** + `tesseract-ocr-urd` language pack
-- **pytesseract** — Python wrapper for Tesseract
-- **Google Colab** for compute and storage
-
-### Tesseract Results Summary
-
-| Metric | Raw Images | Preprocessed Images |
-|---|---|---|
-| Average Character Error Rate (CER) | **84.8%** | **86.8%** |
-
-**Preprocessing did not reduce the average CER overall** — it rose slightly (~2 pp). Preprocessing helped some sources (e.g. `augmented_blur`) but hurt others (e.g. `synthetic`), where binarization/deskewing distorted fine Nastaliq strokes. **Cleaner-looking images don't automatically mean better OCR** — the bottleneck is Tesseract's model, not image quality alone.
+- **OpenCV (Python)** — Otsu thresholding and resizing
+- **Tesseract OCR** + `tesseract-ocr-urd` language pack, **pytesseract**
+- **Google Colab**
 
 ### Why Tesseract Fails on Urdu
 
@@ -170,56 +155,41 @@ Prepare the Week 1 Urdu image dataset for OCR, and test an off-the-shelf OCR eng
 5. **Inconsistent word-boundary spacing** — segmentation logic built for Latin-script spacing rules.
 
 ### Why This Project Matters
-This gap justified building a **custom Urdu OCR model** trained specifically on Nastaliq script data, rather than relying on general-purpose engines like Tesseract.
+A 2.1% word-recovery rate justified building a **custom Urdu OCR model** trained specifically on Nastaliq script data, rather than relying on general-purpose engines like Tesseract.
 
 ---
 
-## Week 3: Dataset Expansion + PyTorch Dataset Class & DataLoader
+## Week 3 (v2): Dataset Verification + Tokenizer + PyTorch Dataset Class & DataLoader
 
 ### Objective
-Confirm the dataset passed the 200-image target, clean up data-quality issues, and build the PyTorch data pipeline (`Dataset` + `DataLoader`) for training.
+Confirm the cleaned dataset from Week 2 (v3) passed the training-readiness target, build a character-level Urdu tokenizer, and build the PyTorch data pipeline for training.
 
 ### What Was Done
-1. Verified the dataset against the 200-image requirement — **248 images**, past the target.
-2. Fixed 35 `manual_screenshot` images missing a `split` value (assigned 80/20, `random_state=42`).
-3. Built a path-resolution step for images whose recorded path didn't match their actual Drive location.
-4. Implemented `UrduOCRDataset`, a custom PyTorch `Dataset` that loads an image, converts to RGB, runs it through `TrOCRProcessor`, and tokenizes its Urdu label.
-5. Tested the `Dataset` class end-to-end (correct tensor shapes, decode round-trip check).
-6. Rebuilt the train/test split — **198 training / 50 testing** samples.
-7. Built `DataLoader` objects (`batch_size=8`, training shuffled, testing not) and confirmed batching.
+1. Confirmed the dataset: **3,128 images**, well past the 1,000-image target for this stage.
+2. Confirmed no missing `split` values (2,502 train / 626 test, matching Week 2).
+3. Re-resolved every image path — **all 3,128 resolved successfully**, 0 missing.
+4. Data-quality re-check: **0 corrupt/unreadable images, 0 empty text labels.**
+5. Built a **character-level Urdu tokenizer** directly from the dataset's ground-truth text — **125-character vocabulary**, max label length 300 (longest actual label: 245 characters) — and verified it with a round-trip encode/decode test. Saved as `urdu_tokenizer_vocab.json` for Week 4.
+6. Implemented `UrduOCRDataset`, a custom PyTorch `Dataset` that loads an image, converts to RGB, runs it through `TrOCRProcessor`, and tokenizes its Urdu label. Verified output tensor shapes: `pixel_values` → `[3, 384, 384]`, `labels` → `[300]`.
+7. Rebuilt the train/test split (2,502 train / 626 test) and ran a **train/test leakage check**: 0 identical images appeared in both splits (382 identical *text* labels appeared in both — expected, since different images can share the same caption).
+8. Built `DataLoader` objects (`batch_size=8`) — **313 training batches / 79 testing batches per epoch** — and confirmed batching works correctly.
 
-### Week 3 Notebook Structure
-
-| Section | Description |
-|---|---|
-| Step 0 — Setup | Mounts Drive, installs `transformers`/`torch`/`pillow`/`pandas` |
-| Step 1 — Verify 200+ Images | Counts total images, checks against target |
-| Step 1c — Fix Missing Split Values | Detects and fixes rows with a missing `split` value |
-| Step 1b — Resolve Image Paths | Filename index across the project folder |
-| Step 2 — Dataset Class | Defines and tests `UrduOCRDataset(Dataset)` |
-| Step 3 — Train/Test Split | Rebuilds using `torch.utils.data.Subset` |
-| Step 4 — DataLoader | Builds and verifies `train_loader`/`test_loader` |
-
-### Week 3 Dataset Summary
+### Week 3 (v2) — Final Summary
 
 ```
-Total labeled images       : 248
-Training samples           : 198
-Testing samples            : 50
-
-Breakdown by source:
-utrset_real              60
-synthetic                51
-manual_screenshot        35
-augmented_blur           34
-augmented_rotation       34
-augmented_brightness     34
+My dataset has 3,128 images and loads correctly
+Training samples : 2,502
+Testing samples   : 626
+Urdu vocabulary size : 125 characters
+Train/test image leakage : 0
 ```
 
 ### Tools Used (Week 3)
-- **PyTorch** (`Dataset`, `DataLoader`, `Subset`) — data pipeline
-- **Hugging Face `transformers`** (`TrOCRProcessor`) — image + text preprocessing
+- **PyTorch** (`Dataset`, `DataLoader`) — data pipeline
+- **Hugging Face `transformers`** (`TrOCRProcessor`) — image preprocessing
 - **pandas**, **Pillow**, **Google Colab**
+
+> **Note:** the character-level tokenizer built this week was used in an early Week 4 fine-tuning attempt. The final deployed model (Week 4 v8) instead reused TrOCR's own pretrained byte-level tokenizer — see Week 4 below for why.
 
 ---
 
@@ -229,10 +199,10 @@ augmented_brightness     34
 Fine-tune Microsoft's TrOCR model — originally trained on English printed text — to read Urdu script.
 
 ### Key Finding: A Vocabulary Mismatch, Not a Bug
-The stock `microsoft/trocr-base-printed` checkpoint's tokenizer is a **byte-level BPE tokenizer** that can represent any Unicode text — including Urdu — via UTF-8 byte-level fallback tokens. An early attempt that assumed the tokenizer was English/Latin-only and built a custom character-level Urdu tokenizer from scratch trained a healthy-looking loss curve but evaluated poorly, since it discarded the pretrained decoder entirely. The final architecture (**v8**) instead fine-tunes the **full pretrained model — encoder *and* decoder — end-to-end**, letting the model reuse everything it already knows about language modeling and only learn Urdu, rather than learning language modeling from zero.
+The stock `microsoft/trocr-base-printed` checkpoint's tokenizer is a **byte-level BPE tokenizer** that can represent any Unicode text — including Urdu — via UTF-8 byte-level fallback tokens. An early attempt, using the Week 3 character-level Urdu tokenizer built from scratch, produced a healthy-looking loss curve but evaluated poorly, since it discarded the pretrained decoder entirely. The final architecture (**v8**) instead fine-tunes the **full pretrained model — encoder *and* decoder — end-to-end**, letting the model reuse everything it already knows about language modeling and only learn Urdu, rather than learning language modeling from zero.
 
 ### What Was Done
-1. Loaded and consolidated the labeled dataset — final version: **3,160 rows** in `labels.csv` (about 65% pre-augmented rotation/blur/brightness copies of **1,348 unique source images**), drawn from UTRSet-Real, synthetic Noto Nastaliq Urdu renders, augmented variants, and manual screenshots.
+1. Loaded the dataset (3,160 rows in `labels.csv` from Week 1 — about 65% pre-augmented rotation/blur/brightness copies of **1,348 unique source images**).
 2. Built a **leakage-safe train/test split**, grouped by parent image, so augmented copies of the same source image never appear in both train and test.
 3. Loaded the pretrained `microsoft/trocr-base-printed` checkpoint (encoder + decoder + `TrOCRProcessor` together).
 4. Fine-tuned in **two phases**: a decoder-only warm-up, then the full model unfrozen at a lower learning rate — 15 epochs total.
@@ -248,7 +218,7 @@ Character-level accuracy               : 47.66%
 Training loss                          : 5.00 → 0.18 (avg per epoch, 15 epochs)
 ```
 
-This is below what a larger dataset would likely support — the notebook's own working estimate was 80–95% given more data. The main limiting factor is dataset size (~1,000 unique source images before augmentation). With more time or data, the next steps would be: growing the labeled dataset further, training for more epochs, and targeted data augmentation based on the worst-prediction error patterns.
+This is below what a larger dataset would likely support — the notebook's own working estimate was 80–95% given more data. The main limiting factor is dataset size (~1,348 unique source images before augmentation). With more time or data, the next steps would be: growing the labeled dataset further, training for more epochs, and targeted data augmentation based on the worst-prediction error patterns.
 
 ### Tools Used (Week 4)
 - **Hugging Face `transformers`** (`VisionEncoderDecoderModel`, `Seq2SeqTrainer`, `TrOCRProcessor`)
@@ -320,9 +290,9 @@ Turn the Week 4 fine-tuned model into a live, public web app anyone can use to u
 
 | Week | Task | Status |
 |---|---|---|
-| Week 1 | Dataset collection and labeling | ✅ Complete |
-| Week 2 | Data preprocessing and OCR gap analysis | ✅ Complete |
-| Week 3 | Dataset expansion, cleanup, and PyTorch Dataset/DataLoader pipeline | ✅ Complete |
+| Week 1 | Large-scale dataset collection and labeling (3,160 images) | ✅ Complete |
+| Week 2 | Preprocessing, Tesseract baseline test, and data cleaning (→ 3,128 images) | ✅ Complete |
+| Week 3 | Dataset verification, tokenizer, and PyTorch Dataset/DataLoader pipeline | ✅ Complete |
 | Week 4 | Fine-tuning TrOCR on the Urdu dataset | ✅ Complete |
 | Week 5 | Deployment as a live Streamlit web app | ✅ Complete |
 
@@ -346,13 +316,13 @@ Then open the local URL Streamlit prints (usually `http://localhost:8501`). The 
 ```
 URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM/
 │
-├── SI26-Week1-Qandeel.ipynb     ← Week 1 notebook
-├── SI26-Week2-Qandeel.ipynb     ← Week 2 notebook
-├── SI26-Week3-qandeel.ipynb     ← Week 3 notebook
+├── SI26-Week1-Qandeel.ipynb     ← Week 1 (v2) notebook — large-scale dataset collection
+├── SI26-Week2-Qandeel.ipynb     ← Week 2 (v3) notebook — preprocessing + Tesseract test + cleaning
+├── SI26-Week3-qandeel.ipynb     ← Week 3 (v2) notebook — verification + tokenizer + DataLoader
 ├── SI26-Week4-Qandeel.ipynb     ← Week 4 notebook (model fine-tuning)
 ├── SI26-Week5-Qandeel.ipynb     ← Week 5 notebook (deployment)
 ├── README.md                    ← This file
-├── my_dataset_final.zip         ← Complete Week 1 dataset (zipped)
+├── my_dataset_final.zip         ← Complete dataset (zipped)
 │
 ├── WEEK-5-SI26/                  ← Deployed Streamlit app
 │   ├── app.py                    ← Streamlit app entry point
@@ -361,13 +331,11 @@ URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM/
 │
 ├── data/
 │   ├── labels.csv                ← All labeled entries (image, text, source, split)
-│   ├── processed_labels.csv      ← Links raw image, processed image, text, source, split
-│   ├── train.csv                 ← Training split (Week 1)
-│   ├── test.csv                  ← Testing split (Week 1)
-│   ├── gap_analysis.md           ← Week 2 gap analysis summary
+│   ├── train.csv                 ← Training split (2,502 rows, post-cleaning)
+│   ├── test.csv                  ← Testing split (626 rows, post-cleaning)
+│   ├── urdu_tokenizer_vocab.json ← Character-level Urdu tokenizer (Week 3)
 │   ├── dataset_stats.png         ← Week 1 statistics charts
-│   ├── before_after_grid.png     ← Week 2 raw vs. preprocessed samples
-│   ├── cer_by_source.png         ← Week 2 CER comparison chart
+│   ├── sample_grid.png           ← Week 1 sample image grid
 │   ├── week4_training_loss.png   ← Week 4 training loss curve
 │   │
 │   ├── raw/                      ← Week 1: original collected images
