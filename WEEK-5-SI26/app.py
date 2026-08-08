@@ -4,7 +4,7 @@ import torch
 from PIL import Image
 from transformers import VisionEncoderDecoderModel, TrOCRProcessor
 
-MODEL_DIR = os.path.join(os.path.dirname(__file__), "trocr-urdu-finetuned-v7")
+MODEL_DIR = "qandeelasim13/urdu-ocr-trocr-si26"
 MAX_LENGTH = 319
 EXAMPLES_DIR = os.path.join(os.path.dirname(__file__), "examples")
 EXAMPLE_FILES = ['example_0.png', 'example_1.png', 'example_2.png', 'example_3.png']
