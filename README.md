@@ -9,7 +9,8 @@
 
 ## Live Demo
 
-**Try it here:** [urdu-ocr-project-code-saviours-si-2026-appndeel-asim-9th9bhmrf.streamlit.app](https://urdu-ocr-project-code-saviours-si-2026-appndeel-asim-9th9bhmrf.streamlit.app/)
+**Try it here:** https://urdu-ocr-project-code-saviours-si-2026-appndeel-asim-9th9bhmrf.streamlit.app/
+
 
 Upload a photo or scan of printed Urdu text and get back editable Unicode text — no installation needed.
 
