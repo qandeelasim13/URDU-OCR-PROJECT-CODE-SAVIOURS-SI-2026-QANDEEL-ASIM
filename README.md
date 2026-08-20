@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-**Try it here:** https://urdu-ocr-project-code-saviours-si-2026-appndeel-asim-9th9bhmrf.streamlit.app/
+**Try it here:** https://urdu-ocr-project-code-saviours-si-2026-appndeel-asim-n4vrzswoo.streamlit.app/
 
 
 Upload a photo or scan of printed Urdu text and get back editable Unicode text — no installation needed.
@@ -358,8 +358,7 @@ URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM/
 ## Links
 - **GitHub:** https://github.com/qandeelasim13/URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM
 - **Hugging Face Model:** https://huggingface.co/qandeelasim13/urdu-ocr-trocr-si26
-- **Live App (Streamlit Community Cloud):** https://urdu-ocr-project-code-saviours-si-2026-appndeel-asim-9th9bhmrf.streamlit.app/
+- **Live App (Streamlit Community Cloud):** https://urdu-ocr-project-code-saviours-si-2026-appndeel-asim-n4vrzswoo.streamlit.app/
 
 ## Credit
 Qandeel Asim
-Built during the Code Saviours ML/AI Internship — Batch SI-26.
