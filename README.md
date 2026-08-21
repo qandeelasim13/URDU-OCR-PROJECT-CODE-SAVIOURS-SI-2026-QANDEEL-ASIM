@@ -1,3 +1,4 @@
+
 # Urdu OCR Project — Code Saviours SI-26
 
 **Author:** Qandeel Asim
@@ -11,8 +12,9 @@
 
 **Try it here:** https://urdu-ocr-project-code-saviours-si-2026-appndeel-asim-n4vrzswoo.streamlit.app/
 
-
 Upload a photo or scan of printed Urdu text and get back editable Unicode text — no installation needed.
+
+**Watch it in action:** [Demo video on Loom](https://www.loom.com/share/7d02e63600f942cd949b424ea4e8b3de)
 
 Model weights: [huggingface.co/qandeelasim13/urdu-ocr-trocr-si26](https://huggingface.co/qandeelasim13/urdu-ocr-trocr-si26)
 
@@ -242,9 +244,9 @@ Turn the Week 4 fine-tuned model into a live, public web app anyone can use to u
 6. Worked through several real deployment issues along the way (kept here for anyone repeating this process):
    - A **space in the deployment folder name** broke Streamlit's dependency-file path resolution — fixed by renaming the folder to `WEEK-5-SI26` (no spaces).
    - The default Python version (3.14) was too new for `tokenizers`' prebuilt wheels, forcing a slow, failing Rust source build — fixed by explicitly setting **Python 3.11** in the app's Streamlit Cloud settings.
-   - The default `torch` install pulled in the full **CUDA/GPU toolkit**, which is unnecessary (and memory-heavy) on Streamlit Cloud's CPU-only free tier, contributing to a "gone over resource limits" crash — mitigated by pointing `requirements.txt` at the CPU-only PyTorch wheel index (`--extra-index-url https://download.pytorch.org/whl/cpu`).
+   - The default `torch` install pulled in the full **CUDA/GPU toolkit**, which is unnecessary (and memory-heavy) on Streamlit Cloud's CPU-only free tier — mitigated by pointing `requirements.txt` at the CPU-only PyTorch wheel index (`--extra-index-url https://download.pytorch.org/whl/cpu`) and pinning a `torch` version compatible with the pinned `transformers` version.
    - Bundled example images that were rendered with a font lacking Urdu glyph support showed up as placeholder boxes — flagged for regeneration with a proper Urdu-supporting font (e.g. Noto Nastaliq Urdu).
-7. Verified the deployed app end-to-end: uploaded a real Urdu image, ran extraction, and confirmed readable Urdu output.
+7. Verified the deployed app end-to-end: uploaded a real Urdu image, ran extraction, and confirmed readable Urdu output. Recorded a full walkthrough — see the [demo video](https://www.loom.com/share/7d02e63600f942cd949b424ea4e8b3de) linked above.
 
 ### Features
 - Upload Urdu text images (PNG, JPG, BMP, WEBP) through a web interface, up to 200MB per file.
@@ -359,6 +361,8 @@ URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM/
 - **GitHub:** https://github.com/qandeelasim13/URDU-OCR-PROJECT-CODE-SAVIOURS-SI-2026-QANDEEL-ASIM
 - **Hugging Face Model:** https://huggingface.co/qandeelasim13/urdu-ocr-trocr-si26
 - **Live App (Streamlit Community Cloud):** https://urdu-ocr-project-code-saviours-si-2026-appndeel-asim-n4vrzswoo.streamlit.app/
+- **Demo Video (Loom):** https://www.loom.com/share/7d02e63600f942cd949b424ea4e8b3de
 
-## Credit
-Qandeel Asim
+---
+
+**Built by:** Qandeel Asim | Code Saviours SI-26 | 2026
